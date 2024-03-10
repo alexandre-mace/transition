@@ -1,8 +1,8 @@
 const Footer = () => {
   return (
-    <footer className={"mt-40 h-96 pt-64 text-center"}>
-      <div className={"mx-auto text-3xl font-medium"}>Transitions</div>
-      <div className={"mx-auto mt-32 pb-6"}>
+    <footer className={"mt-40 text-center md:mt-80"}>
+      <div className={"mx-auto text-3xl font-bold"}>Transitions</div>
+      <div className={"mx-auto mt-36 pb-10"}>
         Fait avec amour par{" "}
         <a
           className={"ml-1 underline hover:text-slate-700"}
