@@ -1,9 +1,7 @@
 const Footer = () => {
   return (
-    <footer className={"h-96 pt-64 mt-40 text-center"}>
-      <div className={"mx-auto text-3xl font-medium"}>
-        Le climat en 10 minutes ⏳
-      </div>
+    <footer className={"mt-40 h-96 pt-64 text-center"}>
+      <div className={"mx-auto text-3xl font-medium"}>Transitions</div>
       <div className={"mx-auto mt-32 pb-6"}>
         Fait avec amour par{" "}
         <a

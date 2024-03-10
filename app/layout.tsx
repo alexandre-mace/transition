@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { Spotlight } from "@/components/ui/spotlight";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,16 +18,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className={"scroll-smooth"}>
+    <html lang="fr" className={"scroll-smooth antialiased"}>
       <link
-          sizes="any"
-          rel={"icon"}
-          href={"https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"}
+        sizes="any"
+        rel={"icon"}
+        href={
+          "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
+        }
       />
       <body className={inter.className}>
-      <Header />
+        <Spotlight
+          className="-top-40 left-0 md:-top-20 md:left-60"
+          fill="yellow"
+        />
+        <Header />
         {children}
-      <Footer/>
+        <Footer />
       </body>
     </html>
   );
