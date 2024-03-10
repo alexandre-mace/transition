@@ -14,8 +14,8 @@ export default async function Home() {
 
   return (
     <main className={""}>
-      <div className="relative mx-auto flex max-w-5xl flex-col gap-4 py-20">
-        <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 sm:text-5xl lg:text-7xl">
+      <div className="container relative mx-auto flex max-w-5xl flex-col gap-2 py-8 md:gap-4 md:py-20">
+        <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 lg:text-6xl">
           Transitions
         </h1>
         <p className="mx-auto max-w-4xl text-center text-lg text-zinc-500 sm:text-xl">
