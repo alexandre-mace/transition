@@ -26,10 +26,6 @@ export default function RootLayout({
           "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
         }
       />
-      <meta property="og:image" content="<generated>" />
-      <meta property="og:image:type" content="<generated>" />
-      <meta property="og:image:width" content="<generated>" />
-      <meta property="og:image:height" content="<generated>" />
       <body className={inter.className}>
         <Spotlight
           className="-top-40 left-0 md:-top-20 md:left-60"
