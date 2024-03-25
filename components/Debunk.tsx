@@ -9,8 +9,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { type Debunk } from "@/data/debunks";
-import Image from "next/image";
-import Zoom from "react-medium-image-zoom";
 import DebunkImage from "@/components/DebunkImage";
 
 const Debunk = ({ debunk }: { debunk: Debunk }) => {

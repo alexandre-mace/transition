@@ -322,9 +322,11 @@ const debunks = [
     category: CATEGORY_SOLUTIONS,
   },
   {
-    question: "Le système énergétique actuel est-il efficient ?",
+    question: "C’est quoi un scénario net zéro émissions ?",
     answer: "",
-    images: [],
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F26ba6e0e-47be-4420-8ccb-ab20a901b3a8%2FUntitled.png?table=block&id=1675a518-64f1-4354-bcea-7232b6887f38&cache=v2",
+    ],
     sources: [
       {
         name: "Scénarios climatiques, croissance économique et décroissance (Loic Giaccone 2023)",
@@ -353,6 +355,169 @@ const debunks = [
       {
         name: "THE SHIFT PROJECT",
         url: "https://ilnousfautunplan.fr/",
+      },
+      {
+        name: "EDF Scénario Net Zero 2050",
+        url: "https://www.edf.fr/scenario2050",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question: "Quelles sont les principales solutions ?",
+    answer:
+      "“Many options available now in all sectors are estimated to offer substantial potential to reduce net emissions by 2030. Relative potentials and costs will vary across countries and in the longer term compared to 2030.”",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F777f380f-f5f7-493a-be0d-3bf07f8a6c98%2FUntitled.png?table=block&id=25a7f540-5dad-4d1d-9759-8b751d5c710b&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ffdb7dc90-9469-4725-ab53-097c0a7edb66%2FCapture_decran_2024-03-03_a_19.30.32.png?table=block&id=15a520b8-9001-4ca4-abdc-c69831c7f50c&cache=v2",
+    ],
+    sources: [
+      {
+        name: "Figure SPM.7 | Overview of mitigation options and their estimated ranges of costs and potentials in 2030. (IPCC 2022)",
+        url: "https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question: "Sans changement climatique, faudrait-il changer de système ?",
+    answer:
+      "Même sans changement climatique, les impacts sur la santé humaine à eux seuls montrent qu’il faut changer de système. “Our results suggest that further relying predominantly on these new renewables in the transition towards a near-zero emissions power system also reduces most nonclimate environmental impacts on the system level compared to strategies that limit the contribution of wind and solar power largely in favor of greater CCS deployment.”. Poussières de charbon: 1.1 milliards de tonnes/an. Pétrole-gaz: 1er émetteur de composés organiques volatiles qui créent\n" +
+      "les brouillards de pollution (cf récemment septembre dernier la ville\n" +
+      "Dehli). 8 millions de morts prématurées/an. 7 trillions de dollars dépensés en 2022 en subventions directes et indirects (réparation des externalités négatives).",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff23f983c-99f4-472c-8024-9ab49428a0d3%2FCapture_decran_2024-02-26_a_00.06.09.png?table=block&id=149e2794-ca93-4147-a53c-6744468ccd74&cache=v2",
+    ],
+    sources: [
+      {
+        name: "Environmental co-benefits and adverse side-effects of alternative power sector decarbonization strategies ",
+        url: "https://www.nature.com/articles/s41467-019-13067-8#Sec8",
+      },
+      {
+        name: "Energy to waste – fossil fuels’ dirty secret",
+        url: "https://illuminem.com/illuminemvoices/energy-to-waste-fossil-fuels-dirty-secret",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question: "Consomme t'on plus d'énergie après la transition ?",
+    answer:
+      "Without economic and population growth and in a decarbonised world, our final energy demand is much lower than it is today. A study by the Oxford Professor Nick Eyre suggests it’s about 40% lower. Taking them into account : with weak decarbonisation (stated policies) global energy demand continues to rise. With strong decarbonisation, energy demand will fall slightly. Importantly, this is about final energy demand. It doesn’t include the decline in primary energy demand that we’d expect with decarbonisation. This would be substantial because most energy from burning fossil fuels is wasted when converting it to final energy.",
+    images: [
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4057436-20c0-4576-a763-81947dfa31d1_662x575.png",
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F288058c1-f52d-4594-883c-9ffbc522960f_1600x861.png",
+    ],
+    sources: [
+      {
+        name: "Global energy demand could be lower in 2050, despite the world getting richer",
+        url: "https://www.sustainabilitybynumbers.com/p/iea-energy-scenarios",
+      },
+      {
+        name: "Electrification is efficiency: The world will need less energy after the transition",
+        url: "https://www.sustainabilitybynumbers.com/p/electrification-energy-efficiency",
+      },
+      {
+        name: "Powering the world: how much energy will the world need? (Zenon 2021)",
+        url: "https://www.zenon.ngo/insights/powering-the-world-how-much-energy-will-the-world-need",
+      },
+      {
+        name: "World can limit global warming to 1.5C by ‘improving energy efficiency’",
+        url: "https://www.carbonbrief.org/world-can-limit-global-warming-one-point-five-improving-energy-efficiency/",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question:
+      "Les émissions temporaires nécessaires à la transition sont bien inférieures à celles de notre système actuel",
+    answer:
+      "“People are often concerned about the greenhouse gases emitted in the production of these low-carbon technologies. To be clear: emissions from the mining and construction of these sources pales in comparison to fossil fuels, per unit of electricity.”",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F0f5d7823-1ab3-41bf-8da0-16ecf96fa4ab%2FUntitled.png?table=block&id=92546567-82ad-4e0c-8020-f2d3c1e68110&cache=v2",
+    ],
+    sources: [
+      {
+        name: "The world has enough minerals for low-carbon electricity",
+        url: "https://www.sustainabilitybynumbers.com/p/minerals-for-electricity",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question: "La transition énergétique nous met-elle dans un extractivisme ?",
+    answer:
+      'The materials we need for the transition to sustainable energy are a drop in the bucket compared to building materials, agriculture, and fossil fuels. "The Material Flow Analysis Portal compiled and maintained by @wu_vienna\n' +
+      "provides great context with non-metallic minerals such as sand, gravel, and stone. When put to scale, the critical minerals for the energy transition are a relatively small slice.” “Stronger actions are required to counter the upward pressure on emissions from mineral production, but the climate advantages of clean energy technologies remain clear”. if we all eat 1% less meat (or if we make cultured meat cheaper and healthier), we save more species than if we abandon all mining that’s needed for the shift to renewables. La transition énergétique à faible émission de carbone nécessitera moins d’exploitation minière que les combustibles fossiles, même en tenant compte des déchets de roche. Material requirements for low-carbon technologies will increase substantially, but they will still be lower than fossil fuel extraction",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fda1edd75-6f90-48ee-a6de-809a40c09c3e%2FUntitled.png?table=block&id=3b3d9cce-a17a-4235-94e4-090e55b32498&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F7e5f2c0f-35e1-4c36-b08b-e1be758d923b%2FUntitled.png?table=block&id=e8d841cc-6b66-455c-a1e8-8c8df7633d2e&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F5a658389-bc62-4017-a05c-1c4715f258a1%2FUntitled.png?table=block&id=13666653-ebff-4ded-9db8-a3dce174135b&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F94ed9691-ea02-48dc-a1ff-65cc778a08a6%2FUntitled.png?table=block&id=e47e1ed6-49c7-474e-a533-795380d69577&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fcadad35e-5c06-450e-81f9-112a922dc798%2FUntitled.png?table=block&id=627ee438-23d7-4531-950f-4196ca18d9bb&cache=v2",
+    ],
+    sources: [
+      {
+        name: "The low-carbon energy transition will need less mining than fossil fuels, even when adjusted for waste rock",
+        url: "https://www.sustainabilitybynumbers.com/p/energy-transition-materials",
+      },
+      {
+        name: "Energy transition will require substantially less mining than the current fossil system Nijnens, Joey et al. 2023",
+        url: "https://www.cell.com/joule/abstract/S2542-4351(23)00411-7",
+      },
+      {
+        name: "Total material requirement for the global energy transition to 2050: A focus on transport and electricity (Watari & al 2019)",
+        url: "https://www.sciencedirect.com/science/article/pii/S0921344919302290",
+      },
+      {
+        name: "Mining quantities for low-carbon energy is hundreds to thousands of times lower than mining for fossil fuels",
+        url: "https://www.sustainabilitybynumbers.com/p/mining-low-carbon-vs-fossil",
+      },
+      {
+        name: "Métaux, le nouvel or noir (Emmanuel Hache, Benjamin Louvet 2023)",
+        url: "https://www.editionsdurocher.fr/product/129257/metaux-le-nouvel-or-noir/",
+      },
+      {
+        name: "Ademe - HORIZONS Les matériaux pour la transition énergétique, un sujet critique",
+        url: "https://librairie.ademe.fr/cadic/6842/feuilleton_materiaux_de_la_te_transitions2050_ademe.pdf",
+      },
+      {
+        name: "RTE - L’ANALYSE ENVIRONNEMENTALE",
+        url: "https://assets.rte-france.com/prod/public/2022-06/FE2050 _Rapport complet_12.pdf",
+      },
+      {
+        name: "The Role of Critical Minerals in Clean Energy Transitions -IEA",
+        url: "https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/executive-summary",
+      },
+      {
+        name: "Twitter - Auke Hoekstra",
+        url: "https://twitter.com/AukeHoekstra/status/1594084413943734272",
+      },
+    ],
+    category: CATEGORY_SOLUTIONS,
+  },
+  {
+    question:
+      "Quelle quantité de déchets les panneaux solaires et les éoliennes produisent-ils ?",
+    answer:
+      "“Moving away from coal power to renewables (or nuclear) would significantly reduce the amount of waste generated. Not to mention that fossil fuels generate other forms of ‘waste’ that are terrible for human health. Millions die every year from local air pollution. And more will die in the future as a result of climate change.” Solar :  1.67 kilograms of waste per MWh [22 kg / 13 MWh]. Wind : 0.16 kilograms of waste per MWh [60,000 kg / 383,250 MWh]. Coal ash: 84 kilograms of coal per MWh. Nuclear : 0.031 kilograms of waste per MWh [250,000 kg / 8,146,800 MWh]. Municipal waste : 485 kilograms per year. Plastic waste : 77 kilograms of plastic waste per year.",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F4aca9195-44e3-4808-a657-3dc03331c5ab%2FUntitled.png?table=block&id=efd2e95b-7525-4ccc-8475-493827af1d4a&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F72efc597-6226-43e8-8ea6-6d37142ef10f%2FUntitled.png?table=block&id=4226af08-4c19-4591-bf3c-1118f1feb0dc&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F94e82caf-942d-4ba9-a359-e3ba933b302f%2FUntitled.png?table=block&id=e5d72304-8ca5-4f13-a109-e94077771a9d&cache=v2",
+    ],
+    sources: [
+      {
+        name: "How much waste do solar panels and wind turbines produce?",
+        url: "https://www.sustainabilitybynumbers.com/p/renewables-waste",
+      },
+      {
+        name: "Mirletz, H., Hieslmair, H., Ovaitt, S. et al. Unfounded concerns about photovoltaic module toxicity and waste are slowing decarbonization. (2023)",
+        url: "https://www.nature.com/articles/s41567-023-02230-0",
+      },
+      {
+        name: "Liu, P., & Barlow, C. Y. (2017). Wind turbine blade waste in 2050. Waste Management, 62, 229-240.",
+        url: "https://www.sciencedirect.com/science/article/abs/pii/S0956053X17300491",
       },
     ],
     category: CATEGORY_SOLUTIONS,
