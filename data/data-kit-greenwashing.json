@@ -1,0 +1,449 @@
+[
+  {
+    "title": "Énergies fossiles",
+    "icon": "⛽️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Objectifs climatiques",
+        "tools": [
+          {
+            "content": "Projected cumulative future CO2 emissions over the lifetime of existing and currently planned fossil fuel infrastructure without additional abatement exceed the total cumulative net CO 2 emissions in pathways that limit warming to 1.5°C (>50%) with no or limited overshoot. They are approximately equal to total cumulative net CO 2 emissions in pathways that limit warming to 2°C (>67%). (high confidence) {2.7, 3.3}",
+            "source": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf"
+          },
+          {
+            "content": "The continued installation of unabated fossil fuel infrastructure will ‘lock-in’ GHG emissions. (high confidence)",
+            "source": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Agriculture",
+    "icon": "👩‍🌾",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Empreinte au sol",
+        "tools": [
+          {
+            "content": "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage)",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Émissions",
+        "tools": [
+          {
+            "content": "Élevage = 14% des émissions directes dans l’inventaire nationale, mais il faut ajouter \n* Mise en culture des aliments pour les animaux\n* Émissions générées par la fabrication des intrants\n* Émissions induites par la déforestation imputables à l’élevage\nCela représente 70% des émissions du système alimentaire au global en émissions directes, mais + de 85% en émissions indirectes",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          },
+          {
+            "content": "L’élevage industriel n’est pas bcp + responsables des émissions de GES de l’agriculture qu’un autre type d’élevage. 3 sources principales : fermentations entériques, déjections d’élevage, alimentation des animaux. Les émissions par l ou kg produits varient peu selon les types d’élevage. Les prairies ne peuvent pas stocker indéfiniment du carbone, c’est vrai pour les jeunes prairies mais pas pour toutes les prairies car un équilibre est atteint à terme. En France, l’étude 4 pour 1000 a montré que cet effet de stockage est assez faible, il est loin de compenser les émissions des fermentations entériques. Cependant, un retournement des cultures n’est pas souhaitable car le stockage est lent, et le destockage est rapide.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Azote et élevage",
+        "tools": [
+          {
+            "content": "Les animaux ne fabriquent pas d’azote, ni de matière organique. Ce sont les êtres autotrophes qui fabriquent de la matière organique (les végétaux). Les animaux sont hétérotrophes transforment les molécules avec une déperdition (10% d’azote perdu chaque année). L’azote provient des aliments ingérés par les animaux. Les deux sources d’entrées d’azote dans l’agrosystème : fixation symbiotique et engrais azotés. On n’a pas absolument besoin des animaux pour augmenter la fertilité des sols, si l’on veut augmenter la matière organique et l’azote il faut des engrais verts et des légumineuses.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Ruminants",
+        "tools": [
+          {
+            "content": "Dans le monde, l’élevage représente 1/4 des surfaces arables (en majorité des grains pour les monogastriques), cet argument est souvent utilisé pour défendre un statu quo pour les ruminants (image de la vache à l’herbe sur prairie naturelle). En France, on utilise 40% des terres arables pour nourrir les ruminants (concurrence directe avec l’alimentation humaine pour leur utilisation fourragère).",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Polyculture élevage",
+        "tools": [
+          {
+            "content": "Le système polyculture-élevage fonctionne sans problème jusqu’à la question de la généralisation. Si l’on veut massifier l’agriculture biologique, la fumure animale ne peut fournir qu’une partie des apports d’azote, il faut donc des systèmes sans élevage avec beaucoup de légumineuses.",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      },
+      {
+        "title": "Forêt vs prairie",
+        "tools": [
+          {
+            "content": "Une afforestation est souhaitable dans de nombreux cas mais certaines prairies présentent une valeur écologique élevée et nécessitent une protection active que seul l’élevage semble en mesure d’offrir actuellement. Par exemple, certaines prairies maintiennent une coupure ouverte, ce qui réduit fortement le risque d’incendie. La dynamique actuelle de reboisement des prairies est déjà rapide, l’accélérer est un risque de déséquilibrage des adaptations en cours. En revanche, reboiser des territoires à dominante de grandes cultures  ou de zones périurbaines pourrait générer de grands bénéfices. ",
+            "source": "https://afterres2050.solagro.org/debattre/elevage/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Aviation",
+    "icon": "✈️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Emissions de CO2",
+        "tools": [
+          {
+            "content": "4-5% d'augmentation depuis 2010 (2010-2018)",
+            "source": "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions"
+          },
+          {
+            "content": "Le Shift Project a estimé que si seulement 3% des festivaliers des Vieilles Charrues viennent en avion, ils font plus de 60% des émissions liées au transport du public ! Ce chiffre n’est pas surestimé quand on sait qu’en moyenne, en France 4% des festivaliers sont étrangers.",
+            "source": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
+          }
+        ]
+      },
+      {
+        "title": "Trainées de condensation",
+        "tools": [
+          {
+            "content": "Les études récentes démontrent que l'effet des traînées de condensation contribue davantage au réchauffement climatique que tout le CO2 émis par les avions. Ces effets devraient s'aggraver à mesure que le trafic aérien et la couverture nuageuse qui en résulte augmentent.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          },
+          {
+            "content": "Lorsque les études plus récentes ajoutent les effets des cirrus de traînée, le RFI augmente et il est estimé entre 3,8 et 4,3. Les nuages induits par l'aviation (traînées persistantes et cirrus de traînée) contribuent dans ce contexte, entre 71 % à 75 % au RF total de l'aviation.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          },
+          {
+            "content": "Les PRG et GTP captent le fait que des effets constants à courte durée de vie maintiennent un niveau de réchauffement à peu près constant, tandis que des effets constants climatiques à longue durée de vie, comme le CO2, continuent de s'accumuler dans l'atmosphère, ce qui entraîne une augmentation constante du niveau du réchauffement associé.",
+            "source": "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html"
+          }
+        ]
+      },
+      {
+        "title": "Limitations politiques",
+        "tools": [
+          {
+            "content": "Réglementer l’usage en conséquence. Pour l’aé-\nrien cela peut être par la limitation de l’activité (limi-\ntation des créneaux aéroportuaires, encadrement des\nsubventions, moratoires sur la construction de nouvelles\ninfrastructures), par restriction de la demande (mo-\ndification du signal-prix, allocation de droits à voyager)\nou encore via la fiscalité.",
+            "source": "https://theshiftproject.org/wp-content/uploads/2021/03/Pouvoir-voler-en-2050_Shift-Project_Synthese.pdf"
+          }
+        ]
+      },
+      {
+        "title": "Renoncements",
+        "tools": [
+          {
+            "content": "Pour des raisons écologiques, la compagnie de Jérôme Bel n’utilise plus l’avion",
+            "source": "https://www.resmusica.com/2019/09/20/pour-des-raisons-ecologiques-la-compagnie-de-jerome-bel-nutilise-plus-lavion/"
+          },
+          {
+            "content": "Innes FitzGerald, la Greta Thunberg de l’athlétisme, renonce à des médailles pour ne pas prendre l’avion",
+            "source": "https://www.leparisien.fr/sports/innes-fitzgerald-la-greta-thunberg-de-lathletisme-renonce-a-des-medailles-pour-ne-pas-prendre-lavion-04-02-2023-K4TAPMA44FASRBYTHDGFCMJHCE.php"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Voiture",
+    "icon": "🚗",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Électrification",
+        "tools": [
+          {
+            "content": "emissions over the lifetime of average medium-size BEVs registered today are already lower than comparable gasoline cars by 66%–69% in Europe, 60%–68% in the United States, 37%–45% in China, and 19%–34% in India",
+            "source": "https://theicct.org/publication/a-global-comparison-of-the-life-cycle-greenhouse-gas-emissions-of-combustion-engine-and-electric-passenger-cars/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Biodiversité",
+    "icon": "🌍",
+    "iconSizeCorrection": null,
+    "navigationIdentifier": "b",
+    "subtopics": [
+      {
+        "title": "Général",
+        "tools": [
+          {
+            "content": "L’accélération de la crise mondiale de la biodiversité, avec un million d’espèces de plantes et d’animaux menacées d’extinction",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "Le rapport fait également état de l’utilisation et du commerce illégaux des espèces sauvages, qui concernent l’ensemble des pratiques et conduisent souvent à une utilisation non durable. Les auteurs signalent en outre que le commerce illégal d’espèces sauvages, qui, d’après les estimations, ne générerait pasmoins de 199milliards de dollars par an, se classe au troisième rang des activités commerciales illégales. Le bois et le poisson se situent en tête, en termes de volume et de valeur, du commerce illégal d’espèces sauvage",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "+/-50 000 : espèces sauvages utilisées pour l’alimentation,l’énergie, la médecine, les matériaux et d’autres fins par la pêche, la cueillette, l'exploitation forestière et le prélèvement d'animaux terrestres dans le monde.",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "38 millions de km2de terres dans 87 pays sont occupés par des peuples autochtones qui gèrent la pêche, la cueillette, le prélèvement d’animaux terrestres et d’autres utilisations des espèces sauvages, soit environ 40% des aires terrestres protégées; dont beaucoup sont d’une grande richesse en biodiversité",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      },
+      {
+        "title": "Chasse",
+        "tools": [
+          {
+            "content": "La chasse non durable contribue au déclin de 1 341 espèces de mammifères sauvages de grande taille dont le faible taux de reproduction est également lié à la pression de la chasse",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      },
+      {
+        "title": "Arbres",
+        "tools": [
+          {
+            "content": "Deux tiers de la production industrielle mondiale de bois rond proviennent d’espèces d’arbres sauvages.",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          },
+          {
+            "content": "Environ 29% : d'environ 10 000 espèces menacées ou quasi menacées appartenant à 10 groupes taxonomiques, pour lesquelles les prélèvements non durables contribuent à un risque élevé d'extinction",
+            "source": "https://ipbes.net/media_release/Sustainable_Use_Assessment_Published"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Banques",
+    "icon": "🏦",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "BNP Paribas",
+        "tools": [
+          {
+            "content": "1er en Europe et 5e mondial pour l'expansion des fossiles, 1er mondial pour le pétrole et gaz (O&G) arctiques, 1er mondial pour l’O&G en mer, 1er financeur mondial de 8 géants : TotalEnergie, ExxonMobil, Chevron, Equinor, BP, ENI, Shell et Repsol, pire banque française en terme de politique de financement des centrales à charbon comme le souligne le rapport Share Action",
+            "source": "https://www.linkedin.com/feed/update/urn:li:activity:7023919229473058816/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Culture",
+    "icon": "🎉",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Festivals",
+        "tools": [
+          {
+            "content": "Le Shift Project a estimé que si seulement 3% des festivaliers des Vieilles Charrues viennent en avion, ils font plus de 60% des émissions liées au transport du public ! Ce chiffre n’est pas surestimé quand on sait qu’en moyenne, en France 4% des festivaliers sont étrangers.",
+            "source": "https://theshiftproject.org/article/decarboner-culture-rapport-2021/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Justice",
+    "icon": "⚖️",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Actions en justice",
+        "tools": [
+          {
+            "content": "On September 2, 2020, six Portuguese youth filed a complaint with the European Court of Human Rights against 33 countries. The complaint alleges that the respondents have violated human rights by failing to take sufficient action on climate change, and seeks an order requiring them to take more ambitious action.",
+            "source": "http://climatecasechart.com/non-us-case/youth-for-climate-justice-v-austria-et-al/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Énergies renouvelables",
+    "icon": "🌦️",
+    "navigationIdentifier": "r",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Général",
+        "tools": [
+          {
+            "content": "Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Économie",
+        "tools": [
+          {
+            "content": "Les énergies renouvelables électriques sont devenues des solutions compétitives. Cela est d’autant plus marqué dans le cas de grands parcs solaires et éoliens à terre et en mer",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Environnement",
+        "tools": [
+          {
+            "content": "L’économie de la transition énergétique peut générer des tensions sur l’approvisionnement en ressources minérales, particulièrement pour certains métaux, qu’il sera nécessaire d’anticiper",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Stockage",
+        "tools": [
+          {
+            "content": "Panorama des innovations pour un avenir alimenté par les énergies renouvelables",
+            "source": "https://www.irena.org/publications/2019/Feb/Innovation-landscape-for-a-renewable-powered-future-FR"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "France",
+    "icon": "🇫🇷",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Émissions",
+        "tools": [
+          {
+            "content": "Sur les émissions (uniquement territoriales) de CO2 cumulées depuis 1750, la France est numéro 8 mondial",
+            "source": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+          },
+          {
+            "content": "La France représente 1,5% des émissions mondiales de GES quand on additionne les émissions territoriales (émises sur le territoire national) et les émissions importées (liées aux importations). La France représente environ 0,8 % de la population mondiale, ce qui signifie que la part française annuelle est proche du double de la part de sa population sur la planète.",
+            "source": "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/"
+          }
+        ]
+      },
+      {
+        "title": "Mix électrique",
+        "tools": [
+          {
+            "content": "Atteindre la neutralité carbone est impossible sans un développement significatif des énergies renouvelables",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Se passer de nouveaux réacteurs nucléaires implique des rythmes de développement des énergies renouvelables plus rapides que ceux des pays européens les plus dynamiques",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Construire de nouveaux réacteurs nucléaires est pertinent du point de vue économique, a fortiori quand cela permet de conserver un parc d’une quarantaine de GW en 2050 (nucléaire existant et nouveau nucléaire)",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Les énergies renouvelables électriques sont devenues des solutions compétitives. Cela est d’autant plus marqué dans le cas de grands parcs solaires et éoliens à terre et en mer",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          },
+          {
+            "content": "Pour 2030 : développer les énergies renouvelables matures le plus rapidement possible et prolonger les réacteurs nucléaires existants dans une logique de maximisation de la production bas-carbone augmente les chances d’atteindre la cible du nouveau paquet européen « -55% net » ",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          },
+          {
+            "content": "Le développement des énergies renouvelables soulève un enjeu d’occupation de l’espace et de limitation des usages. Il peut s’intensifier sans exercer de pression excessive sur l’artificialisation des sols, mais doit se poursuivre dans chaque territoire en s’attachant à la préservation du cadre de vie",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          },
+          {
+            "content": "Les scénarios à très hautes parts d’énergies renouvelables, ou celui nécessitant la prolongation des réacteurs nucléaires existants au-delà de 60 ans, impliquent des paris technologiques lourds pour être au rendez-vous de la neutralité carbone en 2050",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Réindustrialisation",
+        "tools": [
+          {
+            "content": "Accélérer la réindustrialisation du pays, en électrifiant les procédés, augmente la consommation d’électricité mais réduit l’empreinte carbone de la France",
+            "source": "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques"
+          }
+        ]
+      },
+      {
+        "title": "Tarif électricité",
+        "tools": [
+          {
+            "content": "\"Supprimer l'ARENH\" ou \"indexer les prix sur le coût\" ne vous fera pas payer moins cher dans l'immédiat. Ce donc nous avons besoin, c'est d'investissements et tout cela se finance",
+            "source": "https://twitter.com/GoldbergNic/status/1626955295959261184"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hydrogène",
+    "icon": "💦",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Secteurs cibles",
+        "tools": [
+          {
+            "content": "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+            "source": "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Activisme",
+    "icon": "🪧",
+    "iconSizeCorrection": null,
+    "navigationIdentifier":  "a",
+    "subtopics": [
+      {
+        "title": "Activisme radical",
+        "tools": [
+          {
+            "content": "Même si les actions radicales remportent moins l’adhésion du grand public, la couverture médiatique est tellement plus importante que l’impact finit par être quoi qu’il arrive plus important",
+            "source": "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/"
+          },
+          {
+            "content": "Si ce flanc radical remporte un certain succès, son but sous-jacent est également le déplacement de la fenêtre d’Overton",
+            "source": "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Publicité",
+    "icon": "📣",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Neutralité carbone",
+        "tools": [
+          {
+            "content": "Décret n° 2022-539 du 13 avril 2022 relatif à la compensation carbone et aux allégations de neutralité carbone dans la publicité",
+            "source": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570611"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Climatoscepticisme",
+    "icon": "🤥",
+    "iconSizeCorrection": null,
+    "subtopics": [
+      {
+        "title": "Propagande numérique",
+        "tools": [
+          {
+            "content": "Foisonnement de comptes @Twitter\n agressifs, relayant de la désinformation visant à brouiller le constat scientifique très clair de l’intensification du changement climatique dû à l’influence humaine",
+            "source": "https://twitter.com/valmasdel/status/1625088411517198336"
+          }
+        ]
+      }
+    ]
+  }
+]
