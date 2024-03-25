@@ -43,7 +43,9 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 ? debunk.question + source
                 : debunk.question + source.name
             }
+            className={"flex gap-2"}
           >
+            <span className={"inline-block"}>🔗</span>{" "}
             {typeof source === "string" && (
               <Button
                 asChild
@@ -53,7 +55,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 }
               >
                 <Link href={source} target={"_blank"}>
-                  🔗 {source}
+                  {source}
                 </Link>
               </Button>
             )}
@@ -66,7 +68,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 }
               >
                 <Link href={source.url} target={"_blank"}>
-                  🔗 {source.name}
+                  {source.name}
                 </Link>
               </Button>
             )}
