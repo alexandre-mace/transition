@@ -327,7 +327,7 @@ const debunks = [
     answer:
       "Non, il comporte BEAUCOUP de pertes. La “primary energy fallacy” réside dans l'hypothèse selon laquelle toutes les sources d'énergie issues du pétrole, du gaz et du charbon que nous utilisons actuellement doivent être remplacées. L'énergie primaire pour une économie provient de la gauche. Elle est ensuite répartie dans ses différentes utilisations, telles que le gaz naturel pour la génération électrique et le chauffage. Une partie de cette énergie, qui n'est pas perdue par inefficacité, est utilisée pour fournir des services énergétiques. Cependant, une autre partie est simplement dissipée sous forme de chaleur résiduelle, sans apporter aucun bénéfice utile pour nous.",
     images: [
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F0bedc087-15e4-4051-976c-dfefbc12e213%2FUntitled.png?table=block&id=7978f55f-2a0e-4438-92ed-fad968ae55bf&cache=v2",
+      "https://electrek.co/wp-content/uploads/sites/3/2020/04/Energy_US_2019.png?resize=2048,1205",
     ],
     sources: [
       "https://flowcharts.llnl.gov/",
