@@ -1302,9 +1302,7 @@ const debunks = [
     question: "Accord de Paris : “nettement en dessous de 2 °C”",
     answer:
       "Nettement* en dessous de 2 °C : https://unfccc.int/sites/default/files/french_paris_agreement.pdf. La nuance est importante : https://climateanalytics.org/comment/understanding-the-paris-agreements-long-term-temperature-goal",
-    images: [
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F50475c64-5ff5-4fe2-b2b8-7dea614d7d38%2FCapture_decran_2024-03-03_a_21.35.55.png?table=block&id=c6a7f192-a897-4596-9195-136f088dde98&cache=v2",
-    ],
+    images: [],
     sources: [
       {
         name: "Understanding the Paris Agreement’s Long Term Temperature Goal",
