@@ -319,6 +319,10 @@ const debunks = [
         name: "Le déni climatique, un vrai business ? (France Info 2024)",
         url: "https://www.youtube.com/watch?v=HXm8viVPjSY",
       },
+      {
+        name: "Inertie du climat, ou inertie des sociétés ?",
+        url: "https://climatanthropocene.com/2021/11/30/inertie-du-climat-ou-inertie-des-societes/",
+      },
     ],
     category: CATEGORY_SOLUTIONS,
   },
