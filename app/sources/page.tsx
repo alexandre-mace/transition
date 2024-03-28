@@ -11,10 +11,9 @@ const Sources = async () => {
 
   return (
     <section className={"container space-y-6"}>
-      <h2 className={"text-center text-3xl font-extrabold tracking-tight"}>
-        Aller plus loin
-      </h2>
       <NotionPage recordMap={data} rootPageId={rootPageId} />
     </section>
   );
 };
+
+export default Sources;
