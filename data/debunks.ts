@@ -384,7 +384,7 @@ const debunks = [
   {
     question: "Est-ce trop tard ?",
     answer:
-      "“La littérature scientifique est très claire : nous avons notre avenir climatique entre nos mains. Nos actions individuelles et collectives peuvent opérer des changements dont nous tirerons les bénéfices rapidement.”",
+      "“La littérature scientifique est très claire : nous avons notre avenir climatique entre nos mains. Nos actions individuelles et collectives peuvent opérer des changements dont nous tirerons les bénéfices rapidement.” Il n'y a pas d'inertie climatique de 20 ans.",
     images: [],
     sources: [
       "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/",
