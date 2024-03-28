@@ -40,23 +40,25 @@ export default function Home() {
       </section>
 
       <section className={"container flex flex-wrap gap-2"}>
-        {tags.map((tag) => (
-          <Button
-            variant={"secondary"}
-            className={`h-auto px-2 py-1 text-xs ${selectedTags.includes(tag) ? "border border-black" : ""}`}
-            key={tag}
-            onClick={() => {
-              if (selectedTags.includes(tag)) {
-                return setSelectedTags(
-                  selectedTags.filter((selectedTag) => selectedTag !== tag),
-                );
-              }
-              return setSelectedTags([...selectedTags, tag]);
-            }}
-          >
-            {tag}
-          </Button>
-        ))}
+        {tags
+          .sort((a, b) => a.localeCompare(b))
+          .map((tag) => (
+            <Button
+              variant={"secondary"}
+              className={`h-auto border px-2 py-1 text-xs ${selectedTags.includes(tag) ? "border-black" : ""}`}
+              key={tag}
+              onClick={() => {
+                if (selectedTags.includes(tag)) {
+                  return setSelectedTags(
+                    selectedTags.filter((selectedTag) => selectedTag !== tag),
+                  );
+                }
+                return setSelectedTags([...selectedTags, tag]);
+              }}
+            >
+              {tag}
+            </Button>
+          ))}
       </section>
 
       <section className={"container space-y-6"}>
