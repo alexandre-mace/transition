@@ -820,12 +820,16 @@ const debunks = [
   {
     question: "Comment décarboner l'aviation ?",
     answer:
-      'L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. "Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hy- pothèse d’une croissance de trafic de 4% par an”',
+      "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Réglementer l’usage en conséquence. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité.",
     images: [],
     sources: [
       {
         name: "« Pouvoir voler en 2050 : Quelle aviation dans un monde contraint ? » Publication du rapport (THE SHIFT PROJECT, 2021)",
         url: "https://theshiftproject.org/article/quelle-aviation-dans-un-monde-contraint-nouveau-rapport-du-shift/",
+      },
+      {
+        name: "Climate change and flying: what share of global CO2 emissions come from aviation?",
+        url: "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions",
       },
     ],
     category: CATEGORY_SOLUTIONS,
@@ -1335,6 +1339,141 @@ const debunks = [
       {
         name: "Low-carbon energy does not have the same energy security risks as fossil fuels (Sustainability by numbers 2024)",
         url: "https://www.sustainabilitybynumbers.com/p/energy-security-minerals",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Quelle est l'empreinte au sol de l'élevage ?",
+    answer:
+      "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage). Dans le monde, l’élevage représente 1/4 des surfaces arables (en majorité des grains pour les monogastriques), cet argument est souvent utilisé pour défendre un statu quo pour les ruminants (image de la vache à l’herbe sur prairie naturelle). En France, on utilise 40% des terres arables pour nourrir les ruminants (concurrence directe avec l’alimentation humaine pour leur utilisation fourragère).",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Quelle est l'empreinte au sol de l'élevage ?",
+    answer:
+      "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage)",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Quels sont les émission de l'élevage en France ?",
+    answer:
+      "Élevage = 14% des émissions directes dans l’inventaire nationale, mais il faut ajouter * Mise en culture des aliments pour les animaux * Émissions générées par la fabrication des intrants * Émissions induites par la déforestation imputables à l’élevage Cela représente 70% des émissions du système alimentaire au global en émissions directes, mais + de 85% en émissions indirectes. L’élevage industriel n’est pas bcp + responsables des émissions de GES de l’agriculture qu’un autre type d’élevage. 3 sources principales : fermentations entériques, déjections d’élevage, alimentation des animaux. Les émissions par l ou kg produits varient peu selon les types d’élevage. Les prairies ne peuvent pas stocker indéfiniment du carbone, c’est vrai pour les jeunes prairies mais pas pour toutes les prairies car un équilibre est atteint à terme. En France, l’étude 4 pour 1000 a montré que cet effet de stockage est assez faible, il est loin de compenser les émissions des fermentations entériques. Cependant, un retournement des cultures n’est pas souhaitable car le stockage est lent, et le destockage est rapide.",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "A t'on besoin des animaux pour la fertilité des sols ?",
+    answer:
+      "Les animaux ne fabriquent pas d’azote, ni de matière organique. Ce sont les êtres autotrophes qui fabriquent de la matière organique (les végétaux). Les animaux sont hétérotrophes transforment les molécules avec une déperdition (10% d’azote perdu chaque année). L’azote provient des aliments ingérés par les animaux. Les deux sources d’entrées d’azote dans l’agrosystème : fixation symbiotique et engrais azotés. On n’a pas absolument besoin des animaux pour augmenter la fertilité des sols, si l’on veut augmenter la matière organique et l’azote il faut des engrais verts et des légumineuses.",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Pourrais t'on généraliser le polyculture-élevage ?",
+    answer:
+      "Le système polyculture-élevage fonctionne sans problème jusqu’à la question de la généralisation. Si l’on veut massifier l’agriculture biologique, la fumure animale ne peut fournir qu’une partie des apports d’azote, il faut donc des systèmes sans élevage avec beaucoup de légumineuses.",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Forêt vs prairie",
+    answer:
+      "Une afforestation est souhaitable dans de nombreux cas mais certaines prairies présentent une valeur écologique élevée et nécessitent une protection active que seul l’élevage semble en mesure d’offrir actuellement. Par exemple, certaines prairies maintiennent une coupure ouverte, ce qui réduit fortement le risque d’incendie. La dynamique actuelle de reboisement des prairies est déjà rapide, l’accélérer est un risque de déséquilibrage des adaptations en cours. En revanche, reboiser des territoires à dominante de grandes cultures ou de zones périurbaines pourrait générer de grands bénéfices.",
+    images: [],
+    sources: [
+      {
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        url: "https://afterres2050.solagro.org/debattre/elevage/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Quel est l'impact des traines de condensations ?",
+    answer:
+      "Les études récentes démontrent que l'effet des traînées de condensation contribue davantage au réchauffement climatique que tout le CO2 émis par les avions. Ces effets devraient s'aggraver à mesure que le trafic aérien et la couverture nuageuse qui en résulte augmentent. Lorsque les études plus récentes ajoutent les effets des cirrus de traînée, le RFI augmente et il est estimé entre 3,8 et 4,3. Les nuages induits par l'aviation (traînées persistantes et cirrus de traînée) contribuent dans ce contexte, entre 71 % à 75 % au RF total de l'aviation. Les PRG et GTP captent le fait que des effets constants à courte durée de vie maintiennent un niveau de réchauffement à peu près constant, tandis que des effets constants climatiques à longue durée de vie, comme le CO2, continuent de s'accumuler dans l'atmosphère, ce qui entraîne une augmentation constante du niveau du réchauffement associé.",
+    images: [],
+    sources: [
+      {
+        name: "État de l'art de la recherche scientifique sur l'impact climatique des traînées de condensation des avions",
+        url: "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Pour quoi l'hydrogène doit-il être utilisé ?",
+    answer:
+      "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+    images: [],
+    sources: [
+      {
+        name: "Futurs\n" + "énergétiques\n" + "2050\n" + "Principaux résultats",
+        url: "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question:
+      "La neutralité carbone a t'elle un sens à l'échelle d'un produit ?",
+    answer:
+      "Non. Décret n° 2022-539 du 13 avril 2022 relatif à la compensation carbone et aux allégations de neutralité carbone dans la publicité",
+    images: [],
+    sources: [
+      {
+        name: "[Avis de l’ADEME] Tous les acteurs doivent agir collectivement pour la neutralité carbone, mais aucun acteur ne devrait se revendiquer neutre en carbone",
+        url: "https://presse.ademe.fr/2021/04/avis-de-lademe-tous-les-acteurs-doivent-agir-collectivement-pour-la-neutralite-carbone-mais-aucun-acteur-ne-devrait-se-revendiquer-neutre-en-carbone.html",
+      },
+      {
+        name: "Décret n° 2022-539 du 13 avril 2022 relatif à la compensation carbone et aux allégations de neutralité carbone dans la publicité",
+        url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045570611",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+  },
+  {
+    question: "Peut-on ouvrir de nouveaux projets fossiles ?",
+    answer:
+      "Projected cumulative future CO2 emissions over the lifetime of existing and currently planned fossil fuel infrastructure without additional abatement exceed the total cumulative net CO 2 emissions in pathways that limit warming to 1.5°C (>50%) with no or limited overshoot. They are approximately equal to total cumulative net CO 2 emissions in pathways that limit warming to 2°C (>67%). (high confidence) {2.7, 3.3}. The continued installation of unabated fossil fuel infrastructure will ‘lock-in’ GHG emissions. (high confidence)",
+    images: [],
+    sources: [
+      {
+        name: "IPCC AR6 WGIII SPM",
+        url: "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SummaryForPolicymakers.pdf",
       },
     ],
     category: CATEGORY_ANNEXES,
