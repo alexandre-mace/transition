@@ -427,6 +427,7 @@ const debunks = [
     answer: "",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F26ba6e0e-47be-4420-8ccb-ab20a901b3a8%2FUntitled.png?table=block&id=1675a518-64f1-4354-bcea-7232b6887f38&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F20fadc13-34b7-44fe-9b41-052545a229f3%2Fco2-mitigation-15c.png?table=block&id=2936d6c1-2cad-4ea1-8014-61c553ff300e&cache=v2",
     ],
     sources: [
       {
@@ -1013,6 +1014,7 @@ const debunks = [
     answer: "",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F8354152d-d19c-4dd8-a626-0a0d5765b24c%2FUntitled.png?table=block&id=57ac8bdf-0a1b-4972-bbd7-92959cc99f84&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fce777601-17b4-4a01-a12a-52f119ad805f%2FCapture_decran_2024-02-23_a_01.31.01.png?table=block&id=0d032e68-752a-4ac1-bb30-147efe1ef6ee&cache=v2",
     ],
     sources: [
       {
