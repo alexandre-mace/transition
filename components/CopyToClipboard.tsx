@@ -22,7 +22,7 @@ const CopyToClipboard = ({ content }: { content: string }) => {
   }, [isCopying]);
 
   return (
-    <TooltipProvider delayDuration={200}>
+    <TooltipProvider delayDuration={0}>
       <Tooltip>
         <TooltipTrigger asChild>
           <Button

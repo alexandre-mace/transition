@@ -1,6 +1,5 @@
-import { notion } from "@/notion";
-import { NotionPage } from "@/components/notion";
 import {
+  CATEGORY_ANNEXES,
   CATEGORY_CAUSE,
   CATEGORY_CONSEQUENCES,
   CATEGORY_SOLUTIONS,
@@ -9,15 +8,7 @@ import {
 import Debunk from "@/components/Debunk";
 import "react-medium-image-zoom/dist/styles.css";
 
-const rootPageId = "a3d92eef15454a5fb20f3fae2d808f13";
-
-async function getData(rootPageId: string) {
-  return await notion.getPage(rootPageId);
-}
-
-export default async function Home() {
-  const data = await getData(rootPageId);
-
+export default function Home() {
   return (
     <main className={"space-y-16"}>
       <section className="relative mx-auto flex flex-col gap-2 py-8 md:gap-3 md:pb-10 md:pt-20">
@@ -30,19 +21,9 @@ export default async function Home() {
       </section>
 
       <section className={"container space-y-6"}>
-        <h2 className={"text-center text-xl font-bold"}>
-          Filtrer par étiquette
-        </h2>
-      </section>
-
-      <section className={"container space-y-6"}>
-        <h2 className={"text-3xl font-extrabold tracking-tight"}>
-          Les éclairages
-        </h2>
-
         <div className={"space-y-10"}>
-          <div className={"space-y-2"}>
-            <h2 className={"text-2xl font-bold"}>Les solutions</h2>
+          <div className={"space-y-4"}>
+            <h2 className={"text-3xl font-bold"}>Les solutions</h2>
             <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
               {debunks
                 .filter((debunk) => debunk.category === CATEGORY_SOLUTIONS)
@@ -52,8 +33,8 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className={"space-y-2"}>
-            <h2 className={"text-2xl font-bold"}>Les conséquences</h2>
+          <div className={"space-y-4"}>
+            <h2 className={"text-3xl font-bold"}>Les conséquences</h2>
             <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
               {debunks
                 .filter((debunk) => debunk.category === CATEGORY_CONSEQUENCES)
@@ -63,8 +44,8 @@ export default async function Home() {
             </div>
           </div>
 
-          <div className={"space-y-2"}>
-            <h2 className={"text-2xl font-bold"}>Les causes</h2>
+          <div className={"space-y-4"}>
+            <h2 className={"text-3xl font-bold"}>Les causes</h2>
             <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
               {debunks
                 .filter((debunk) => debunk.category === CATEGORY_CAUSE)
@@ -73,14 +54,18 @@ export default async function Home() {
                 ))}
             </div>
           </div>
-        </div>
-      </section>
 
-      <section className={"container space-y-6"}>
-        <h2 className={"text-center text-3xl font-extrabold tracking-tight"}>
-          Aller plus loin
-        </h2>
-        <NotionPage recordMap={data} rootPageId={rootPageId} />
+          <div className={"space-y-4"}>
+            <h2 className={"text-3xl font-bold"}>Les annexes</h2>
+            <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
+              {debunks
+                .filter((debunk) => debunk.category === CATEGORY_ANNEXES)
+                .map((debunk, index) => (
+                  <Debunk key={debunk.question} debunk={debunk} />
+                ))}
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
