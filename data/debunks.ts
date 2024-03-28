@@ -4,12 +4,65 @@ type Debunk = {
   sources: (string | { name: string; url: string })[];
   images: string[];
   category: string;
+  tags: string[];
 };
 
 const CATEGORY_CAUSE = "cause";
 const CATEGORY_CONSEQUENCES = "consequences";
 const CATEGORY_SOLUTIONS = "solutions";
 const CATEGORY_ANNEXES = "annexes";
+
+const CLIMATOSCEPTIQUE = "Climatosceptique 🤥";
+const INACTION = "Inaction 🦥";
+const EMISSIONS = "Émissions 💨";
+const FRANCE = "France 🇫🇷";
+const INEGALITES = "Inégalites ⚖️";
+const LIMITES_PLANETAIRES = "Limites planétaires 🛑";
+const METEOROLOGIE = "Météorologie 🌦️";
+const POINTS_DE_BASCULE = "Points de bascule 🤸";
+const SANTE = "Santé 🤒";
+const EFFICACITE = "Efficacité ✨";
+const RENOUVELABLES = "Renouvelables ⚡️";
+const SCENARIOS = "Scénarios 🎬";
+const MATERIAUX = "Matériaux 🪨";
+const VOITURE_ELECTRIQUE = "Voiture électrique 🚙";
+const ECOANXIETE = "Écoanxiété 😥";
+const HYDROGENE = "Hydrogène ⚗️";
+const AGRICULTURE = "Agriculture 🚜";
+const FINANCE = "Finance 🏦";
+const SOBRIETE = "Sobriété 🪶";
+const DECROISSANCE = "Décroissance 📉";
+const DESINFORMATION = "Désinformation 🤥";
+const BIOCARBURANTS = "Biocarburants 🌾";
+const AVIATION = "Aviation ✈️";
+const INDIVIDU = "Individu 🙋";
+
+const tags = [
+  CLIMATOSCEPTIQUE,
+  INACTION,
+  EMISSIONS,
+  FRANCE,
+  INEGALITES,
+  LIMITES_PLANETAIRES,
+  METEOROLOGIE,
+  POINTS_DE_BASCULE,
+  SANTE,
+  EFFICACITE,
+  RENOUVELABLES,
+  SCENARIOS,
+  MATERIAUX,
+  VOITURE_ELECTRIQUE,
+  ECOANXIETE,
+  HYDROGENE,
+  AGRICULTURE,
+  FINANCE,
+  SOBRIETE,
+  DECROISSANCE,
+  DESINFORMATION,
+  BIOCARBURANTS,
+  AVIATION,
+  INDIVIDU,
+];
 
 const debunks = [
   {
@@ -26,6 +79,7 @@ const debunks = [
       "https://journals.sagepub.com/doi/10.1177/0270467619886266",
     ],
     category: CATEGORY_CAUSE,
+    tags: [CLIMATOSCEPTIQUE, EMISSIONS],
   },
   {
     question:
@@ -38,6 +92,7 @@ const debunks = [
       "https://ledinerdusiecle.bonpote.com/",
     ],
     category: CATEGORY_CAUSE,
+    tags: [CLIMATOSCEPTIQUE],
   },
   {
     question:
@@ -50,6 +105,7 @@ const debunks = [
       "https://www.climat-en-questions.fr/reponse/mecanismes-devolution/etude-climats-passe-par-valerie-masson-delmotte",
     ],
     category: CATEGORY_CAUSE,
+    tags: [CLIMATOSCEPTIQUE],
   },
   {
     question:
@@ -63,6 +119,7 @@ const debunks = [
       "https://bonpote.com/la-france-est-elle-vraiment-4e-pays-le-plus-vert-au-monde/",
     ],
     category: CATEGORY_CAUSE,
+    tags: [INACTION, EMISSIONS, FRANCE],
   },
   {
     question: "Nos émissions sont-elles en train d'augmenter ?",
@@ -78,6 +135,7 @@ const debunks = [
       "https://bonpote.com/la-france-est-elle-vraiment-4e-pays-le-plus-vert-au-monde/",
     ],
     category: CATEGORY_CAUSE,
+    tags: [EMISSIONS],
   },
   {
     question: "Inégalités face au changement climatique",
@@ -96,8 +154,13 @@ const debunks = [
         name: "Inégalités de richesse et changement climatique : interactions, modélisations et perspectives (Loic Giaccone 2022)",
         url: "https://drive.google.com/file/d/1K1fdiAsgRRdaFXE2VrdJ2GbBimtKhyEj/view",
       },
+      {
+        name: "Climat : les riches polluent plus que les pauvres ? (ft. Le Réveilleur)",
+        url: "https://www.youtube.com/watch?v=JQDRb7jE9qQ",
+      },
     ],
     category: CATEGORY_CAUSE,
+    tags: [INEGALITES],
   },
   {
     question: "Nos émissions sont-elles en train d'augmenter ?",
@@ -127,6 +190,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CAUSE,
+    tags: [EMISSIONS],
   },
   {
     question:
@@ -142,6 +206,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CAUSE,
+    tags: [LIMITES_PLANETAIRES],
   },
   {
     question:
@@ -159,6 +224,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -182,6 +248,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -197,6 +264,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -217,6 +285,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -237,6 +306,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -259,6 +329,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -267,6 +338,7 @@ const debunks = [
     images: [],
     sources: [],
     category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
   },
   {
     question:
@@ -282,6 +354,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [POINTS_DE_BASCULE],
   },
   {
     question:
@@ -306,6 +379,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
+    tags: [SANTE],
   },
   {
     question: "Est-ce trop tard ?",
@@ -325,6 +399,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [INACTION, SANTE],
   },
   {
     question: "Le système énergétique actuel est-il efficient ?",
@@ -345,6 +420,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [EFFICACITE],
   },
   {
     question: "C’est quoi un scénario net zéro émissions ?",
@@ -391,6 +467,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SCENARIOS],
   },
   {
     question: "Quelles sont les principales solutions ?",
@@ -407,6 +484,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SCENARIOS, EFFICACITE],
   },
   {
     question: "Sans changement climatique, faudrait-il changer de système ?",
@@ -432,6 +510,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [EFFICACITE, SANTE],
   },
   {
     question: "Consomme t'on plus d'énergie après la transition ?",
@@ -460,6 +539,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [EFFICACITE],
   },
   {
     question:
@@ -476,6 +556,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [EFFICACITE, EMISSIONS],
   },
   {
     question: "La transition énergétique nous met-elle dans un extractivisme ?",
@@ -528,6 +609,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [MATERIAUX],
   },
   {
     question:
@@ -562,6 +644,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [MATERIAUX, RENOUVELABLES],
   },
   {
     question: "A-t’on assez de minerais pour la transition ?",
@@ -642,6 +725,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SCENARIOS, MATERIAUX],
   },
   {
     question:
@@ -665,6 +749,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [VOITURE_ELECTRIQUE],
   },
   {
     question: "A-t’on assez de lithium pour les batteries de voiture  ?",
@@ -685,6 +770,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [VOITURE_ELECTRIQUE, MATERIAUX],
   },
   {
     question:
@@ -712,6 +798,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [RENOUVELABLES],
   },
   {
     question:
@@ -729,6 +816,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [VOITURE_ELECTRIQUE, MATERIAUX],
   },
   {
     question: "Quid des biocarburants pour les voitures ?",
@@ -750,6 +838,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [BIOCARBURANTS],
   },
   {
     question: "Quid des biocarburants pour les avions ?",
@@ -764,6 +853,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [BIOCARBURANTS],
   },
   {
     question:
@@ -820,6 +910,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SANTE],
   },
   {
     question: "Comment décarboner l'aviation ?",
@@ -837,6 +928,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [AVIATION],
   },
   {
     question:
@@ -883,6 +975,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SOBRIETE, SCENARIOS],
   },
   {
     question:
@@ -913,6 +1006,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
+    tags: [SOBRIETE, INDIVIDU],
   },
   {
     question: "La désinformation sur le climat : de la cause aux solutions",
@@ -931,6 +1025,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question:
@@ -951,6 +1046,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question:
@@ -969,6 +1065,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question:
@@ -983,6 +1080,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION, ECOANXIETE],
   },
   {
     question:
@@ -1001,6 +1099,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [VOITURE_ELECTRIQUE, EFFICACITE],
   },
   {
     question:
@@ -1018,6 +1117,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [VOITURE_ELECTRIQUE],
   },
   {
     question: "Les VE actuelles sont trop lourdes, comment faire ?",
@@ -1042,6 +1142,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [VOITURE_ELECTRIQUE],
   },
   {
     question:
@@ -1060,6 +1161,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [SANTE],
   },
   {
     question:
@@ -1090,6 +1192,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question: "Les scénarios 100% renouvelables se multiplient",
@@ -1127,6 +1230,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
   },
   {
     question: "Les scénarios 100% renouvelables se multiplient",
@@ -1158,6 +1262,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
   },
   {
     question: "EROI des ENR",
@@ -1176,6 +1281,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
   },
   {
     question: "Comment financer la transition ?",
@@ -1188,6 +1294,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [FINANCE],
   },
   {
     question: "Qui écouter sur le sujet des métaux ?",
@@ -1203,6 +1310,7 @@ const debunks = [
     images: [],
     sources: [],
     category: CATEGORY_ANNEXES,
+    tags: [MATERIAUX],
   },
   {
     question: "Nos énergies s’accumulent-elles ?",
@@ -1230,6 +1338,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question: "Les actifs fossiles échoués",
@@ -1244,6 +1353,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [FINANCE],
   },
   {
     question:
@@ -1260,10 +1370,10 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [FINANCE, INACTION],
   },
   {
-    question:
-      "Les banques continuent de financer les fossiles malgré leurs annonces",
+    question: "La décroissance sans changements technologiques ne suffit pas",
     answer:
       "en souhaitant forcément une décroissance du PIB, cela peut avoir des conséquences importantes pour certaines populations défavorisées, en particulier dans les pays du Sud. À cette critique, les défendeurs de la décroissance répondent que celle-ci concerne en premier lieu les pays développés. Un chercheur, J.D. Moyer, vient de publier un article qui étudie cette question, avec des modélisations de croissance nulle ou négative au niveau mondial ou différenciée entre pays du Nord et du Sud : https://lnkd.in/e6jNs-qN\n" +
       "\n" +
@@ -1286,6 +1396,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DECROISSANCE, INACTION],
   },
   {
     question: "Quel est le cout de l'intermittence",
@@ -1301,6 +1412,7 @@ const debunks = [
       "https://www.linkedin.com/posts/grégory-lamotte-bb31421b_quel-est-le-vrai-coût-de-lintermittence-ugcPost-7168622909207396352-THPv",
     ],
     category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
   },
   {
     question: "Accord de Paris : “nettement en dessous de 2 °C”",
@@ -1318,6 +1430,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [EMISSIONS, SCENARIOS],
   },
   {
     question:
@@ -1330,6 +1443,7 @@ const debunks = [
       "https://www.linkedin.com/posts/damien-salel-70599b11a_en-plus-de-nous-coûter-150-mds-de-subventions-activity-7143913387473735680-ejHX/",
     ],
     category: CATEGORY_ANNEXES,
+    tags: [FINANCE],
   },
   {
     question:
@@ -1344,6 +1458,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
   },
   {
     question: "Quelle est l'empreinte au sol de l'élevage ?",
@@ -1357,6 +1472,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "Quelle est l'empreinte au sol de l'élevage ?",
@@ -1370,6 +1486,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "Quels sont les émission de l'élevage en France ?",
@@ -1383,6 +1500,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "A t'on besoin des animaux pour la fertilité des sols ?",
@@ -1396,6 +1514,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "Pourrais t'on généraliser le polyculture-élevage ?",
@@ -1409,6 +1528,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "Forêt vs prairie",
@@ -1422,6 +1542,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AGRICULTURE],
   },
   {
     question: "Quel est l'impact des traines de condensations ?",
@@ -1435,6 +1556,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [AVIATION],
   },
   {
     question: "Pour quoi l'hydrogène doit-il être utilisé ?",
@@ -1448,6 +1570,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [HYDROGENE],
   },
   {
     question:
@@ -1466,6 +1589,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION],
   },
   {
     question: "Peut-on ouvrir de nouveaux projets fossiles ?",
@@ -1479,6 +1603,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION, EMISSIONS, SCENARIOS],
   },
 ];
 
@@ -1488,5 +1613,6 @@ export {
   CATEGORY_CAUSE,
   CATEGORY_SOLUTIONS,
   CATEGORY_ANNEXES,
+  tags,
 };
 export type { Debunk };
