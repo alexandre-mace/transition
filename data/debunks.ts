@@ -854,7 +854,9 @@ const debunks = [
     answer:
       "We’ll assume that biofuels come from bioethanol and biodiesel at the same ratios – and from same crops – that are used today.\n" +
       "If yields stayed the same, the amount of land needed to produce biofuels in each scenario is in the table below. This is measured in millions of hectares. In the high-demand scenario where jet fuel is eliminated, we’d need around 300 million hectares of cropland. That’s an area the size of India.",
-    images: [],
+    images: [
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b87f969-65c0-4013-937b-efac6f3a627d_1466x360.png",
+    ],
     sources: [
       {
         name: "How much biofuel would we need to decarbonise aviation?",
