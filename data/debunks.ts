@@ -384,17 +384,25 @@ const debunks = [
   {
     question: "Est-ce trop tard ?",
     answer:
-      "“La littérature scientifique est très claire : nous avons notre avenir climatique entre nos mains. Nos actions individuelles et collectives peuvent opérer des changements dont nous tirerons les bénéfices rapidement.” Il n'y a pas d'inertie climatique de 20 ans.",
-    images: [],
+      "Les meilleures connaissances disponibles montrent qu’au contraire, le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique. Il n'y a pas d'inertie climatique de 20 ans.",
+    images: [
+      "https://lh5.googleusercontent.com/VpJ1XSYpIjz3TT33MDosP-tuBPeBZd5zVivH-nuzWEec3ElcNy-puG9xk9aZDlWoPRQ4qGZJHY9skutZBlAYNMsBimnQaYULEqivg9s2FDaECejC66tFmmFsjqm7xHl5tkkpQxDj",
+    ],
     sources: [
-      "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/",
-      "https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/",
       {
-        name: "Le déni climatique, un vrai business ? (France Info 2024)",
+        name: "“C’est trop tard, on est foutus”: pourquoi c’est faux, et comment y répondre (BonPote, 2021)",
+        url: "https://bonpote.com/cest-trop-tard-on-est-foutus-pourquoi-cest-faux-et-comment-y-repondre/",
+      },
+      {
+        name: "Existe-t-il vraiment une inertie climatique de 20 ans ? (BonPote, 2021)",
+        url: "https://bonpote.com/existe-t-il-vraiment-une-inertie-climatique-de-20-ans/",
+      },
+      {
+        name: "Le déni climatique, un vrai business ? (France Info, 2024)",
         url: "https://www.youtube.com/watch?v=HXm8viVPjSY",
       },
       {
-        name: "Inertie du climat, ou inertie des sociétés ?",
+        name: "Inertie du climat, ou inertie des sociétés ? (Climat & Anthropocène, 2021)",
         url: "https://climatanthropocene.com/2021/11/30/inertie-du-climat-ou-inertie-des-societes/",
       },
     ],
