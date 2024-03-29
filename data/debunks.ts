@@ -927,14 +927,16 @@ const debunks = [
     question: "Comment décarboner l'aviation ?",
     answer:
       "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Réglementer l’usage en conséquence. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité.",
-    images: [],
+    images: [
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9389c9c-5df7-4d80-b737-8c41e56c211c%2FCapture_decran_2024-03-29_a_22.25.34.png?table=block&id=c1ba18a4-5fb0-4179-8784-02c6bc88ea08&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=1420&userId=&cache=v2",
+    ],
     sources: [
       {
         name: "« Pouvoir voler en 2050 : Quelle aviation dans un monde contraint ? » Publication du rapport (THE SHIFT PROJECT, 2021)",
         url: "https://theshiftproject.org/article/quelle-aviation-dans-un-monde-contraint-nouveau-rapport-du-shift/",
       },
       {
-        name: "Climate change and flying: what share of global CO2 emissions come from aviation?",
+        name: "Climate change and flying: what share of global CO2 emissions come from aviation? (OWID, 2020)",
         url: "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions",
       },
     ],
