@@ -414,13 +414,12 @@ const debunks = [
     answer:
       "Non, il comporte BEAUCOUP de pertes. La “primary energy fallacy” réside dans l'hypothèse selon laquelle toutes les sources d'énergie issues du pétrole, du gaz et du charbon que nous utilisons actuellement doivent être remplacées. L'énergie primaire pour une économie provient de la gauche. Elle est ensuite répartie dans ses différentes utilisations, telles que le gaz naturel pour la génération électrique et le chauffage. Une partie de cette énergie, qui n'est pas perdue par inefficacité, est utilisée pour fournir des services énergétiques. Cependant, une autre partie est simplement dissipée sous forme de chaleur résiduelle, sans apporter aucun bénéfice utile pour nous.",
     images: [
-      "https://electrek.co/wp-content/uploads/sites/3/2020/04/Energy_US_2019.png?resize=2048,1205",
+      "https://flowcharts.llnl.gov/sites/flowcharts/files/2023-10/US%20Energy%202022.png",
     ],
     sources: [
-      "https://flowcharts.llnl.gov/",
       {
-        name: "Energy Literacy",
-        url: "http://energyliteracy.com/",
+        name: "Energy Flow Charts: Charting the Complex Relationships among Energy, Water, and Carbon (2022)",
+        url: "https://flowcharts.llnl.gov/",
       },
       {
         name: "Beyond primary energy: the energy transition needs a new lens (Zenon 2023)",
@@ -436,42 +435,50 @@ const debunks = [
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F26ba6e0e-47be-4420-8ccb-ab20a901b3a8%2FUntitled.png?table=block&id=1675a518-64f1-4354-bcea-7232b6887f38&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F20fadc13-34b7-44fe-9b41-052545a229f3%2Fco2-mitigation-15c.png?table=block&id=2936d6c1-2cad-4ea1-8014-61c553ff300e&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F777f380f-f5f7-493a-be0d-3bf07f8a6c98%2FUntitled.png?table=block&id=25a7f540-5dad-4d1d-9759-8b751d5c710b&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F01daec94-9185-4efd-8108-2c95911434fd%2FCapture_decran_2024-03-30_a_11.48.31.png?table=block&id=36a5b17d-e42d-40b1-b564-cdd9c6cc88ea&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fdaffaf6f-503d-4a2d-b1ab-ca4930d89adb%2FCapture_decran_2024-03-30_a_15.29.08.png?table=block&id=8629a2c1-486f-4931-af4f-2e6fbcd53a71&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F9800e6af-9961-492c-b8c6-19c4eaada474%2FCapture_decran_2024-03-30_a_15.30.42.png?table=block&id=4b7bcbc0-daa0-4cee-aeac-cd012cd03066&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
     ],
     sources: [
       {
-        name: "Scénarios climatiques, croissance économique et décroissance (Loic Giaccone 2023)",
+        name: "Scénarios climatiques, croissance économique et décroissance (Loic Giaccone, 2023)",
         url: "https://climatanthropocene.com/2023/09/18/scenarios-climatiques-croissance-economique-et-decroissance/",
       },
       {
-        name: "RTE 2035",
+        name: "Bilan Prévisionnel 2023-2035 : RTE éclaire les défis de la grande bascule vers une société décarbonée (RTE, 2023)",
         url: "https://www.rte-france.com/actualites/bilan-previsionnel-transformation-systeme-electrique-2023-2035",
       },
       {
-        name: "Comment electrifier d'ici 2035 - RTE",
+        name: "Comprendre et piloter l’électrification d’ici 2035 : Les conditions clés pour relever les défis de la transition énergétique (RTE, 2023)",
         url: "https://www.rte-france.com/actualites/comprendre-piloter-electrification-ici-2035-conditions-cles-relever-defis-transition",
       },
       {
-        name: "Les futurs en transition",
+        name: "Les futurs en transition (Ademe, 2021)",
         url: "https://www.ademe.fr/les-futurs-en-transition/",
       },
       {
-        name: "RTE 2050",
+        name: "Futurs énergétiques 2050 : les scénarios de mix de production à l’étude permettant d’atteindre la neutralité carbone à l’horizon 2050 (RTE, 2022)",
         url: "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques",
       },
       {
-        name: "AIE",
+        name: "Net Zero by 2050 (AIE, 2021)",
         url: "https://www.iea.org/reports/net-zero-by-2050",
       },
       {
-        name: "THE SHIFT PROJECT",
+        name: "Le Plan de transformation de l'économie française (THE SHIFT PROJECT, 2022)",
         url: "https://ilnousfautunplan.fr/",
       },
       {
-        name: "EDF Scénario Net Zero 2050",
+        name: "EDF Scénario Net Zero 2050 (EDF, 2024)",
         url: "https://www.edf.fr/scenario2050",
       },
       {
-        name: "Négawatt - Manifeste pour la sobriété en Europe",
+        name: "Scénario négaWatt 2022",
+        url: "https://www.negawatt.org/Scenario-negaWatt-2022",
+      },
+      {
+        name: "Négawatt - Manifeste pour la sobriété en Europe (Negawatt, 2024)",
         url: "https://www.negawatt.org/Manifeste-pour-la-sobriete-en-Europe",
       },
     ],
@@ -483,7 +490,6 @@ const debunks = [
     answer:
       "“Many options available now in all sectors are estimated to offer substantial potential to reduce net emissions by 2030. Relative potentials and costs will vary across countries and in the longer term compared to 2030.”",
     images: [
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F777f380f-f5f7-493a-be0d-3bf07f8a6c98%2FUntitled.png?table=block&id=25a7f540-5dad-4d1d-9759-8b751d5c710b&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ffdb7dc90-9469-4725-ab53-097c0a7edb66%2FCapture_decran_2024-03-03_a_19.30.32.png?table=block&id=15a520b8-9001-4ca4-abdc-c69831c7f50c&cache=v2",
     ],
     sources: [
@@ -506,15 +512,15 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Environmental co-benefits and adverse side-effects of alternative power sector decarbonization strategies ",
+        name: "Luderer, G. et al. (2019) ‘Environmental co-benefits and adverse side-effects of alternative power sector decarbonization strategies’, Nature Communications, 10(1), p. 5229. Available at: https://doi.org/10.1038/s41467-019-13067-8.",
         url: "https://www.nature.com/articles/s41467-019-13067-8#Sec8",
       },
       {
-        name: "Energy to waste – fossil fuels’ dirty secret",
+        name: "Energy to waste – fossil fuels’ dirty secret (Illuminem, 2023)",
         url: "https://illuminem.com/illuminemvoices/energy-to-waste-fossil-fuels-dirty-secret",
       },
       {
-        name: "Carbon Neutrality in the UNECE Region: Integrated Life-cycle Assessment of Electricity Sources",
+        name: "Carbon Neutrality in the UNECE Region: Integrated Life-cycle Assessment of Electricity Sources (UNECE, 2022)",
         url: "https://unece.org/sites/default/files/2022-04/LCA_3_FINAL March 2022.pdf",
       },
     ],
@@ -531,20 +537,16 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Global energy demand could be lower in 2050, despite the world getting richer",
+        name: "Global energy demand could be lower in 2050, despite the world getting richer (SBN, 2024)",
         url: "https://www.sustainabilitybynumbers.com/p/iea-energy-scenarios",
       },
       {
-        name: "Electrification is efficiency: The world will need less energy after the transition",
+        name: "Electrification is efficiency: The world will need less energy after the transition (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/electrification-energy-efficiency",
       },
       {
-        name: "Powering the world: how much energy will the world need? (Zenon 2021)",
+        name: "Powering the world: how much energy will the world need? (Zenon, 2021)",
         url: "https://www.zenon.ngo/insights/powering-the-world-how-much-energy-will-the-world-need",
-      },
-      {
-        name: "World can limit global warming to 1.5C by ‘improving energy efficiency’",
-        url: "https://www.carbonbrief.org/world-can-limit-global-warming-one-point-five-improving-energy-efficiency/",
       },
     ],
     category: CATEGORY_SOLUTIONS,
@@ -560,7 +562,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "The world has enough minerals for low-carbon electricity",
+        name: "The world has enough minerals for low-carbon electricity (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/minerals-for-electricity",
       },
     ],
@@ -581,7 +583,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "The low-carbon energy transition will need less mining than fossil fuels, even when adjusted for waste rock",
+        name: "The low-carbon energy transition will need less mining than fossil fuels, even when adjusted for waste rock (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/energy-transition-materials",
       },
       {
@@ -593,7 +595,7 @@ const debunks = [
         url: "https://www.sciencedirect.com/science/article/pii/S0921344919302290",
       },
       {
-        name: "Mining quantities for low-carbon energy is hundreds to thousands of times lower than mining for fossil fuels",
+        name: "Mining quantities for low-carbon energy is hundreds to thousands of times lower than mining for fossil fuels (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/mining-low-carbon-vs-fossil",
       },
       {
@@ -601,19 +603,19 @@ const debunks = [
         url: "https://www.editionsdurocher.fr/product/129257/metaux-le-nouvel-or-noir/",
       },
       {
-        name: "Ademe - HORIZONS Les matériaux pour la transition énergétique, un sujet critique",
+        name: "Ademe - HORIZONS Les matériaux pour la transition énergétique, un sujet critique (ADEME, 2022)",
         url: "https://librairie.ademe.fr/cadic/6842/feuilleton_materiaux_de_la_te_transitions2050_ademe.pdf",
       },
       {
-        name: "RTE - L’ANALYSE ENVIRONNEMENTALE",
+        name: "RTE - L’ANALYSE ENVIRONNEMENTALE (RTE, 2022)",
         url: "https://assets.rte-france.com/prod/public/2022-06/FE2050 _Rapport complet_12.pdf",
       },
       {
-        name: "The Role of Critical Minerals in Clean Energy Transitions -IEA",
+        name: "The Role of Critical Minerals in Clean Energy Transitions (IEA, 2021)",
         url: "https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions/executive-summary",
       },
       {
-        name: "Twitter - Auke Hoekstra",
+        name: "Thread twitter (Auke Hoekstra, 2022)",
         url: "https://twitter.com/AukeHoekstra/status/1594084413943734272",
       },
     ],
@@ -632,7 +634,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "How much waste do solar panels and wind turbines produce?",
+        name: "How much waste do solar panels and wind turbines produce ? (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/renewables-waste",
       },
       {
@@ -681,51 +683,51 @@ const debunks = [
         url: "https://www.cell.com/joule/fulltext/S2542-4351(23)00001-6#%20",
       },
       {
-        name: "The world has enough minerals for low-carbon electricity",
+        name: "The world has enough minerals for low-carbon electricity (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/minerals-for-electricity",
       },
       {
-        name: "Cobalt, lithium, cuivre, uranium... va-t-on manquer de métaux pour la transition énergétique ? (Plans B 2023)",
+        name: "Cobalt, lithium, cuivre, uranium... va-t-on manquer de métaux pour la transition énergétique ? (Plans B, 2023)",
         url: "https://www.youtube.com/watch?v=F9QHcQoYZXY",
       },
       {
-        name: "Les Besoins Matériels de la Transition Energétique (Olivier Vidal - CNRS 2023)",
+        name: "Les Besoins Matériels de la Transition Energétique (Olivier Vidal - CNRS, 2023)",
         url: "https://www.youtube.com/watch?v=Gt1g6mfai-Y",
       },
       {
-        name: "Peut-on modéliser la transition ? (Baptiste Andrieu 2023)",
+        name: "Peut-on modéliser la transition ? (Baptiste Andrieu, 2023)",
         url: "https://www.youtube.com/watch?v=UmbFaPrXFcE",
       },
       {
-        name: "The Role of Critical Minerals in Clean Energy Transitions (IEA 2021)",
+        name: "The Role of Critical Minerals in Clean Energy Transitions (IEA, 2021)",
         url: "https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions",
       },
       {
-        name: "Geopolitics of the Energy Transition (IRENA 2023)",
+        name: "Geopolitics of the Energy Transition (IREN,A 2023)",
         url: "https://www.irena.org/Digital-Report/Geopolitics-of-the-Energy-Transition-Critical-Materials",
       },
       {
-        name: "We have enough minerals for the energy transition, but medium-term supply is a challenge [Part 1]",
+        name: "We have enough minerals for the energy transition, but medium-term supply is a challenge [Part 1] (SBN 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/transition-mineral-demand-part-one",
       },
       {
-        name: "We have enough minerals for the energy transition, but medium-term supply is a challenge [Part 2]",
+        name: "We have enough minerals for the energy transition, but medium-term supply is a challenge [Part 2] (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/transition-mineral-demand-part-two",
       },
       {
-        name: "Energy transformation won’t be derailed by lack of raw materials",
-        url: "https://ageoftransformation.org/energy-transformation-wont-be-derailed-by-lack-of-raw-materials/?utm_source=pocket_saves#so-in-summary",
+        name: "Energy transformation won’t be derailed by lack of raw materials (Age of transformation, 2023)",
+        url: "https://ageoftransformation.org/energy-transformation-wont-be-derailed-by-lack-of-raw-materials",
       },
       {
-        name: "Copper scarcity will not materially slow down the energy transition (Neon Research)",
+        name: "Copper scarcity will not materially slow down the energy transition (Neon Research, 2023)",
         url: "https://neonresearch.nl/copper-scarcity-will-not-materially-slow-down-the-energy-transition/",
       },
       {
-        name: "What you need to know about minerals and the clean energy transition",
+        name: "What you need to know about minerals and the clean energy transition (Canary media, 2022)",
         url: "https://www.canarymedia.com/articles/clean-energy/minerals-and-the-clean-energy-transition-the-basics-2",
       },
       {
-        name: "Critical Raw Materials for the energy transition: Europe must start mining again",
+        name: "Critical Raw Materials for the energy transition: Europe must start mining again (Energy Post EU, 2022)",
         url: "https://energypost.eu/critical-raw-materials-for-the-energy-transition-europe-must-start-mining-again/",
       },
       {
@@ -791,6 +793,7 @@ const debunks = [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa7f2d6a1-d729-4e8f-8e3c-e51f89957a92%2FCapture_decran_2024-03-03_a_15.53.30.png?table=block&id=304eb46a-ac3a-405d-9dab-d2b3749f25d7&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F051a6a38-88ac-467b-961e-c649f8e8879d%2FUntitled.png?table=block&id=646b57e2-c37c-45ab-ae04-af46c5a18563&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F8ffdd675-3fa0-47bd-bada-a50942cafcae%2FUntitled.png?table=block&id=5d2c48a0-9c57-43c3-a654-0394577cc681&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fee4df37a-b11f-427f-9eb0-cfdfea696efb%2FCapture_decran_2024-03-30_a_15.38.30.png?table=block&id=d003fa1b-9dc6-41e2-8fa7-5a2aff8260c6&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
     ],
     sources: [
       {
@@ -804,6 +807,10 @@ const debunks = [
       {
         name: "Global Greenfield Pumped Hydro Energy Storage Atlas (ANU, 2022)",
         url: "https://re100.eng.anu.edu.au/global/",
+      },
+      {
+        name: "EDF Scénario Net Zero 2050 (EDF, 2024)",
+        url: "https://www.edf.fr/scenario2050",
       },
     ],
     category: CATEGORY_SOLUTIONS,
