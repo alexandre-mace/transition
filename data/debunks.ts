@@ -751,11 +751,11 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Electric cars are better for the climate than petrol or diesel",
+        name: "Electric cars are better for the climate than petrol or diesel (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/ev-fossil-cars-climate",
       },
       {
-        name: "Most of the energy you put into a gasoline car is wasted; this is not the case for electric cars",
+        name: "Most of the energy you put into a gasoline car is wasted; this is not the case for electric cars (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/inefficiency-ice",
       },
     ],
