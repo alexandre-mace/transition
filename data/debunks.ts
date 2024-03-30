@@ -827,7 +827,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Have we got enough minerals?",
+        name: "Have we got enough minerals? (Just have a think, 2023)",
         url: "https://www.youtube.com/watch?v=Kr_JjO9YWOo",
       },
     ],
@@ -845,11 +845,11 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Biofuels: the US could switch to electric cars and solar power on just a fraction of the land",
+        name: "Biofuels: the US could switch to electric cars and solar power on just a fraction of the land (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/us-corn-biofuels",
       },
       {
-        name: "Global cropland (OWID)",
+        name: "Global cropland (OWID, 2021)",
         url: "https://ourworldindata.org/grapher/global-cropland",
       },
     ],
@@ -866,7 +866,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "How much biofuel would we need to decarbonise aviation?",
+        name: "How much biofuel would we need to decarbonise aviation? (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/aviation-part-two",
       },
     ],
@@ -907,7 +907,7 @@ const debunks = [
         url: "https://ourworldindata.org/data-review-air-pollution-deaths",
       },
       {
-        name: "Energy to waste – fossil fuels’ dirty secret (Illuminem 2023)",
+        name: "Energy to waste – fossil fuels’ dirty secret (Illuminem, 2023)",
         url: "https://illuminem.com/illuminemvoices/energy-to-waste-fossil-fuels-dirty-secret",
       },
       {
@@ -919,11 +919,11 @@ const debunks = [
         url: "https://www.nature.com/articles/s41893-023-01132-6",
       },
       {
-        name: "Le charbon et ses impacts",
-        url: "https://www.youtube.com/watch?v=UXSIsb3E1X4 / ",
+        name: "Le charbon et ses impacts (Le Réveilleur, 2023)",
+        url: "https://www.youtube.com/watch?v=UXSIsb3E1X4",
       },
       {
-        name: "The 2023 Report of the Lancet Countdown on Health and Climate Change (Lancet 2023)",
+        name: "The 2023 Report of the Lancet Countdown on Health and Climate Change (Lancet, 2023)",
         url: "https://www.lancetcountdown.org/about-us/interact-with-the-key-findings/",
       },
     ],
@@ -990,7 +990,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Futurs énergétiques 2050 : les scénarios de mix de production à l’étude permettant d’atteindre la neutralité carbone à l’horizon 2050",
+        name: "Futurs énergétiques 2050 : les scénarios de mix de production à l’étude permettant d’atteindre la neutralité carbone à l’horizon 2050 (RTE, 2022)",
         url: "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques#Lesdocuments",
       },
     ],
@@ -1009,19 +1009,19 @@ const debunks = [
     ],
     sources: [
       {
-        name: "The future of low-carbon heating is heat pumps",
+        name: "The future of low-carbon heating is heat pumps (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/heat-pumps",
       },
       {
-        name: "https://ourworldindata.org/food-choice-vs-eating-local (OWID, 2020)",
+        name: "You want to reduce the carbon footprint of your food? Focus on what you eat, not whether your food is local (OWID, 2020)",
         url: "https://ourworldindata.org/food-choice-vs-eating-local",
       },
       {
-        name: "Are meat substitutes really better for the environment than meat?",
+        name: "Are meat substitutes really better for the environment than meat? (SBN, 2022)",
         url: "https://www.sustainabilitybynumbers.com/p/carbon-footprint-meat-substitutes",
       },
       {
-        name: "10 actions simples pour devenir écolo",
+        name: "10 actions simples pour devenir écolo (BonPote, 2021)",
         url: "https://bonpote.com/10-actions-simples-pour-devenir-ecolo/",
       },
     ],
