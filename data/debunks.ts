@@ -763,16 +763,16 @@ const debunks = [
     tags: [VOITURE_ELECTRIQUE],
   },
   {
-    question: "A-t’on assez de lithium pour les batteries de voiture  ?",
+    question: "A-t’on assez de lithium pour les batteries de voiture ?",
     answer:
-      "Yes, the world has enough lithium for our electric vehicles, decades into the future.     The world is currently not producing enough of it to keep up with demand. This could be a major bottleneck this decade.",
+      "Yes, the world has enough lithium for our electric vehicles, decades into the future. The world is currently not producing enough of it to keep up with demand. This could be a major bottleneck this decade.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F70c9df0e-ff67-4f46-bf6f-bf0cea438718%2FUntitled.png?table=block&id=a30565ea-4abe-41c2-b30e-f2cc4c5482dd&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F7c5b4739-82f5-4899-97c5-17bd875e6b59%2FUntitled.png?table=block&id=5eeec656-82e1-49be-8ce0-2a4a50930c67&cache=v2",
     ],
     sources: [
       {
-        name: "Does the world have enough lithium to move to electric vehicles?",
+        name: "Does the world have enough lithium to move to electric vehicles ? (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/lithium-electric-vehicles",
       },
       {
