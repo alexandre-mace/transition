@@ -1037,7 +1037,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "The New Climate Denial : How social media platforms and content producers profit by spreading new forms of climate denial (CCDH 2024).",
+        name: "The New Climate Denial : How social media platforms and content producers profit by spreading new forms of climate denial (CCDH, 2024).",
         url: "https://counterhate.com/wp-content/uploads/2024/01/CCDH-The-New-Climate-Denial_FINAL.pdf",
       },
       {
@@ -1062,7 +1062,7 @@ const debunks = [
         url: "https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext",
       },
       {
-        name: "Young people feel like they have no future due to climate change; we need to change the narrative",
+        name: "Young people feel like they have no future due to climate change; we need to change the narrative (SBN, 2022)",
         url: "https://www.sustainabilitybynumbers.com/p/young-climate-anxiety",
       },
     ],
@@ -1077,11 +1077,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Prospective - Transitions 2050 - Feuilleton Mix électrique",
-        url: "https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(21)00278-3/fulltext",
-      },
-      {
-        name: "Young people feel like they have no future due to climate change; we need to change the narrative",
+        name: "Prospective - Transitions 2050 - Feuilleton Mix électrique (RTE, 2022)",
         url: "https://librairie.ademe.fr/energies-renouvelables-reseaux-et-stockage/5352-prospective-transitions-2050-feuilleton-mix-electrique.html",
       },
     ],
@@ -1115,7 +1111,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "How much more electricity will the UK need to switch to electric vehicles?",
+        name: "How much more electricity will the UK need to switch to electric vehicles? (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/uk-ev-electricity-demand",
       },
     ],
@@ -1133,7 +1129,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Which countries have ‘enough’ public chargers for electric cars?",
+        name: "Which countries have ‘enough’ public chargers for electric cars? (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/public-ev-chargers",
       },
     ],
@@ -1154,11 +1150,11 @@ const debunks = [
     ],
     sources: [
       {
-        name: "The weighty issue of electric cars [Part 1]",
+        name: "The weighty issue of electric cars [Part 1] (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/weighty-issue-of-electric-cars",
       },
       {
-        name: "The weighty issue of electric cars [Part 2]",
+        name: "The weighty issue of electric cars [Part 2] (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/weighty-issue-of-electric-cars-two",
       },
     ],
@@ -1173,7 +1169,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "ONU Stressing Air Pollution Kills 7 Million People Annually, Secretary-General Urges Governments to Build Green Economy, in Message for World Environment Day\n",
+        name: "ONU Stressing Air Pollution Kills 7 Million People Annually, Secretary-General Urges Governments to Build Green Economy, in Message for World Environment Day (ONU, 2019)",
         url: "https://press.un.org/en/2019/sgsm19607.doc.htm",
       },
       {
@@ -1196,19 +1192,19 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Thread Visa Siekkinen",
+        name: "Thread twitter (Visa Siekkinen, 2022)",
         url: "https://threadreaderapp.com/thread/1593944033218502657.html",
       },
       {
-        name: "How Many Things Must One Analyst Get Wrong In Order To Proclaim A Convenient Decarbonization Minerals Shortage?\n",
+        name: "How Many Things Must One Analyst Get Wrong In Order To Proclaim A Convenient Decarbonization Minerals Shortage? (CleanTechnica, 2023)",
         url: "https://cleantechnica.com/2023/07/04/how-many-things-must-one-analyst-get-wrong-in-order-to-proclaim-a-convenient-decarbonization-minerals-shortage/",
       },
       {
-        name: "Thread Auke Hoekstra",
+        name: "Thread twitter (Auke Hoekstra, 2022)",
         url: "https://twitter.com/AukeHoekstra/status/1594084375972712448",
       },
       {
-        name: "Energy transformation won’t be derailed by lack of raw materials",
+        name: "Energy transformation won’t be derailed by lack of raw materials (Age of transformation, 2023)",
         url: "https://ageoftransformation.org/energy-transformation-wont-be-derailed-by-lack-of-raw-materials/?utm_source=pocket_saves#so-in-summary",
       },
     ],
@@ -1242,7 +1238,7 @@ const debunks = [
         url: "https://ieeexplore.ieee.org/document/9837910",
       },
       {
-        name: "Researchers agree: The world can reach a 100% renewable energy system by or before 2050",
+        name: "Researchers agree: The world can reach a 100% renewable energy system by or before 2050 (Helsinki Times, 2022)",
         url: "https://www.helsinkitimes.fi/themes/themes/science-and-technology/22012-researchers-agree-the-world-can-reach-a-100-renewable-energy-system-by-or-before-2050.html#.YvPUxCrrWdI.twitter",
       },
       {
@@ -1293,7 +1289,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Retrouver une vision consensuelle de l'énergie et nouveaux outils d'analyse pour penser la transition Karim Megherbi",
+        name: "Retrouver une vision consensuelle de l'énergie et nouveaux outils d'analyse pour penser la transition (Karim Megherbi, 2022)",
         url: "https://www.linkedin.com/pulse/retrouver-une-vision-consensuelle-de-l%C3%A9nergie-et-outils-megherbi/",
       },
       {
@@ -1310,8 +1306,8 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Road to Net Zero Les investissements nécessaires à l’atteinte de la neutralité carbone",
-        url: "https://www.linkedin.com/pulse/retrouver-une-vision-consensuelle-de-l%C3%A9nergie-et-outils-megherbi/",
+        name: "Road to Net Zero Les investissements nécessaires à l’atteinte de la neutralité carbone (Institut Rousseau, 2024)",
+        url: "https://institut-rousseau.fr/road-2-net-zero/",
       },
     ],
     category: CATEGORY_ANNEXES,
@@ -1342,19 +1338,19 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Accumulation des énergies - Part 1",
-        url: "https://www.linkedin.com/posts/karim-megherbi-a18a7a28_nos-%C3%A9nergies-saccumulent-elles-et-est-ce-activity-7068452133699805184-vffG/?utm_source=share&utm_medium=member_desktop",
+        name: "Accumulation des énergies - Part 1 (Karim Megherhi, 2023)",
+        url: "https://www.linkedin.com/posts/karim-megherbi-a18a7a28_nos-%C3%A9nergies-saccumulent-elles-et-est-ce-activity-7068452133699805184-vffG",
       },
       {
-        name: "Accumulation des énergies - Part 2",
+        name: "Accumulation des énergies - Part 2 (Karim Megherhi, 2023)",
         url: "https://www.linkedin.com/posts/karim-megherbi-a18a7a28_nos-%C3%A9nergies-ne-font-elles-que-saccumuler-activity-7071851885644627968-NRUw/?utm_source=share&utm_medium=member_desktop",
       },
       {
-        name: "PRÉCISIONS SUR LES BILANS CO2 ÉTABLIS DANS LE BILAN PRÉVISIONNEL ET LES ÉTUDES ASSOCIÉES (RTE 2020)",
+        name: "PRÉCISIONS SUR LES BILANS CO2 ÉTABLIS DANS LE BILAN PRÉVISIONNEL ET LES ÉTUDES ASSOCIÉES (RTE, 2020)",
         url: "https://assets.rte-france.com/prod/public/2020-06/note bilans co2.pdf",
       },
       {
-        name: "Rappel en vidéo lors de la restitution du rapport par RTE",
+        name: "Rappel en vidéo lors de la restitution du rapport par RTE (Thomas Veyrenc RTE, 2023)",
         url: "https://www.linkedin.com/posts/damien-salel-70599b11a_dans-un-récent-article-de-michel-revol-le-activity-7130860689614606336-Uxwp/",
       },
     ],
@@ -1369,7 +1365,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Unburnable Carbon: Ten Years On (Carbon Tracker 2022)",
+        name: "Unburnable Carbon: Ten Years On (Carbon Tracker, 2022)",
         url: "https://carbontracker.org/reports/unburnable-carbon-ten-years-on/",
       },
     ],
@@ -1386,7 +1382,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Global Oil & Gas Exit List (Urgewald 2022)",
+        name: "Global Oil & Gas Exit List (Urgewald, 2022)",
         url: "https://gogel.org/",
       },
     ],
@@ -1408,7 +1404,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "Post LinkedIn (Loic Giaccone 2023)",
+        name: "Post LinkedIn (Loic Giaccone, 2023)",
         url: "https://www.linkedin.com/posts/loïc-giaccone_dans-une-première-version-de-larticle-que-activity-7119338834357534722-KDGx/?utm_source=share&utm_medium=member_desktop",
       },
       {
@@ -1427,7 +1423,7 @@ const debunks = [
     ],
     sources: [
       {
-        name: "L’ANALYSE DES COUTS DU SYSTEME DE PRODUCTION ELECTRIQUE EN FRANCE (Cour des comptes 2021)",
+        name: "L’ANALYSE DES COUTS DU SYSTEME DE PRODUCTION ELECTRIQUE EN FRANCE (Cour des comptes, 2021)",
         url: "https://www.ccomptes.fr/fr/documents/58078",
       },
       "https://www.linkedin.com/posts/grégory-lamotte-bb31421b_quel-est-le-vrai-coût-de-lintermittence-ugcPost-7168622909207396352-THPv",
@@ -1442,7 +1438,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Understanding the Paris Agreement’s Long Term Temperature Goal",
+        name: "Understanding the Paris Agreement’s Long Term Temperature Goal (Climate Analytics)",
         url: "https://climateanalytics.org/comment/understanding-the-paris-agreements-long-term-temperature-goal",
       },
       {
@@ -1474,7 +1470,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Low-carbon energy does not have the same energy security risks as fossil fuels (Sustainability by numbers 2024)",
+        name: "Low-carbon energy does not have the same energy security risks as fossil fuels (SBN, 2024)",
         url: "https://www.sustainabilitybynumbers.com/p/energy-security-minerals",
       },
     ],
@@ -1488,7 +1484,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1502,7 +1498,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1516,7 +1512,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1530,7 +1526,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1544,7 +1540,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1558,7 +1554,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole\n",
+        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
         url: "https://afterres2050.solagro.org/debattre/elevage/",
       },
     ],
@@ -1572,7 +1568,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "État de l'art de la recherche scientifique sur l'impact climatique des traînées de condensation des avions",
+        name: "État de l'art de la recherche scientifique sur l'impact climatique des traînées de condensation des avions (ADEME, 2021)",
         url: "https://librairie.ademe.fr/mobilite-et-transport/4617-etat-de-l-art-de-la-recherche-scientifique-sur-l-impact-climatique-des-trainees-de-condensation-des-avions.html",
       },
     ],
@@ -1586,7 +1582,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "Futurs\n" + "énergétiques\n" + "2050\n" + "Principaux résultats",
+        name: "Futurs énergétiques 2050 Principaux résultats (RTE, 2021)",
         url: "https://assets.rte-france.com/prod/public/2021-12/Futurs-Energetiques-2050-principaux-resultats.pdf",
       },
     ],
@@ -1601,7 +1597,7 @@ const debunks = [
     images: [],
     sources: [
       {
-        name: "[Avis de l’ADEME] Tous les acteurs doivent agir collectivement pour la neutralité carbone, mais aucun acteur ne devrait se revendiquer neutre en carbone",
+        name: "[Avis de l’ADEME] Tous les acteurs doivent agir collectivement pour la neutralité carbone, mais aucun acteur ne devrait se revendiquer neutre en carbone (ADEME, 2021))",
         url: "https://presse.ademe.fr/2021/04/avis-de-lademe-tous-les-acteurs-doivent-agir-collectivement-pour-la-neutralite-carbone-mais-aucun-acteur-ne-devrait-se-revendiquer-neutre-en-carbone.html",
       },
       {
