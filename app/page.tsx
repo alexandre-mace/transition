@@ -82,7 +82,7 @@ export default function Home() {
             />
           </div>
         )}
-        {search === "" && (
+        {search === "" && selectedTags.length === 0 && (
           <div className={"space-y-10"}>
             <div className={"space-y-4"}>
               <h2 className={"text-3xl font-bold"}>Les solutions</h2>
