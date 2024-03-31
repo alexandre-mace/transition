@@ -122,22 +122,6 @@ const debunks = [
     tags: [INACTION, EMISSIONS, FRANCE],
   },
   {
-    question: "Nos émissions sont-elles en train d'augmenter ?",
-    answer:
-      "Les émissions augmentent toujours chaque année. “Many countries succeed in reducing their fossil CO2 emissions or slowing down their growth,\n" +
-      "but recent progress is not fast enough and not widespread enough to put global emissions on\n" +
-      "a downward trajectory towards net zero.”\n" +
-      '"Fossil CO2 emissions are falling in some regions, including Europe and the USA, but rising overall – and the scientists say global action to cut fossil fuels is not happening fast enough to prevent dangerous climate change.”',
-    images: [],
-    sources: [
-      "https://www.sustainabilitybynumbers.com/p/small-emitters",
-      "https://bonpote.com/analyse-la-france-ne-represente-que-1-des-emissions-de-co2/",
-      "https://bonpote.com/la-france-est-elle-vraiment-4e-pays-le-plus-vert-au-monde/",
-    ],
-    category: CATEGORY_CAUSE,
-    tags: [EMISSIONS],
-  },
-  {
     question: "Inégalités face au changement climatique",
     answer:
       "Les émissions augmentent toujours chaque année. “Many countries succeed in reducing their fossil CO2 emissions or slowing down their growth,\n" +
@@ -986,7 +970,6 @@ const debunks = [
       "    > les actions de sobriété peuvent permettre de couvrir en totalité le supplément électrique nécessaire!",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F10b46ec1-f925-4bed-9da1-d6f6aa61fa9a%2FCapture_decran_2024-03-01_a_14.38.11.png?table=block&id=f992ca08-5700-4c60-afd3-25ec0e64f9c8&cache=v2",
-      "",
     ],
     sources: [
       {
@@ -1250,7 +1233,7 @@ const debunks = [
     tags: [RENOUVELABLES],
   },
   {
-    question: "Les scénarios 100% renouvelables se multiplient",
+    question: "Les éoliennes tuent-elles beaucoup d'oiseaux ?",
     answer:
       "Peu comparé à d’autres activités, mais il y a matière à réduire fortement le nombre de collisions 👇",
     images: [
@@ -1400,7 +1383,6 @@ const debunks = [
       "Degrowth can ease but not replace climate policies",
     images: [
       "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-42782-y/MediaObjects/41598_2023_42782_Fig1_HTML.png?as=webp",
-      "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-42782-y/MediaObjects/41598_2023_42782_Fig1_HTML.png?as=webp",
     ],
     sources: [
       {
@@ -1481,20 +1463,6 @@ const debunks = [
     question: "Quelle est l'empreinte au sol de l'élevage ?",
     answer:
       "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage). Dans le monde, l’élevage représente 1/4 des surfaces arables (en majorité des grains pour les monogastriques), cet argument est souvent utilisé pour défendre un statu quo pour les ruminants (image de la vache à l’herbe sur prairie naturelle). En France, on utilise 40% des terres arables pour nourrir les ruminants (concurrence directe avec l’alimentation humaine pour leur utilisation fourragère).",
-    images: [],
-    sources: [
-      {
-        name: "Évolutions de l’élevage et place dans les systèmes de production agricole (Solagro, 2021)",
-        url: "https://afterres2050.solagro.org/debattre/elevage/",
-      },
-    ],
-    category: CATEGORY_ANNEXES,
-    tags: [AGRICULTURE],
-  },
-  {
-    question: "Quelle est l'empreinte au sol de l'élevage ?",
-    answer:
-      "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage)",
     images: [],
     sources: [
       {

@@ -10,10 +10,16 @@ import {
 } from "@/components/ui/carousel";
 import { type Debunk } from "@/data/debunks";
 import DebunkImage from "@/components/DebunkImage";
+import { slugify } from "@/lib/utils";
+import { Send } from "lucide-react";
+import SendToClipboard from "@/components/SendToClipboard";
 
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
   return (
-    <div className={"flex flex-col gap-2 rounded-2xl border bg-white p-4"}>
+    <div
+      className={"flex flex-col gap-2 rounded-2xl border bg-white p-4"}
+      id={slugify(debunk.question)}
+    >
       <div className={"text-lg font-bold"}>{debunk.question}</div>
       <div className={""}>{debunk.answer}</div>
       {debunk.images.length > 0 && (
@@ -76,9 +82,12 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
         ))}
       </div>
       <div className={"mt-auto"}>
-        <div className={"mt-2"}>
+        <div className={"mt-2 flex items-center gap-2"}>
           <CopyToClipboard
             content={`${debunk.answer} (${debunk.sources.map((source) => (typeof source === "string" ? source : source.url))})`}
+          />
+          <SendToClipboard
+            content={window.location.origin + "#" + slugify(debunk.question)}
           />
         </div>
       </div>
