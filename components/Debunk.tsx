@@ -11,7 +11,6 @@ import {
 import { type Debunk } from "@/data/debunks";
 import DebunkImage from "@/components/DebunkImage";
 import { slugify } from "@/lib/utils";
-import { Send } from "lucide-react";
 import SendToClipboard from "@/components/SendToClipboard";
 
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
@@ -87,7 +86,11 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
             content={`${debunk.answer} (${debunk.sources.map((source) => (typeof source === "string" ? source : source.url))})`}
           />
           <SendToClipboard
-            content={window.location.origin + "#" + slugify(debunk.question)}
+            content={
+              typeof window !== "undefined"
+                ? window.location.origin + "#" + slugify(debunk.question)
+                : ""
+            }
           />
         </div>
       </div>
