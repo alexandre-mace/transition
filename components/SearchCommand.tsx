@@ -71,9 +71,12 @@ const CustomCommandItem = ({
       href={"#" + slugify(debunk.question)}
       onClick={() => setOpen(false)}
     >
-      <CommandItem onSelect={(value) => ref?.current?.click()}>
+      <CommandItem
+        onSelect={(value) => ref?.current?.click()}
+        className={"data-[disabled]:opacity-100"}
+      >
         <LinkIcon className="mr-2 h-4 w-4" />
-        <span>{debunk.question}</span>
+        <div>{debunk.question}</div>
       </CommandItem>
     </Link>
   );

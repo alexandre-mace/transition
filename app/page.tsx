@@ -34,13 +34,15 @@ export default function Home() {
       <section className={"container flex justify-center"}>
         <Input
           placeholder={"Je recherche"}
-          className={"z-10 max-w-sm bg-white"}
+          className={
+            "z-10 max-w-sm bg-white text-center font-medium placeholder:font-medium"
+          }
           value={search}
           onChange={(event) => setSearch(event.target.value)}
         />
       </section>
 
-      <section className={"container flex flex-wrap gap-2"}>
+      <section className={"container flex flex-wrap justify-center gap-2"}>
         {tags
           .sort((a, b) => a.localeCompare(b))
           .map((tag) => (
