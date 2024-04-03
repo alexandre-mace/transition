@@ -22,11 +22,11 @@ export default function Home() {
 
   return (
     <main className={"space-y-10"}>
-      <section className="relative mx-auto flex flex-col gap-2 py-8 md:gap-3">
+      <section className="relative mx-auto flex flex-col gap-2 pt-8 md:gap-3">
         <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 lg:text-6xl">
           Transitions
         </h1>
-        <p className="mx-auto max-w-4xl text-center text-xl text-zinc-500 sm:text-xl">
+        <p className="mx-auto max-w-4xl text-center text-zinc-500">
           Explorer les idées reçues de la transition énergétique
         </p>
       </section>
@@ -48,7 +48,7 @@ export default function Home() {
           .map((tag) => (
             <Button
               variant={"secondary"}
-              className={`h-auto border px-2 py-1 text-xs ${selectedTags.includes(tag) ? "border-black" : ""}`}
+              className={`h-auto border px-2 py-1 text-sm ${selectedTags.includes(tag) ? "border-black" : ""}`}
               key={tag}
               onClick={() => {
                 if (selectedTags.includes(tag)) {

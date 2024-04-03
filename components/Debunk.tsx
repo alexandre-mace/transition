@@ -20,7 +20,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
       id={slugify(debunk.question)}
     >
       <div className={"text-lg font-bold"}>{debunk.question}</div>
-      <div className={""}>{debunk.answer}</div>
+      <div className={""} dangerouslySetInnerHTML={{ __html: debunk.answer }} />
       {debunk.images.length > 0 && (
         <div className={"px-12 py-4"}>
           <Carousel className={"max-w-full"}>

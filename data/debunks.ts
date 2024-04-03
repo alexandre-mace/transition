@@ -917,7 +917,11 @@ const debunks = [
   {
     question: "Comment décarboner l'aviation ?",
     answer:
-      "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Réglementer l’usage en conséquence. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité.",
+      "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Réglementer l’usage en conséquence. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité. En mars 2021, le collectif d’ingénieurs de l’aéronautique SUPAERO DECARBO et The Shift Project arrivaient à cette conclusion : « la réduction du trafic aérien est la seule mesure permettant de réduire les émissions de CO2 du secteur aérien de manière certaine. » (https://t.ly/VfT6S)\n" +
+      "\n" +
+      "En janvier 2022, Cédric Villani, alors Président de l’Office parlementaire d’évaluation des choix scientifiques et technologiques (OPECST), disait à peu près la même chose: « A ce jour et avec les technologies dont nous disposons dans le futur proche, le seul levier qui garantit rigoureusement la décarbonation du secteur [aérien], c’est la forte réduction de la quantité de voyages. » (https://t.ly/r1VBQ)\n" +
+      "\n" +
+      "En février 2023, la Royal Society en remettait une couche : « il n’y a pas un seul substitut soutenable au kérosène qui permettrait de maintenir le trafic aérien au niveau actuel ». Si l’on utilisait la biomasse, par exemple, il « faudrait plus de 50% de la surface agricole utile du Royaume-Uni » ; de l’H2 produit avec des sources d’énergie renouvelable ? Ca demanderait « 2,4 à 3,4 fois la production d’énergie renouvelable du pays (en 2020) ». (https://t.ly/hY69S)",
     images: [
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9389c9c-5df7-4d80-b737-8c41e56c211c%2FCapture_decran_2024-03-29_a_22.25.34.png?table=block&id=c1ba18a4-5fb0-4179-8784-02c6bc88ea08&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=1420&userId=&cache=v2",
     ],
@@ -1299,14 +1303,7 @@ const debunks = [
   {
     question: "Qui écouter sur le sujet des métaux ?",
     answer:
-      "    Olivier Vidal\n" +
-      "\n" +
-      "    Emmanuel Hache\n" +
-      "\n" +
-      "    Baptiste Andrieu\n" +
-      "\n" +
-      "    Greg De Temmerman\n" +
-      "\n",
+      "<ul><li>Olivier Vidal</li><li>Emmanuel Hache</li> <li>Baptiste Andrieu</li> <li>Greg De Temmerman</li></ul>",
     images: [],
     sources: [],
     category: CATEGORY_ANNEXES,
