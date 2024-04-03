@@ -366,7 +366,8 @@ const debunks = [
     tags: [SANTE],
   },
   {
-    question: "Est-ce trop tard ?",
+    question:
+      "Y'a t'il une inertie climatique de 20 ans ? Est-ce trop tard pour agir ?",
     answer:
       "Les meilleures connaissances disponibles montrent qu’au contraire, le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique. Il n'y a pas d'inertie climatique de 20 ans.",
     images: [
@@ -396,7 +397,7 @@ const debunks = [
   {
     question: "Le système énergétique actuel est-il efficient ?",
     answer:
-      "Non, il comporte BEAUCOUP de pertes. La “primary energy fallacy” réside dans l'hypothèse selon laquelle toutes les sources d'énergie issues du pétrole, du gaz et du charbon que nous utilisons actuellement doivent être remplacées. L'énergie primaire pour une économie provient de la gauche. Elle est ensuite répartie dans ses différentes utilisations, telles que le gaz naturel pour la génération électrique et le chauffage. Une partie de cette énergie, qui n'est pas perdue par inefficacité, est utilisée pour fournir des services énergétiques. Cependant, une autre partie est simplement dissipée sous forme de chaleur résiduelle, sans apporter aucun bénéfice utile pour nous.",
+      "Non, le système thermique actuel comporte beaucoup de pertes. Voilà ci-dessous un graphique de la consommation d'énergie des États-Unis. L'énergie primaire pour une économie provient de la gauche. Elle est ensuite répartie dans ses différentes utilisations. Une partie très importante est simplement dissipée sous forme de chaleur résiduelle. La “primary energy fallacy” réside dans l'hypothèse selon laquelle toutes les sources d'énergie issues du pétrole, du gaz et du charbon que nous utilisons actuellement doivent être remplacées.",
     images: [
       "https://flowcharts.llnl.gov/sites/flowcharts/files/2023-10/US%20Energy%202022.png",
     ],
@@ -415,12 +416,16 @@ const debunks = [
   },
   {
     question: "C’est quoi un scénario net zéro émissions ?",
-    answer: "",
+    answer:
+      "C'est un scénario qui permet d'atteindre à un horizon de temps donné, en limitant le réchauffement mondial moyen à un degré donné, l'équilibre entre les émissions de carbone et l'absorption du carbone de l'atmosphère par les puits de carbone.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F26ba6e0e-47be-4420-8ccb-ab20a901b3a8%2FUntitled.png?table=block&id=1675a518-64f1-4354-bcea-7232b6887f38&cache=v2",
+      "https://neutral.climatelab.fr/static/media/scenarios.8ae650d1b2a54a0bff24.png",
+      "https://www.ademe.fr/wp-content/uploads/2022/09/infographie-energie.png",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F90a2724d-b022-47f7-9068-4e616fd9c470%2FCapture_decran_2024-04-04_a_00.57.19.png?table=block&id=ab6f23c8-d123-4d2a-9577-edf278bcb8a6&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F53a18750-b610-472d-a4de-d994aeb54165%2FCapture_decran_2024-04-04_a_00.58.21.png?table=block&id=2294255e-42a1-4b2e-8a3a-7bfe17d9bc33&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F20fadc13-34b7-44fe-9b41-052545a229f3%2Fco2-mitigation-15c.png?table=block&id=2936d6c1-2cad-4ea1-8014-61c553ff300e&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F777f380f-f5f7-493a-be0d-3bf07f8a6c98%2FUntitled.png?table=block&id=25a7f540-5dad-4d1d-9759-8b751d5c710b&cache=v2",
-      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F01daec94-9185-4efd-8108-2c95911434fd%2FCapture_decran_2024-03-30_a_11.48.31.png?table=block&id=36a5b17d-e42d-40b1-b564-cdd9c6cc88ea&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fdaffaf6f-503d-4a2d-b1ab-ca4930d89adb%2FCapture_decran_2024-03-30_a_15.29.08.png?table=block&id=8629a2c1-486f-4931-af4f-2e6fbcd53a71&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F9800e6af-9961-492c-b8c6-19c4eaada474%2FCapture_decran_2024-03-30_a_15.30.42.png?table=block&id=4b7bcbc0-daa0-4cee-aeac-cd012cd03066&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
     ],
@@ -472,14 +477,27 @@ const debunks = [
   {
     question: "Quelles sont les principales solutions ?",
     answer:
-      "“Many options available now in all sectors are estimated to offer substantial potential to reduce net emissions by 2030. Relative potentials and costs will vary across countries and in the longer term compared to 2030.”",
+      "“Many options available now in all sectors are estimated to offer substantial potential to reduce net emissions by 2030. Relative potentials and costs will vary across countries and in the longer term compared to 2030.” Also, “The indicative potential of demand-side strategies to reduce\n" +
+      "emissions of direct and indirect CO2 and non-CO2 GHG emissions\n" +
+      "in three end-use sectors (buildings, land transport, and food) is\n" +
+      "40–70% globally by 2050 (high confidence)”",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ffdb7dc90-9469-4725-ab53-097c0a7edb66%2FCapture_decran_2024-03-03_a_19.30.32.png?table=block&id=15a520b8-9001-4ca4-abdc-c69831c7f50c&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff8c22d63-1541-4f3c-9628-938ffcbe9cba%2FCapture_decran_2024-04-04_a_01.16.19.png?table=block&id=318e675f-1bdc-4875-b434-3b2ffce7fa3d&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F938a906b-9460-4a07-af90-c6f95187b1ba%2FCapture_decran_2024-04-04_a_01.16.52.png?table=block&id=d0d2908d-2194-4b8f-a229-21dc6833c67b&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
     ],
     sources: [
       {
         name: "Figure SPM.7 | Overview of mitigation options and their estimated ranges of costs and potentials in 2030. (IPCC 2022)",
         url: "https://www.ipcc.ch/report/ar6/wg3/chapter/summary-for-policymakers/",
+      },
+      {
+        name: "Figure SPM.6: Indicative potential of demand-side mitigation options by 2050",
+        url: "https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-6/",
+      },
+      {
+        name: "Figure 5.8 | Synthesis of 60 demand-side options ordered by the median GHG mitigation potential found across all estimates from the literature.",
+        url: "https://www.ipcc.ch/report/ar6/wg3/figures/chapter-5/figure-5-8",
       },
     ],
     category: CATEGORY_SOLUTIONS,
@@ -488,9 +506,7 @@ const debunks = [
   {
     question: "Sans changement climatique, faudrait-il changer de système ?",
     answer:
-      "Même sans changement climatique, les impacts sur la santé humaine à eux seuls montrent qu’il faut changer de système. “Our results suggest that further relying predominantly on these new renewables in the transition towards a near-zero emissions power system also reduces most nonclimate environmental impacts on the system level compared to strategies that limit the contribution of wind and solar power largely in favor of greater CCS deployment.”. Poussières de charbon: 1.1 milliards de tonnes/an. Pétrole-gaz: 1er émetteur de composés organiques volatiles qui créent\n" +
-      "les brouillards de pollution (cf récemment septembre dernier la ville\n" +
-      "Dehli). 8 millions de morts prématurées/an. 7 trillions de dollars dépensés en 2022 en subventions directes et indirects (réparation des externalités négatives).",
+      "Même sans changement climatique, les impacts sur la santé humaine à eux seuls montrent qu’il faut changer de système. “Our results suggest that further relying predominantly on these new renewables in the transition towards a near-zero emissions power system also reduces most nonclimate environmental impacts on the system level compared to strategies that limit the contribution of wind and solar power largely in favor of greater CCS deployment.”. <ul class='list-disc px-3'>Entre autres 👇<li>Poussières de charbon: 1.1 milliards de tonnes/an.</li> <li>Pétrole-gaz: 1er émetteur de composés organiques volatiles qui créent les brouillards de pollution.</li> <li>8 millions de morts prématurées/an.</li> <li>7 trillions de dollars dépensés en 2022 en subventions directes et indirects (réparation des externalités négatives).</li></ul>",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff23f983c-99f4-472c-8024-9ab49428a0d3%2FCapture_decran_2024-02-26_a_00.06.09.png?table=block&id=149e2794-ca93-4147-a53c-6744468ccd74&cache=v2",
     ],
@@ -514,7 +530,7 @@ const debunks = [
   {
     question: "Consomme t'on plus d'énergie après la transition ?",
     answer:
-      "Without economic and population growth and in a decarbonised world, our final energy demand is much lower than it is today. A study by the Oxford Professor Nick Eyre suggests it’s about 40% lower. Taking them into account : with weak decarbonisation (stated policies) global energy demand continues to rise. With strong decarbonisation, energy demand will fall slightly. Importantly, this is about final energy demand. It doesn’t include the decline in primary energy demand that we’d expect with decarbonisation. This would be substantial because most energy from burning fossil fuels is wasted when converting it to final energy.",
+      '"Without economic and population growth and in a decarbonised world, our final energy demand is much lower than it is today. A study by the Oxford Professor Nick Eyre suggests it’s about 40% lower. Taking them into account : with weak decarbonisation (stated policies) global energy demand continues to rise. With strong decarbonisation, energy demand will fall slightly. Importantly, this is about final energy demand. It doesn’t include the decline in primary energy demand that we’d expect with decarbonisation. This would be substantial because most energy from burning fossil fuels is wasted when converting it to final energy."',
     images: [
       "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4057436-20c0-4576-a763-81947dfa31d1_662x575.png",
       "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F288058c1-f52d-4594-883c-9ffbc522960f_1600x861.png",
@@ -556,8 +572,8 @@ const debunks = [
   {
     question: "La transition énergétique nous met-elle dans un extractivisme ?",
     answer:
-      'The materials we need for the transition to sustainable energy are a drop in the bucket compared to building materials, agriculture, and fossil fuels. "The Material Flow Analysis Portal compiled and maintained by @wu_vienna\n' +
-      "provides great context with non-metallic minerals such as sand, gravel, and stone. When put to scale, the critical minerals for the energy transition are a relatively small slice.” “Stronger actions are required to counter the upward pressure on emissions from mineral production, but the climate advantages of clean energy technologies remain clear”. if we all eat 1% less meat (or if we make cultured meat cheaper and healthier), we save more species than if we abandon all mining that’s needed for the shift to renewables. La transition énergétique à faible émission de carbone nécessitera moins d’exploitation minière que les combustibles fossiles, même en tenant compte des déchets de roche. Material requirements for low-carbon technologies will increase substantially, but they will still be lower than fossil fuel extraction",
+      '"The low-carbon energy transition will need less mining than fossil fuels, even when adjusted for waste rock". "Material requirements for low-carbon technologies will increase substantially, but they will still be lower than fossil fuel extraction". "The materials we need for the transition to sustainable energy are a drop in the bucket compared to building materials, agriculture, and fossil fuels. The Material Flow Analysis Portal compiled and maintained by @wu_vienna\n' +
+      'provides great context with non-metallic minerals such as sand, gravel, and stone. When put to scale, the critical minerals for the energy transition are a relatively small slice.” "If we all eat 1% less meat, we save more species than if we abandon all mining that’s needed for the shift to renewables.".',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fda1edd75-6f90-48ee-a6de-809a40c09c3e%2FUntitled.png?table=block&id=3b3d9cce-a17a-4235-94e4-090e55b32498&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F7e5f2c0f-35e1-4c36-b08b-e1be758d923b%2FUntitled.png?table=block&id=e8d841cc-6b66-455c-a1e8-8c8df7633d2e&cache=v2",
@@ -610,7 +626,7 @@ const debunks = [
     question:
       "Quelle quantité de déchets les panneaux solaires et les éoliennes produisent-ils ?",
     answer:
-      "“Moving away from coal power to renewables (or nuclear) would significantly reduce the amount of waste generated. Not to mention that fossil fuels generate other forms of ‘waste’ that are terrible for human health. Millions die every year from local air pollution. And more will die in the future as a result of climate change.” Solar :  1.67 kilograms of waste per MWh [22 kg / 13 MWh]. Wind : 0.16 kilograms of waste per MWh [60,000 kg / 383,250 MWh]. Coal ash: 84 kilograms of coal per MWh. Nuclear : 0.031 kilograms of waste per MWh [250,000 kg / 8,146,800 MWh]. Municipal waste : 485 kilograms per year. Plastic waste : 77 kilograms of plastic waste per year.",
+      "“Moving away from coal power to renewables (or nuclear) would significantly reduce the amount of waste generated. Not to mention that fossil fuels generate other forms of ‘waste’ that are terrible for human health. Millions die every year from local air pollution. And more will die in the future as a result of climate change.” <ul class='list-disc px-3'><li>Solar :  1.67 kilograms of waste per MWh [22 kg / 13 MWh].</li> <li>Wind : 0.16 kilograms of waste per MWh [60,000 kg / 383,250 MWh].</li> <li>Coal ash: 84 kilograms of coal per MWh.</li> <li>Nuclear : 0.031 kilograms of waste per MWh [250,000 kg / 8,146,800 MWh].</li> <li>Municipal waste : 485 kilograms per year.</li> <li>Plastic waste : 77 kilograms of plastic waste per year.</li></ul>",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F4aca9195-44e3-4808-a657-3dc03331c5ab%2FUntitled.png?table=block&id=efd2e95b-7525-4ccc-8475-493827af1d4a&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F72efc597-6226-43e8-8ea6-6d37142ef10f%2FUntitled.png?table=block&id=4226af08-4c19-4591-bf3c-1118f1feb0dc&cache=v2",
@@ -644,15 +660,7 @@ const debunks = [
   {
     question: "A-t’on assez de minerais pour la transition ?",
     answer:
-      '"Fluxes, not stocks". "Geologic reserves of materials are sufficient to meet all projected future demand". "Emissions impacts of material production are non-negligible, but limited in magnitude".     We have enough of most materials to decarbonise our electricity systems. Demand through 2050 is equal to less than 15% of reserves for most materials.\n' +
-      "\n" +
-      "    Tellurium is one exception: cumulative demand was equal to 136% of global reserves, and 88% of resources. That means we’d need to find new deposits, or bring deposits that are currently uneconomic into production.\n" +
-      "\n" +
-      "    Maximum annual demand for most materials is in the range of 5% to 15% of current annual production. In other words, global production of these materials would need to increase by a maximum of 15% to build low-carbon electricity technologies.\n" +
-      "\n" +
-      "    There were four materials – polysilicon, neodymium, dysprosium, and tellurium – where annual demand would more than double. In some cases, it increases by more than 300%.\n" +
-      "\n" +
-      "    The embedded carbon emissions of building this infrastructure would be equal to half a year of current carbon emissions or less. It would take up around 6% of our remaining budget for 1.5°C and 1% for 2°C.     International Energy Agency (IEA): “There are generally no signs of shortages in these areas: despite continued production growth over the past decades, economically viable reserves have been increasing for many energy transition minerals.”\n" +
+      '"Geologic reserves of materials are sufficient to meet all projected future demand". "We have enough of most materials to decarbonise our electricity systems. Demand through 2050 is equal to less than 15% of reserves for most materials." International Energy Agency (IEA): “There are generally no signs of shortages in these areas: despite continued production growth over the past decades, economically viable reserves have been increasing for many energy transition minerals.”\n"' +
       "\n" +
       "    International Renewable Energy Agency (IRENA): “There is no scarcity of reserves for energy transition minerals, but capabilities for mining and refining them are limited. [...] Production has surged for many energy transition minerals, and reserves mined from economically viable sources have grown. Moreover, disruptive innovation - such as efficiency improvements and material substitutions - are already reshaping demand.”",
     images: [
@@ -735,6 +743,14 @@ const debunks = [
     ],
     sources: [
       {
+        name: "La voiture électrique, solution idéale pour le climat ? (BonPote, 2023)",
+        url: "https://bonpote.com/la-voiture-electrique-solution-ideale-pour-le-climat/",
+      },
+      {
+        name: "Océan de fake news sur la voiture électrique (BonPote, 2023)",
+        url: "https://bonpote.com/ocean-de-fake-news-sur-la-voiture-electrique/",
+      },
+      {
         name: "Electric cars are better for the climate than petrol or diesel (SBN, 2023)",
         url: "https://www.sustainabilitybynumbers.com/p/ev-fossil-cars-climate",
       },
@@ -771,7 +787,7 @@ const debunks = [
     question:
       "Quelles technologies de stockage pour palier à l’intermittence des ENR",
     answer:
-      "Elles sont multiples : Interconnexions, flexibilité de la demande, STEP, hydraulique pilotable, nucléaire, batteries, etc. “Différentes solutions de flexibilité, aux caractéristiques complémentaires, mobilisées pour couvrir les besoins de l’équilibre offre-demande” Non, les batteries ne sont pas la seule solution de stockage. Batteries account only 20-25% of the flexibility demand by 2050 in different scenarios. Il y a un gros potentiel pour ajouter du stockage de type “Pumped hydro” dans le monde, même s’il est limité en Europe de l’Ouest. ANU has identified 616,000 potential sites around the world. Electric vehicle batteries alone could satisfy short-term grid storage demand by as early as 2030. Nous avons besoin que de 5h de stockage batterie pour du 100%RE.",
+      "Elles sont multiples : Interconnexions, flexibilité de la demande, STEP, hydraulique pilotable, nucléaire, batteries, etc. “Différentes solutions de flexibilité, aux caractéristiques complémentaires, mobilisées pour couvrir les besoins de l’équilibre offre-demande” Non, les batteries ne sont pas la seule solution de stockage. Batteries account only 20-25% of the flexibility demand by 2050 in different scenarios.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F10710398-cc7b-4b3e-88be-795b16745133%2FCapture_decran_2024-03-03_a_17.27.43.png?table=block&id=b2b67fc5-3366-44b0-b0e4-6cafc1b79546&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa7f2d6a1-d729-4e8f-8e3c-e51f89957a92%2FCapture_decran_2024-03-03_a_15.53.30.png?table=block&id=304eb46a-ac3a-405d-9dab-d2b3749f25d7&cache=v2",
