@@ -14,7 +14,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import SearchResults from "@/components/SearchResults";
 import { Button } from "@/components/ui/button";
-import { RotateCcw } from "lucide-react";
+import { RotateCcw, Search } from "lucide-react";
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -32,14 +32,21 @@ export default function Home() {
       </section>
 
       <section className={"container flex justify-center"}>
-        <Input
-          placeholder={"Je recherche"}
-          className={
-            "z-10 max-w-sm bg-white text-center font-medium placeholder:font-medium"
-          }
-          value={search}
-          onChange={(event) => setSearch(event.target.value)}
-        />
+        <div className={"relative flex"}>
+          <Input
+            placeholder={"Je recherche"}
+            className={
+              "z-10 max-w-sm bg-white text-center font-medium placeholder:font-medium sm:min-w-80"
+            }
+            value={search}
+            onChange={(event) => setSearch(event.target.value)}
+          />
+          <Search
+            size={18}
+            color={"#71717A"}
+            className={"absolute left-4 top-1/2 z-10 -translate-y-1/2"}
+          />
+        </div>
       </section>
 
       <section className={"container flex flex-wrap justify-center gap-2"}>
@@ -69,13 +76,13 @@ export default function Home() {
           <div className={"flex flex-col justify-center space-y-6"}>
             <Button
               variant={"secondary"}
-              className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-xs`}
+              className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-sm`}
               onClick={() => {
                 setSelectedTags([]);
                 setSearch("");
               }}
             >
-              Réinitialiser <RotateCcw size={10} />
+              Réinitialiser <RotateCcw size={13} />
             </Button>
             <SearchResults
               search={search}
