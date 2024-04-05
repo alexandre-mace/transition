@@ -195,8 +195,7 @@ const debunks = [
   {
     question:
       "Quelles sont les conséquences principales du changement climatique ?",
-    answer:
-      "Les canicules seront plus fréquentes et plus intenses. Les chaleurs humides peuvent tuer.",
+    answer: "Elles sont multiples 👇",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fc353da2b-2150-40de-bc47-872219f79c90%2FSRL-image-0.png?table=block&id=460da10d-6b86-4799-ab76-fed356b50c7d&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F2038e4f2-4849-415b-ab8e-4397a67b896b%2FUntitled.png?table=block&id=461da246-f249-4f15-bf74-ae7c9ca1196e&cache=v2",
@@ -211,10 +210,9 @@ const debunks = [
     tags: [METEOROLOGIE],
   },
   {
-    question:
-      "Quelles sont les conséquences du changement climatique sur les canicules",
+    question: "Des canicules ?",
     answer:
-      "Les canicules seront plus fréquentes et plus intenses. Les chaleurs humides peuvent tuer.",
+      "Les canicules seront plus fréquentes et/ou intenses. La fréquence des événements devrait doubler d’ici à 2050.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F093bafb5-ba53-4dd0-86bc-fe7196bd33c8%2FCapture_decran_2024-03-10_a_18.05.40.png?table=block&id=e7f4105d-8784-4910-85f7-04ef4c393167&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9c6c499-efb8-4fbe-a910-4d0772df0825%2FCapture_decran_2024-03-10_a_18.05.54.png?table=block&id=6a6bfa66-0814-4be7-8796-afb551461282&cache=v2",
@@ -222,6 +220,10 @@ const debunks = [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fed8ec3d5-1b54-4000-849b-69352d37c04e%2FCapture_decran_2024-03-10_a_18.06.17.png?table=block&id=9cb01812-8e65-44c6-970d-9f596eed1dbb&cache=v2",
     ],
     sources: [
+      {
+        name: "Canicules à venir : des étés à 50 degrés en France ? (BonPote, 2021)",
+        url: "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/",
+      },
       {
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
         url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
@@ -235,13 +237,43 @@ const debunks = [
     tags: [METEOROLOGIE],
   },
   {
-    question:
-      "Quelles sont les conséquences du changement climatique sur les sécheresses",
+    question: "Des chaleurs humides ?",
+    answer:
+      "Les canicules seront plus fréquentes et/ou intenses. La fréquence des événements devrait doubler d’ici à 2050.",
+    images: [
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F093bafb5-ba53-4dd0-86bc-fe7196bd33c8%2FCapture_decran_2024-03-10_a_18.05.40.png?table=block&id=e7f4105d-8784-4910-85f7-04ef4c393167&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9c6c499-efb8-4fbe-a910-4d0772df0825%2FCapture_decran_2024-03-10_a_18.05.54.png?table=block&id=6a6bfa66-0814-4be7-8796-afb551461282&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F620238e3-9a23-44f7-a363-39da71446dbe%2FCapture_decran_2024-03-10_a_18.06.06.png?table=block&id=203cd5ca-0cb5-47bd-82e2-a538db74edfd&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fed8ec3d5-1b54-4000-849b-69352d37c04e%2FCapture_decran_2024-03-10_a_18.06.17.png?table=block&id=9cb01812-8e65-44c6-970d-9f596eed1dbb&cache=v2",
+    ],
+    sources: [
+      {
+        name: "Canicules à venir : des étés à 50 degrés en France ? (BonPote, 2021)",
+        url: "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/",
+      },
+      {
+        name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
+        url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
+      },
+      {
+        name: "Global risk of deadly heat (Mora, C., Dousset, B., Caldwell, I. et al. 2017)",
+        url: "https://www.nature.com/articles/nclimate3322",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
+  },
+  {
+    question: "Des sécheresses ?",
     answer: "Les sécheresses seront plus fréquentes et plus intenses.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F0c1681ba-c001-4359-b863-ae03300bf59e%2FCapture_decran_2024-03-10_a_18.16.37.png?table=block&id=a37265e6-6ae4-46c8-8048-d5a5ef7f3512&cache=v2",
     ],
     sources: [
+      {
+        name: "La sécheresse, enjeu majeur du changement climatique en France ? (BonPote, 2021)",
+        url: "https://bonpote.com/la-secheresse-enjeu-majeur-du-changement-climatique-en-france/",
+      },
       {
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
         url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
@@ -765,7 +797,7 @@ const debunks = [
   {
     question: "A-t’on assez de lithium pour les batteries de voiture ?",
     answer:
-      "Yes, the world has enough lithium for our electric vehicles, decades into the future. The world is currently not producing enough of it to keep up with demand. This could be a major bottleneck this decade.",
+      '"Yes, the world has enough lithium for our electric vehicles, decades into the future but the world is currently not producing enough of it to keep up with demand. This could be a major bottleneck this decade."',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F70c9df0e-ff67-4f46-bf6f-bf0cea438718%2FUntitled.png?table=block&id=a30565ea-4abe-41c2-b30e-f2cc4c5482dd&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F7c5b4739-82f5-4899-97c5-17bd875e6b59%2FUntitled.png?table=block&id=5eeec656-82e1-49be-8ce0-2a4a50930c67&cache=v2",
@@ -820,7 +852,7 @@ const debunks = [
     question:
       "Les nouvelles batteries contiennent-elle du Cobalt et du Nickel ?",
     answer:
-      "Les nouvelles batteries actuelles ne contiennent plus de nickel ni de cobalt. Heavier but cheaper and longer lasting LFP (lihtiumphosphate) batteries that use zero nickel and cobalt. Or flow batteries. Or sodium batteries. (No lithium needed.)",
+      'Les nouvelles batteries actuelles ne contiennent plus de nickel ni de cobalt. "Heavier but cheaper and longer lasting LFP (lihtiumphosphate) batteries that use zero nickel and cobalt. Or flow batteries. Or sodium batteries. (No lithium needed.)"',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Faf1b6b14-bbcb-4fb8-9c82-c0d2b02875c1%2FCapture_decran_2024-01-28_a_22.05.17.png?table=block&id=6ddbfb9a-4770-4a64-ad46-ab14d319a9a6&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F22720406-5bcc-4ec6-90e2-53ae71b985e7%2FUntitled.png?table=block&id=c84b1e92-b103-447e-ad5e-145adf8cd870&cache=v2",
@@ -837,7 +869,7 @@ const debunks = [
   {
     question: "Quid des biocarburants pour les voitures ?",
     answer:
-      "Biocarburants, la fausse bonne idée. The world’s croplands are still expanding. At a time when we should be using less land for farming, allocating high-quality farmland to grow food that we then put into cars is a mistake.",
+      'Biocarburants, la fausse bonne idée. "The world’s croplands are still expanding. At a time when we should be using less land for farming, allocating high-quality farmland to grow food that we then put into cars is a mistake."',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F172ac979-c8b5-40c9-9912-c616c439200d%2FUntitled.png?table=block&id=9e981f2f-49a1-49b5-9f8b-f61347adf654&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F1fddd205-401a-4093-8a0e-b1e5da52ff11%2FUntitled.png?table=block&id=2da22ddb-c32c-4f72-b753-67883f187ea9&cache=v2",
@@ -859,8 +891,8 @@ const debunks = [
   {
     question: "Quid des biocarburants pour les avions ?",
     answer:
-      "We’ll assume that biofuels come from bioethanol and biodiesel at the same ratios – and from same crops – that are used today.\n" +
-      "If yields stayed the same, the amount of land needed to produce biofuels in each scenario is in the table below. This is measured in millions of hectares. In the high-demand scenario where jet fuel is eliminated, we’d need around 300 million hectares of cropland. That’s an area the size of India.",
+      '"We’ll assume that biofuels come from bioethanol and biodiesel at the same ratios – and from same crops – that are used today.\n' +
+      'If yields stayed the same, the amount of land needed to produce biofuels in each scenario is in the table below. This is measured in millions of hectares. In the high-demand scenario where jet fuel is eliminated, we’d need around 300 million hectares of cropland. That’s an area the size of India."',
     images: [
       "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5b87f969-65c0-4013-937b-efac6f3a627d_1466x360.png",
     ],
@@ -877,24 +909,14 @@ const debunks = [
     question:
       "A t'on le luxe d'attendre ? Quels sont les effets sur la santé ?",
     answer:
-      "La transition vers le net zero ne doit pas attendre, car c’est le cumul des émissions qui compte, plus que le résultat. “Both can celebrate that they’ve reached their ‘net-zero’ target in 2050. But their contribution to climate change along the way is vastly different. In the first scenario, 1 billion tonnes are emitted over 30 years. In the second, it’s 2.5 billion tonnes. 2.5-times as much.”Waiting for perfect solutions is the same as doing nothing. 3,3 milliards d’êtres humains exposés au changement climatique. “Perspective is critical: if we continue anthropogenic emissions, cross natural tipping points and let the climate genie completely out of the bottle, then the environmental damage from non-fossil mining operations will be the least of our worries. It’s a classic case where we can’t let perfect be the enemy of the good.”In summary for fossil fuels:\n" +
-      "\n" +
-      "    15 billion tonnes of materials per annum, producing over\n" +
-      "\n" +
-      "    40 billion tonnes of greenhouse emissions;\n" +
-      "\n" +
-      "    1.1 billion tonnes of solid waste;\n" +
-      "\n" +
-      "    vast amounts of polluted water;\n" +
-      "\n" +
-      "    smog choked cities;\n" +
-      "\n" +
-      "    8 million premature deaths; and\n" +
-      "\n" +
-      "    trillions of dollars in global healthcare and lost productivity\n" +
-      "    costs due to the respiratory conditions they cause or exacerbate\n" +
-      "    (including, for example, around 12% of childhood asthma due to gas\n" +
-      '    cooktops in homes). "Remember what we’re trying to move away from” \n' +
+      'La transition vers le net zero ne doit pas attendre, car c’est le cumul des émissions qui compte, plus que le résultat. <br>"3,3 milliards d’êtres humains exposés au changement climatique." <br>“Perspective is critical: if we continue anthropogenic emissions, cross natural tipping points and let the climate genie completely out of the bottle, then the environmental damage from non-fossil mining operations will be the least of our worries. It’s a classic case where we can’t let perfect be the enemy of the good.” <br>In summary for fossil fuels:\n' +
+      "\n<ul class='list-disc px-3'>" +
+      "<li>15 billion tonnes of materials per annum, producing over 40 billion tonnes of greenhouse emissions</li>" +
+      "<li>1.1 billion tonnes of solid waste</li>" +
+      "<li>Vast amounts of polluted water</li>" +
+      "<li>Smog choked cities</li>" +
+      "<li>8 million premature deaths</li>" +
+      "<li> trillions of dollars in global healthcare and lost productivity costs due to the respiratory conditions they cause or exacerbate (eg 12% of childhood asthma due to gas cooktops in homes).</li></ul>" +
       "“At their peak, building clean energy technology will need millions of tonnes of minerals a year. We currently pull 30 billion tonnes of fossil fuels out of the Earth every year.”\n" +
       "“Both nuclear and renewable energy technologies kill hundreds to thousands fewer people than fossil fuels. Moving to them would save millions of lives every year.”",
     images: [
@@ -933,11 +955,8 @@ const debunks = [
   {
     question: "Comment décarboner l'aviation ?",
     answer:
-      "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Réglementer l’usage en conséquence. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité. En mars 2021, le collectif d’ingénieurs de l’aéronautique SUPAERO DECARBO et The Shift Project arrivaient à cette conclusion : « la réduction du trafic aérien est la seule mesure permettant de réduire les émissions de CO2 du secteur aérien de manière certaine. » (https://t.ly/VfT6S)\n" +
-      "\n" +
-      "En janvier 2022, Cédric Villani, alors Président de l’Office parlementaire d’évaluation des choix scientifiques et technologiques (OPECST), disait à peu près la même chose: « A ce jour et avec les technologies dont nous disposons dans le futur proche, le seul levier qui garantit rigoureusement la décarbonation du secteur [aérien], c’est la forte réduction de la quantité de voyages. » (https://t.ly/r1VBQ)\n" +
-      "\n" +
-      "En février 2023, la Royal Society en remettait une couche : « il n’y a pas un seul substitut soutenable au kérosène qui permettrait de maintenir le trafic aérien au niveau actuel ». Si l’on utilisait la biomasse, par exemple, il « faudrait plus de 50% de la surface agricole utile du Royaume-Uni » ; de l’H2 produit avec des sources d’énergie renouvelable ? Ca demanderait « 2,4 à 3,4 fois la production d’énergie renouvelable du pays (en 2020) ». (https://t.ly/hY69S)",
+      "4-5% d'augmentation depuis 2010 (2010-2018). L’aviation est l’un des secteurs les + difficiles à décarboner, il faut une baisse de la demande. \"Si les deux scénarios « MAVERICK » et « ICEMAN » permettent d’infléchir significativement la courbe des émissions, aucun des deux n’est compatible avec le budget carbone dans cette hypothèse d’une croissance de trafic de 4% par an”. Il faut réglementer l'usage en conséquence, pour l’aérien cela peut être par la limitation de l’activité (limitation des créneaux aéroportuaires, encadrement des subventions, moratoires sur la construction de nouvelles infrastructures), par restriction de la demande (modification du signal-prix, allocation de droits à voyager) ou encore via la fiscalité. <br><br>En mars 2021, le collectif d’ingénieurs de l’aéronautique SUPAERO DECARBO et The Shift Project arrivaient à cette conclusion : « la réduction du trafic aérien est la seule mesure permettant de réduire les émissions de CO2 du secteur aérien de manière certaine. »" +
+      "<br><br>En février 2023, la Royal Society en remettait une couche : « il n’y a pas un seul substitut soutenable au kérosène qui permettrait de maintenir le trafic aérien au niveau actuel ». Si l’on utilisait la biomasse, par exemple, il « faudrait plus de 50% de la surface agricole utile du Royaume-Uni » ; de l’H2 produit avec des sources d’énergie renouvelable ? Ca demanderait « 2,4 à 3,4 fois la production d’énergie renouvelable du pays (en 2020) ».",
     images: [
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9389c9c-5df7-4d80-b737-8c41e56c211c%2FCapture_decran_2024-03-29_a_22.25.34.png?table=block&id=c1ba18a4-5fb0-4179-8784-02c6bc88ea08&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=1420&userId=&cache=v2",
     ],
@@ -950,6 +969,10 @@ const debunks = [
         name: "Climate change and flying: what share of global CO2 emissions come from aviation? (OWID, 2020)",
         url: "https://ourworldindata.org/co2-emissions-from-aviation#aviation-accounts-for-2-5-of-global-co2-emissions",
       },
+      {
+        name: "UK net zero aviation ambitions must resolve resource and research questions around alternatives to jet fuel (The Royal Society, 2023)",
+        url: "https://royalsociety.org/news/2023/02/net-zero-aviation-fuels-report/",
+      },
     ],
     category: CATEGORY_SOLUTIONS,
     tags: [AVIATION],
@@ -957,44 +980,34 @@ const debunks = [
   {
     question:
       "Quelles sont les stratégies de réduction de la demande dans les scénarios NZE ?",
-    answer:
-      "ADEME:\n" +
-      "\n" +
-      "    Amenagement urbain:\n" +
-      "    limitation/absence d'agrandissement des aeroports, du nombre\n" +
-      "    d'autoroutes, gestion des logements vacants, renaturation, densité batie\n" +
-      "\n" +
-      "    Batiments: renovation énergétique, utiliser moins d'équipements/mieux\n" +
-      "    les dimensionner, optimisation du foncier et de la surface par personne, adopter des modes constructifs avec des matériaux et équipements moins\n" +
-      "    impactants, réemployer, réutiliser, recycler les matériaux et\n" +
-      "    équipements\n" +
-      "\n" +
-      "    Transport: report modal, modération de la demande, remplissage, efficacité, décarbonation\n" +
-      "\n" +
-      "    Alimentation: consommation de viande, empreinte énergétique, GES et surface de la production agricole\n" +
-      "\n" +
-      "AIE 1.5°C:\n" +
-      "Réutilisation du plastique (auj vs 2050): 17%->54%\n" +
-      "Utilisation d'acier recyclé et des chutes: 32%->46%\n" +
-      "Nouveaux batiments bas-carbone: 1%->100%\n" +
-      "Vente de LED: 50%->100%\n" +
-      'Population avec accès à l\'électricité et "clean cooking": 7->9.7mds\n' +
-      "Chargeurs VE dans les batiments: 270m->3.7mds\n" +
-      "Chargeurs VE publics: 1.3m->200m\n" +
-      "Trains électrifiés: 34%->65%\n" +
-      "Actions de sobriété: voir 👇 = 10% des émissions mondiales cumulées 2020-2050!\n" +
-      "RTE\n" +
-      "Production électrique - cas de Base: 645 TWh (+40% vs 2019)\n" +
-      "Cas sobriété: -100TWh voir 👇/ Cas réindustrialisation:+100TWh\n" +
-      "\n" +
-      "    > les actions de sobriété peuvent permettre de couvrir en totalité le supplément électrique nécessaire!",
+    answer: "Elles sont multiples 👇",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F10b46ec1-f925-4bed-9da1-d6f6aa61fa9a%2FCapture_decran_2024-03-01_a_14.38.11.png?table=block&id=f992ca08-5700-4c60-afd3-25ec0e64f9c8&cache=v2",
+      "https://file.notion.so/f/f/4358617b-4b00-4227-8921-e73675e23358/1fe75762-b362-4e8c-9286-6c70cb755262/Capture_decran_2024-04-05_a_02.06.55.png?id=5d1db40c-ca75-4f01-993a-2006d57f9f47&table=block&spaceId=4358617b-4b00-4227-8921-e73675e23358&expirationTimestamp=1712368800000&signature=S-Jqs04ylrJJpAL-pqrMrZSF860i10P3Sh5LqFTw6V0&downloadName=Capture+d%E2%80%99e%CC%81cran+2024-04-05+a%CC%80+02.06.55.png",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff8c22d63-1541-4f3c-9628-938ffcbe9cba%2FCapture_decran_2024-04-04_a_01.16.19.png?table=block&id=318e675f-1bdc-4875-b434-3b2ffce7fa3d&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F938a906b-9460-4a07-af90-c6f95187b1ba%2FCapture_decran_2024-04-04_a_01.16.52.png?table=block&id=d0d2908d-2194-4b8f-a229-21dc6833c67b&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://www.pays-de-la-loire.developpement-durable.gouv.fr/IMG/jpg/scenarios2050.jpg",
     ],
     sources: [
       {
         name: "Futurs énergétiques 2050 : les scénarios de mix de production à l’étude permettant d’atteindre la neutralité carbone à l’horizon 2050 (RTE, 2022)",
         url: "https://www.rte-france.com/analyses-tendances-et-prospectives/bilan-previsionnel-2050-futurs-energetiques#Lesdocuments",
+      },
+      {
+        name: "Net Zero Roadmap: A Global Pathway to Keep the 1.5 °C Goal in Reach (IEA, 2023)",
+        url: "https://www.iea.org/reports/net-zero-roadmap-a-global-pathway-to-keep-the-15-0c-goal-in-reach#overview",
+      },
+      {
+        name: "Figure SPM.6: Indicative potential of demand-side mitigation options by 2050",
+        url: "https://www.ipcc.ch/report/ar6/wg3/figures/summary-for-policymakers/figure-spm-6/",
+      },
+      {
+        name: "Figure 5.8 | Synthesis of 60 demand-side options ordered by the median GHG mitigation potential found across all estimates from the literature.",
+        url: "https://www.ipcc.ch/report/ar6/wg3/figures/chapter-5/figure-5-8",
+      },
+      {
+        name: "Les futurs en transition (ADEME, 2024)",
+        url: "https://www.ademe.fr/les-futurs-en-transition/",
       },
     ],
     category: CATEGORY_SOLUTIONS,
@@ -1004,7 +1017,7 @@ const debunks = [
     question:
       "Que faire à l'échelle individuelle pour réduire son empreinte carbone ?",
     answer:
-      "Devenir végétarien (a bcp + d'importance que manger local), prendre moins/plus l'avion et la voiture, changer de mode de transport, se chauffer avec du bas-carbone (PAC). Heat pumps are incredibly efficient at transferring heat. You get a lot more heat out than you put in in the form electricity. For every unit of electricity you put in, you get 3 to 4 units of heat out. This is because heat pumps harvest heat from the air, ground, or water around them.",
+      "<ul class='list-disc px-3'> <li>Devenir végétarien (a bcp + d'importance que manger local)</li><li>Prendre moins/plus l'avion et la voiture, changer de mode de transport</li><li>Se chauffer avec du bas-carbone</li><li>Conserver plus longtemps ses équipements</li></ul>",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fefa75200-ec5f-405e-9bc0-5a3ea34a8115%2FUntitled.png?table=block&id=d76c4448-5bb6-4683-ace6-08e1c5005253&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F7c934023-9e84-4ca8-8752-682faa8a903b%2FUntitled.png?table=block&id=ec4c21a8-32ef-4cdb-a5cc-4234b8fe9abe&cache=v2",
@@ -1026,6 +1039,14 @@ const debunks = [
       {
         name: "10 actions simples pour devenir écolo (BonPote, 2021)",
         url: "https://bonpote.com/10-actions-simples-pour-devenir-ecolo/",
+      },
+      {
+        name: "Nos Gestes Climat",
+        url: "https://nosgestesclimat.fr/",
+      },
+      {
+        name: "Reduce (ClimateLab)",
+        url: "https://reduce.climatelab.fr/",
       },
     ],
     category: CATEGORY_SOLUTIONS,
