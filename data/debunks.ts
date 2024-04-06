@@ -36,6 +36,7 @@ const DESINFORMATION = "Désinformation 🤥";
 const BIOCARBURANTS = "Biocarburants 🌾";
 const AVIATION = "Aviation ✈️";
 const INDIVIDU = "Individu 🙋";
+const BIODIVERSITE = "Biodiversité 🪱";
 
 const tags = [
   CLIMATOSCEPTIQUE,
@@ -62,6 +63,7 @@ const tags = [
   BIOCARBURANTS,
   AVIATION,
   INDIVIDU,
+  BIODIVERSITE,
 ];
 
 const debunks = [
@@ -74,10 +76,22 @@ const debunks = [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fefc9b9a5-8781-431a-a99c-8bf4fec12b71%2FUntitled.png?table=block&id=4a799166-8c7d-42fc-b197-a372becea026&cache=v2",
     ],
     sources: [
-      "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/",
-      "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
-      "https://journals.sagepub.com/doi/10.1177/0270467619886266",
-      "https://threadreaderapp.com/thread/1682449327787069443.html",
+      {
+        name: "Synthèse et analyse du nouveau rapport du GIEC (BonPote 2021)",
+        url: "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/",
+      },
+      {
+        name: "Climate Change 2021: The Physical Science Basis SPM (IPCC WGI, 2021)",
+        url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      },
+      {
+        name: "Scientists Reach 100% Consensus on Anthropogenic Global Warming - James Powell, 2017 (no date). Available at: https://journals.sagepub.com/doi/10.1177/0270467619886266 (Accessed: 14 March 2024).",
+        url: "https://journals.sagepub.com/doi/10.1177/0270467619886266",
+      },
+      {
+        name: "Thread (Christophe Cassou, 2021)",
+        url: "https://threadreaderapp.com/thread/1682449327787069443.html",
+      },
     ],
     category: CATEGORY_CAUSE,
     tags: [CLIMATOSCEPTIQUE, EMISSIONS],
@@ -89,8 +103,10 @@ const debunks = [
       "“Attention à ne pas confondre météo et climat. Ce n'est pas parce qu'il fait exceptionnellement très froid pendant 2 ou 3 jours que cela vient réfuter le réchauffement climatique d'origine humaine. Il a par exemple fait très froid début décembre 2022, mais l'année 2022 est tout le même l'année la plus chaude enregistrée en France depuis que les mesures ont commencé en 1949 !”",
     images: [],
     sources: [
-      "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat/",
-      "https://ledinerdusiecle.bonpote.com/",
+      {
+        name: "Comment ne plus confondre météo et climat (BonPote, 2021)",
+        url: "https://bonpote.com/comment-ne-plus-confondre-meteo-et-climat/",
+      },
     ],
     category: CATEGORY_CAUSE,
     tags: [CLIMATOSCEPTIQUE],
@@ -121,31 +137,6 @@ const debunks = [
     ],
     category: CATEGORY_CAUSE,
     tags: [INACTION, EMISSIONS, FRANCE],
-  },
-  {
-    question: "Inégalités face au changement climatique",
-    answer:
-      "Les émissions augmentent toujours chaque année. “Many countries succeed in reducing their fossil CO2 emissions or slowing down their growth,\n" +
-      "but recent progress is not fast enough and not widespread enough to put global emissions on\n" +
-      "a downward trajectory towards net zero.”\n" +
-      '"Fossil CO2 emissions are falling in some regions, including Europe and the USA, but rising overall – and the scientists say global action to cut fossil fuels is not happening fast enough to prevent dangerous climate change.”',
-    images: [],
-    sources: [
-      {
-        name: "Pottier, A. et al. (2020) ‘Qui émet du CO2 ? Panorama critique des inégalités écologiques en France’, Revue de l’OFCE, 169(5), pp. 73–132. Available at: https://doi.org/10.3917/reof.169.0073.\n",
-        url: "https://www.cairn.info/revue-de-l-ofce-2020-5-page-73.htm",
-      },
-      {
-        name: "Inégalités de richesse et changement climatique : interactions, modélisations et perspectives (Loic Giaccone 2022)",
-        url: "https://drive.google.com/file/d/1K1fdiAsgRRdaFXE2VrdJ2GbBimtKhyEj/view",
-      },
-      {
-        name: "Climat : les riches polluent plus que les pauvres ? (ft. Le Réveilleur)",
-        url: "https://www.youtube.com/watch?v=JQDRb7jE9qQ",
-      },
-    ],
-    category: CATEGORY_CAUSE,
-    tags: [INEGALITES],
   },
   {
     question: "Nos émissions sont-elles en train d'augmenter ?",
@@ -184,7 +175,6 @@ const debunks = [
       "Le dépassement des limites planétaires et la perte de biodiversité viennent dans leur très large majorité des fossiles et de l'agriculture/élevage/pêche.",
     images: [],
     sources: [
-      "https://globalcarbonbudget.org",
       {
         name: "Les 9 frontières planétaires : on en fait trop?",
         url: "https://www.youtube.com/watch?v=mTaDdabVbL4",
@@ -365,7 +355,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
-    tags: [METEOROLOGIE],
+    tags: [METEOROLOGIE, SANTE, INEGALITES],
   },
   {
     question: "La fonte des glaciers ?",
@@ -468,7 +458,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
-    tags: [METEOROLOGIE],
+    tags: [BIODIVERSITE],
   },
   {
     question: "Des maladies ?",
@@ -496,7 +486,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_CONSEQUENCES,
-    tags: [METEOROLOGIE],
+    tags: [SANTE],
   },
   {
     question: "Des conséquences injustes ?",
@@ -512,9 +502,21 @@ const debunks = [
         name: "Summary for Policymakers IPCC, 2023: Summary for Policymakers. In: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland, pp. 1-34, doi: 10.59327/IPCC/AR6-9789291691647.001\n",
         url: "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
       },
+      {
+        name: "Pottier, A. et al. (2020) ‘Qui émet du CO2 ? Panorama critique des inégalités écologiques en France’, Revue de l’OFCE, 169(5), pp. 73–132. Available at: https://doi.org/10.3917/reof.169.0073.\n",
+        url: "https://www.cairn.info/revue-de-l-ofce-2020-5-page-73.htm",
+      },
+      {
+        name: "Inégalités de richesse et changement climatique : interactions, modélisations et perspectives (Loic Giaccone 2022)",
+        url: "https://drive.google.com/file/d/1K1fdiAsgRRdaFXE2VrdJ2GbBimtKhyEj/view",
+      },
+      {
+        name: "Climat : les riches polluent plus que les pauvres ? (ft. Le Réveilleur)",
+        url: "https://www.youtube.com/watch?v=JQDRb7jE9qQ",
+      },
     ],
     category: CATEGORY_CONSEQUENCES,
-    tags: [POINTS_DE_BASCULE],
+    tags: [INEGALITES],
   },
   {
     question: "Des points de bascule ?",
@@ -1386,7 +1388,7 @@ const debunks = [
   },
   {
     question:
-      "Les failles d’un papier scientifique non revu par les paires devenu populaire (S. Michaux)",
+      "Les failles d’un papier scientifique non revu par les paires devenu populaire",
     answer:
       "This polluted air kills some 7 million people each year, causes long-term health problems, such as asthma, and reduces children’s cognitive development.  According to the World Bank, air pollution costs societies more than $5 trillion every year.",
     images: [
@@ -1430,7 +1432,7 @@ const debunks = [
       "\n" +
       "    raw material demand\n" +
       "\n" +
-      "    and community disruption\n" +
+      "    and community disruption.\n" +
       "\n" +
       "These aspects are directly addressed, and it is shown that they are either a topic of the past, or that solutions exist so that none of these aspects should be regarded as a showstopper. The fundamental structure of the global energy system can shift from conventional, low-efficient burning of extracted fuels towards almost pure exergy, which is electricity, generated from low-cost solar, wind and other natural energy resources. This transition will result in substantial growth of the system efficiency and enable rapid reduction of GHG emissions to fulfil a 1.5 °C scenario without CDR utilisation or limitations on final energy consumption. The broad electrification of end-use sectors like transport and heat makes electricity the growing backbone of the world’s energy supply.",
     images: [
