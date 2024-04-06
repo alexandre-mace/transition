@@ -98,6 +98,37 @@ const debunks = [
   },
   {
     question:
+      "Quels sont les indicateurs qui nous prouvent qu'il y a un changement climatique en cours ?",
+    answer:
+      "<ul class='px-3 list-disc'><li>Augmentation de la température moyenne de l'air de surface mondiale et de la température moyenne de la surface de la mer</li>" +
+      "<li>Augmentation des jours de vagues de chaleur marine, du contenu thermique des océans et de l'étendue de la glace de mer</li>" +
+      "<li>Augmentation de la fréquence des incendies de forêt, des précipitations plus intenses, de la fonte des glaciers, de l'acidification des océans et des températures extrêmes élevées</li>" +
+      "<li>Augmentation du niveau moyen de la mer à l'échelle mondiale</li>" +
+      "<li>Augmentation de la perte de masse des calottes glaciaires et des glaciers</li>" +
+      "<li>Diminition de la couverture de neige dans l'Arctique et de la superficie du pergélisol en surface</li>",
+    images: [
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F8cba546c-9cba-4c6b-aa14-f129dce8021b%2Faze.png?table=block&id=6fb57166-4ba3-47e0-966d-76ca27e9404e&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+    ],
+    sources: [
+      {
+        name: "Synthèse et analyse du nouveau rapport du GIEC (BonPote 2021)",
+        url: "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/",
+      },
+      {
+        name: "Climate Change 2021: The Physical Science Basis SPM (IPCC WGI, 2021)",
+        url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
+      },
+      "https://www.ipcc.ch/site/assets/uploads/sites/3/2022/03/01_SROCC_SPM_FINAL.pdf#page=7",
+      "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf#page=13",
+      "https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SPM_version_report_LR.pdf#page=11",
+      "https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf#page=175",
+      "https://report.ipcc.ch/ar6/wg1/IPCC_AR6_WGI_FullReport.pdf#page=60",
+    ],
+    category: CATEGORY_CAUSE,
+    tags: [CLIMATOSCEPTIQUE, EMISSIONS],
+  },
+  {
+    question:
       "Il a fait froid ce matin, peut-il vraiment y avoir un changement climatique ?",
     answer:
       "“Attention à ne pas confondre météo et climat. Ce n'est pas parce qu'il fait exceptionnellement très froid pendant 2 ou 3 jours que cela vient réfuter le réchauffement climatique d'origine humaine. Il a par exemple fait très froid début décembre 2022, mais l'année 2022 est tout le même l'année la plus chaude enregistrée en France depuis que les mesures ont commencé en 1949 !”",
@@ -549,6 +580,33 @@ const debunks = [
     ],
     category: CATEGORY_CONSEQUENCES,
     tags: [POINTS_DE_BASCULE],
+  },
+  {
+    question: "Des conséquences économiques ?",
+    answer:
+      "Les pertes économiques dues au changement climatique proviennent de divers impacts, tels que la diminution des rendements des cultures, la disponibilité de l'eau et la productivité du travail en extérieur en raison du stress thermique. Les coûts sont également liés à l'adaptation, aux dépenses liées aux catastrophes, à la récupération et à la reconstruction des infrastructures. De plus, le changement climatique a ralenti la tendance à la diminution des inégalités économiques entre les pays développés et en développement.<br/><br/>" +
+      "\n" +
+      "Les risques pour la croissance économique mondiale dus aux impacts du changement climatique sont projetés être plus faibles à 1,5°C qu'à 2°C d'ici la fin du siècle, avec des impacts plus importants sur les pays des tropiques et des sous-tropiques de l'hémisphère sud en cas d'augmentation de la température mondiale. Les études économiques globales montrent des différences importantes entre les régions, les économies en développement et en transition étant généralement plus vulnérables.<br/><br/>" +
+      "\n" +
+      "Enfin, les avantages économiques globaux des trajectoires limitant le réchauffement à 2°C l'emportent sur les coûts de mitigation, même sans tenir compte des avantages dans d'autres dimensions du développement durable ou des dommages non marchands du changement climatique.",
+    images: [],
+    sources: [
+      {
+        name: "Technical Summary. In: Climate Change 2022: Impacts, Adaptation and Vulnerability. Contribution of the WGII to the AR6 of the IPCC",
+        url: "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_TechnicalSummary.pdf#page=20",
+      },
+      "https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SPM_version_report_LR.pdf#page=9",
+      {
+        name: "Technical Summary. In: Climate Change 2022: Mitigation of Climate Change. Contribution of the WGIII to the AR6 of the IPCC",
+        url: "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_TechnicalSummary.pdf#page=41",
+      },
+      {
+        name: "TS.4 Mitigation and Development Pathways > Box TS.5 | Illustrative Mitigation Pathways (IMPs), and Shared Socio-economic Pathways (SSPs)",
+        url: "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_FullReport.pdf#page=98",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [FINANCE, INEGALITES],
   },
   {
     question:
@@ -1489,7 +1547,35 @@ const debunks = [
   },
   {
     question: "EROI des ENR",
-    answer: "",
+    answer:
+      "A a group of researchers has cleaned up and rectified recent EROI data so that the various fuels can be compared on an apples-to-apples basis. Their new results paint a very different picture from the old literature.\n" +
+      "Not only do renewables have sufficiently high EROIs to power our society, they are much higher than the EROIs of the fossil fuels they are replacing! In fact, these results suggest that only through the energy transition can we maintain a functioning society.",
+    images: [],
+    sources: [
+      {
+        name: "Thread (Auke Hoekstra, 2020)",
+        url: "https://twitter.com/AukeHoekstra/status/1341730308060831744",
+      },
+      {
+        name: "Taux de retour énergétique : J.M. Jancovici dans l'erreur ? (Le Réveilleur 2023)",
+        url: "https://www.youtube.com/watch?v=HgfcZeGP7BA",
+      },
+      {
+        name: "Murphy, D.J. et al. (2022) ‘Energy Return on Investment of Major Energy Carriers: Review and Harmonization’, Sustainability, 14(12), p. 7098. Available at: https://doi.org/10.3390/su14127098.",
+        url: "https://www.mdpi.com/2071-1050/14/12/7098",
+      },
+      {
+        name: "[Episode #184] – EROI of RE (XE Network, 2022)",
+        url: "https://xenetwork.org/ets/episodes/episode-184-eroi-of-re/",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+    tags: [RENOUVELABLES],
+  },
+  {
+    question: "Temps de retour énergétique des ENR",
+    answer:
+      "Dans de nombreuses régions du monde l'EPBT est d'ailleurs inférieur à un an.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fd96d99a3-611d-45fc-92f1-54c140af306e%2FUntitled.png?table=block&id=6780785b-eaea-45ee-a5bb-3006bfba4577&cache=v2",
     ],
@@ -1508,7 +1594,10 @@ const debunks = [
   },
   {
     question: "Comment financer la transition ?",
-    answer: "",
+    answer:
+      "Pour atteindre les objectifs de neutralité carbone à l’horizon 2050, l’Europe doit sans attendre placer l’équivalent de 2,3 % du PIB européen dans des investissements verts supplémentaires. A titre de comparaison, cela représente la moitié des coûts d’importation d’énergies fossiles de l’Union Européenne en 2022.\n" +
+      "\n" +
+      "Les investissements publics, en particulier, doivent être doublés, à 510 milliards d’euros par an. Pour cela, il faut exclure ces investissements verts (rénovation des bâtiments, développement de transports en commun….) des règles budgétaires européennes.",
     images: [],
     sources: [
       {
@@ -1558,7 +1647,8 @@ const debunks = [
   },
   {
     question: "Les actifs fossiles échoués",
-    answer: "",
+    answer:
+      "Over $1 trillion of oil & gas assets risk becoming stranded as a result of policy action on climate and the rise in alternative energy sources. Energy transition risks apply not just to producers, but across the full oil and gas value chain (e.g. refiners) as well as a wide range of different financial services providers. ",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F50c5f832-f9fd-4da2-9e19-c902aa7fbde6%2FUntitled.png?table=block&id=2dd68e8b-b922-44a4-84f0-45b17bc88ef8&cache=v2",
     ],
@@ -1591,11 +1681,11 @@ const debunks = [
   {
     question: "La décroissance sans changements technologiques ne suffit pas",
     answer:
-      "en souhaitant forcément une décroissance du PIB, cela peut avoir des conséquences importantes pour certaines populations défavorisées, en particulier dans les pays du Sud. À cette critique, les défendeurs de la décroissance répondent que celle-ci concerne en premier lieu les pays développés. Un chercheur, J.D. Moyer, vient de publier un article qui étudie cette question, avec des modélisations de croissance nulle ou négative au niveau mondial ou différenciée entre pays du Nord et du Sud : https://lnkd.in/e6jNs-qN\n" +
+      '"En souhaitant forcément une décroissance du PIB, cela peut avoir des conséquences importantes pour certaines populations défavorisées, en particulier dans les pays du Sud. À cette critique, les défendeurs de la décroissance répondent que celle-ci concerne en premier lieu les pays développés. Un chercheur, J.D. Moyer, vient de publier un article qui étudie cette question, avec des modélisations de croissance nulle ou négative au niveau mondial ou différenciée entre pays du Nord et du Sud : <a href="https://www.nature.com/articles/s41598-023-42782-y" class="underline">https://www.nature.com/articles/s41598-023-42782-y</a><br/><br/>' +
       "\n" +
-      'Il analyse les conséquences socioéconomiques de cette limitation "forcée" des pays développés par rapport à un scénario "classique" : à croissance nulle, le PIB par habitant reste constant, les dépenses des gouvernements sont moins élevées, les imports/exports stagnent, les investissements - notamment pour les renouvelables - tout comme les aides aux pays en développement baissent, etc. Une variante de ces scénarios incluant une baisse des inégalités, un arrêt des dépenses militaires et une augmentation des dépenses sociales permet de limiter une part des impacts socioéconomiques. \n' +
+      'Il analyse les conséquences socioéconomiques de cette limitation "forcée" des pays développés par rapport à un scénario "classique" : à croissance nulle, le PIB par habitant reste constant, les dépenses des gouvernements sont moins élevées, les imports/exports stagnent, les investissements - notamment pour les renouvelables - tout comme les aides aux pays en développement baissent, etc. Une variante de ces scénarios incluant une baisse des inégalités, un arrêt des dépenses militaires et une augmentation des dépenses sociales permet de limiter une part des impacts socioéconomiques. <br/><br/>' +
       "\n" +
-      "Les résultats sont similaires, mais accentués, pour le scénario à croissance négative des pays développés, et encore plus forts pour ceux au niveau mondial. La décroissance permet de limiter les émissions, mais pas dans une mesure suffisante par rapport aux objectifs climatiques. Cela montre la stérilité d'une partie des débats sur le découplage : même une société décroissante aurait besoin de découpler.\n Globally, it's 45% but undermines development goals, even mitigated by cash transfer\n" +
+      "Les résultats sont similaires, mais accentués, pour le scénario à croissance négative des pays développés, et encore plus forts pour ceux au niveau mondial. La décroissance permet de limiter les émissions, mais pas dans une mesure suffisante par rapport aux objectifs climatiques. Cela montre la stérilité d'une partie des débats sur le découplage : même une société décroissante aurait besoin de découpler." +
       "Degrowth can ease but not replace climate policies",
     images: [
       "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41598-023-42782-y/MediaObjects/41598_2023_42782_Fig1_HTML.png?as=webp",
@@ -1631,8 +1721,7 @@ const debunks = [
   },
   {
     question: "Accord de Paris : “nettement en dessous de 2 °C”",
-    answer:
-      "Nettement* en dessous de 2 °C : https://unfccc.int/sites/default/files/french_paris_agreement.pdf. La nuance est importante : https://climateanalytics.org/comment/understanding-the-paris-agreements-long-term-temperature-goal",
+    answer: "La nuance est importante 👇",
     images: [],
     sources: [
       {
@@ -1661,21 +1750,6 @@ const debunks = [
     tags: [FINANCE],
   },
   {
-    question:
-      "Les risques sur la sécurité énergétique sont inférieurs pour les énergies bas carbone",
-    answer:
-      "“Export restrictions or rising prices on critical minerals will slow down the energy transition, and that’s bad. The world is already moving too slowly. We need to find ways to reduce these risks. But it’s not the same problem as volatile fossil fuel markets, which means the approach and solutions will be different.”",
-    images: [],
-    sources: [
-      {
-        name: "Low-carbon energy does not have the same energy security risks as fossil fuels (SBN, 2024)",
-        url: "https://www.sustainabilitybynumbers.com/p/energy-security-minerals",
-      },
-    ],
-    category: CATEGORY_ANNEXES,
-    tags: [RENOUVELABLES],
-  },
-  {
     question: "Quelle est l'empreinte au sol de l'élevage ?",
     answer:
       "L’élevage représente entre 20 et 35% des terres émergées, la fourchette dépend de la définition que l’on donne aux surfaces pâturées. 400 millions d’hectares de terres arables utilisées pour l’élevage (+d’1/4 des terres utilisées pour nourrir les animaux d’élevage). Dans le monde, l’élevage représente 1/4 des surfaces arables (en majorité des grains pour les monogastriques), cet argument est souvent utilisé pour défendre un statu quo pour les ruminants (image de la vache à l’herbe sur prairie naturelle). En France, on utilise 40% des terres arables pour nourrir les ruminants (concurrence directe avec l’alimentation humaine pour leur utilisation fourragère).",
@@ -1692,7 +1766,7 @@ const debunks = [
   {
     question: "Quels sont les émission de l'élevage en France ?",
     answer:
-      "Élevage = 14% des émissions directes dans l’inventaire nationale, mais il faut ajouter * Mise en culture des aliments pour les animaux * Émissions générées par la fabrication des intrants * Émissions induites par la déforestation imputables à l’élevage Cela représente 70% des émissions du système alimentaire au global en émissions directes, mais + de 85% en émissions indirectes. L’élevage industriel n’est pas bcp + responsables des émissions de GES de l’agriculture qu’un autre type d’élevage. 3 sources principales : fermentations entériques, déjections d’élevage, alimentation des animaux. Les émissions par l ou kg produits varient peu selon les types d’élevage. Les prairies ne peuvent pas stocker indéfiniment du carbone, c’est vrai pour les jeunes prairies mais pas pour toutes les prairies car un équilibre est atteint à terme. En France, l’étude 4 pour 1000 a montré que cet effet de stockage est assez faible, il est loin de compenser les émissions des fermentations entériques. Cependant, un retournement des cultures n’est pas souhaitable car le stockage est lent, et le destockage est rapide.",
+      "Élevage = 14% des émissions directes dans l’inventaire nationale, mais il faut ajouter * Mise en culture des aliments pour les animaux * Émissions générées par la fabrication des intrants * Émissions induites par la déforestation imputables à l’élevage. Cela représente 70% des émissions du système alimentaire au global en émissions directes, mais + de 85% en émissions indirectes. <br/><br/>L’élevage industriel n’est pas bcp + responsables des émissions de GES de l’agriculture qu’un autre type d’élevage. 3 sources principales : fermentations entériques, déjections d’élevage, alimentation des animaux. Les émissions par l ou kg produits varient peu selon les types d’élevage. <br/><br/>Les prairies ne peuvent pas stocker indéfiniment du carbone, c’est vrai pour les jeunes prairies mais pas pour toutes les prairies car un équilibre est atteint à terme. En France, l’étude 4 pour 1000 a montré que cet effet de stockage est assez faible, il est loin de compenser les émissions des fermentations entériques. Cependant, un retournement des cultures n’est pas souhaitable car le stockage est lent, et le destockage est rapide.",
     images: [],
     sources: [
       {
@@ -1734,7 +1808,7 @@ const debunks = [
   {
     question: "Forêt vs prairie",
     answer:
-      "Une afforestation est souhaitable dans de nombreux cas mais certaines prairies présentent une valeur écologique élevée et nécessitent une protection active que seul l’élevage semble en mesure d’offrir actuellement. Par exemple, certaines prairies maintiennent une coupure ouverte, ce qui réduit fortement le risque d’incendie. La dynamique actuelle de reboisement des prairies est déjà rapide, l’accélérer est un risque de déséquilibrage des adaptations en cours. En revanche, reboiser des territoires à dominante de grandes cultures ou de zones périurbaines pourrait générer de grands bénéfices.",
+      '"Une afforestation est souhaitable dans de nombreux cas mais certaines prairies présentent une valeur écologique élevée et nécessitent une protection active que seul l’élevage semble en mesure d’offrir actuellement. Par exemple, certaines prairies maintiennent une coupure ouverte, ce qui réduit fortement le risque d’incendie. <br/>La dynamique actuelle de reboisement des prairies est déjà rapide, l’accélérer est un risque de déséquilibrage des adaptations en cours. En revanche, reboiser des territoires à dominante de grandes cultures ou de zones périurbaines pourrait générer de grands bénéfices."',
     images: [],
     sources: [
       {
@@ -1748,7 +1822,7 @@ const debunks = [
   {
     question: "Quel est l'impact des traines de condensations ?",
     answer:
-      "Les études récentes démontrent que l'effet des traînées de condensation contribue davantage au réchauffement climatique que tout le CO2 émis par les avions. Ces effets devraient s'aggraver à mesure que le trafic aérien et la couverture nuageuse qui en résulte augmentent. Lorsque les études plus récentes ajoutent les effets des cirrus de traînée, le RFI augmente et il est estimé entre 3,8 et 4,3. Les nuages induits par l'aviation (traînées persistantes et cirrus de traînée) contribuent dans ce contexte, entre 71 % à 75 % au RF total de l'aviation. Les PRG et GTP captent le fait que des effets constants à courte durée de vie maintiennent un niveau de réchauffement à peu près constant, tandis que des effets constants climatiques à longue durée de vie, comme le CO2, continuent de s'accumuler dans l'atmosphère, ce qui entraîne une augmentation constante du niveau du réchauffement associé.",
+      "\"Les études récentes démontrent que l'effet des traînées de condensation contribue davantage au réchauffement climatique que tout le CO2 émis par les avions. Ces effets devraient s'aggraver à mesure que le trafic aérien et la couverture nuageuse qui en résulte augmentent. Lorsque les études plus récentes ajoutent les effets des cirrus de traînée, le RFI augmente et il est estimé entre 3,8 et 4,3.\"",
     images: [],
     sources: [
       {
@@ -1762,7 +1836,7 @@ const debunks = [
   {
     question: "Pour quoi l'hydrogène doit-il être utilisé ?",
     answer:
-      "L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)",
+      '"L’hydrogène constitue en premier lieu un moyen de décarboner des secteurs difficiles voire impossibles à électrifier sur le plan technique ou économique (raffinage, production d’ammoniac, chimie et mobilité lourde)."',
     images: [],
     sources: [
       {
@@ -1777,7 +1851,7 @@ const debunks = [
     question:
       "La neutralité carbone a t'elle un sens à l'échelle d'un produit ?",
     answer:
-      "Non. Décret n° 2022-539 du 13 avril 2022 relatif à la compensation carbone et aux allégations de neutralité carbone dans la publicité",
+      '"La neutralité carbone est une notion qui ne peut être définie qu’à l’échelle de la planète ou d’un État. En effet, chercher à appliquer une neutralité carbone arithmétique à une autre échelle peut engendrer des biais méthodologiques et éthiques. C’est pourquoi les acteurs ne peuvent ni devenir ni se revendiquer neutres en carbone individuellement à leur seule échelle, mais doivent mettre en place des stratégies climat ambitieuses et compatibles avec l’Accord de Paris et les politiques nationales."',
     images: [],
     sources: [
       {
@@ -1795,7 +1869,7 @@ const debunks = [
   {
     question: "Peut-on ouvrir de nouveaux projets fossiles ?",
     answer:
-      "Projected cumulative future CO2 emissions over the lifetime of existing and currently planned fossil fuel infrastructure without additional abatement exceed the total cumulative net CO 2 emissions in pathways that limit warming to 1.5°C (>50%) with no or limited overshoot. They are approximately equal to total cumulative net CO 2 emissions in pathways that limit warming to 2°C (>67%). (high confidence) {2.7, 3.3}. The continued installation of unabated fossil fuel infrastructure will ‘lock-in’ GHG emissions. (high confidence)",
+      '"Projected cumulative future CO2 emissions over the lifetime of existing and currently planned fossil fuel infrastructure without additional abatement exceed the total cumulative net CO 2 emissions in pathways that limit warming to 1.5°C (>50%) with no or limited overshoot. They are approximately equal to total cumulative net CO 2 emissions in pathways that limit warming to 2°C (>67%). (high confidence) {2.7, 3.3}. The continued installation of unabated fossil fuel infrastructure will ‘lock-in’ GHG emissions. (high confidence)"',
     images: [],
     sources: [
       {
@@ -1805,6 +1879,22 @@ const debunks = [
     ],
     category: CATEGORY_ANNEXES,
     tags: [DESINFORMATION, EMISSIONS, SCENARIOS],
+  },
+  {
+    question: "Quelle est la répartition des puits de carbone ?\n",
+    answer:
+      "La distribution des puits de carbone montre que les océans jouent un rôle majeur dans l'absorption du CO2, en particulier dans l'océan Austral et l'Atlantique Nord, tandis que les forêts et les terres contribuent également de manière significative à la séquestration du carbone. Il est essentiel de comprendre ces processus pour évaluer l'impact des émissions de CO2 sur le climat et développer des stratégies efficaces pour atténuer le changement climatique.",
+    images: [
+      "https://resumegiec.files.wordpress.com/2021/08/fig-7-ipcc_ar6_wgi_spm.jpg?w=2046",
+    ],
+    sources: [
+      {
+        name: "Figure SPM.7 - IPCC AR6 WGI SPM",
+        url: "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf#page=20",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+    tags: [EMISSIONS, SCENARIOS],
   },
 ];
 
