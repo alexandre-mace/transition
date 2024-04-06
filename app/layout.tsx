@@ -9,7 +9,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Transitions",
-  description: "Explorer les idées reçues de la transition énergétique",
+  description:
+    "Explorer les idées reçues de la transition vers la neutralité carbone",
 };
 
 export default function RootLayout({

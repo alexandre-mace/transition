@@ -27,7 +27,7 @@ export default function Home() {
           Transitions
         </h1>
         <p className="mx-auto max-w-4xl text-center text-zinc-500">
-          Explorer les idées reçues de la transition énergétique
+          Explorer les idées reçues de la transition vers la neutralité carbone
         </p>
       </section>
 
