@@ -77,6 +77,7 @@ const debunks = [
       "https://bonpote.com/synthese-et-analyse-du-nouveau-rapport-du-giec/",
       "https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf",
       "https://journals.sagepub.com/doi/10.1177/0270467619886266",
+      "https://threadreaderapp.com/thread/1682449327787069443.html",
     ],
     category: CATEGORY_CAUSE,
     tags: [CLIMATOSCEPTIQUE, EMISSIONS],
@@ -205,6 +206,10 @@ const debunks = [
         name: "Synthesis Report of the Sixth Assessment Report (IPCC 2022)",
         url: "https://www.ipcc.ch/ar6-syr/",
       },
+      {
+        name: "3,3 milliards d’êtres humains exposés au changement climatique : le nouveau rapport du GIEC est sans appel (BonPote, 2022)",
+        url: "https://bonpote.com/33-milliards-detres-humains-exposes-au-changement-climatique-le-nouveau-rapport-du-giec-est-sans-appel/",
+      },
     ],
     category: CATEGORY_CONSEQUENCES,
     tags: [METEOROLOGIE],
@@ -212,12 +217,11 @@ const debunks = [
   {
     question: "Des canicules ?",
     answer:
-      "Les canicules seront plus fréquentes et/ou intenses. La fréquence des événements devrait doubler d’ici à 2050.",
+      '"Les canicules seront plus fréquentes et plus intenses. En fin de siècle, ils pourraient être non seulement bien plus fréquents qu’aujourd’hui mais aussi beaucoup plus sévères et plus longs, avec une période d’occurrence étendue de la fin mai au début du mois d’octobre.\n' +
+      "\n" +
+      'Un chiffre sur l’évolution du risque qui donne quelques sueurs : en 6 ans (depuis 2015), nous avons 80% de probabilité en plus d’avoir une canicule. Sans maîtrise des émissions de gaz à effet de serre, il y a 3 chances sur 4 pour que le nombre annuel de jours de vague de chaleur passe de 5 à 25 jours en fin de siècle selon les régions par rapport à la période 1976- 2005."',
     images: [
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F093bafb5-ba53-4dd0-86bc-fe7196bd33c8%2FCapture_decran_2024-03-10_a_18.05.40.png?table=block&id=e7f4105d-8784-4910-85f7-04ef4c393167&cache=v2",
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9c6c499-efb8-4fbe-a910-4d0772df0825%2FCapture_decran_2024-03-10_a_18.05.54.png?table=block&id=6a6bfa66-0814-4be7-8796-afb551461282&cache=v2",
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F620238e3-9a23-44f7-a363-39da71446dbe%2FCapture_decran_2024-03-10_a_18.06.06.png?table=block&id=203cd5ca-0cb5-47bd-82e2-a538db74edfd&cache=v2",
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fed8ec3d5-1b54-4000-849b-69352d37c04e%2FCapture_decran_2024-03-10_a_18.06.17.png?table=block&id=9cb01812-8e65-44c6-970d-9f596eed1dbb&cache=v2",
+      "https://energypost.eu/wp-content/uploads/2023/04/word-image-46110-2.png",
     ],
     sources: [
       {
@@ -227,10 +231,6 @@ const debunks = [
       {
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
         url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
-      },
-      {
-        name: "Global risk of deadly heat (Mora, C., Dousset, B., Caldwell, I. et al. 2017)",
-        url: "https://www.nature.com/articles/nclimate3322",
       },
     ],
     category: CATEGORY_CONSEQUENCES,
@@ -239,17 +239,22 @@ const debunks = [
   {
     question: "Des chaleurs humides ?",
     answer:
-      "Les canicules seront plus fréquentes et/ou intenses. La fréquence des événements devrait doubler d’ici à 2050.",
+      '"Le mélange de chaleur et d’humidité est à un certain seuil insupportable pour l’humain et même en excellente santé, cela peut être mortel en seulement quelques heures. Dans un monde plus chaud, le stress thermique humide peut se produire pendant des mois et dans plusieurs régions du monde, y compris dans les régions densément peuplées. Les conséquences sont très inégalitaires et sans adaptation ni réduction importante et rapide de nos émissions de GES, la fréquence avec laquelle le seuil limite du thermomètre humide sera atteint voire dépassé sera de plus en plus importante."',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F093bafb5-ba53-4dd0-86bc-fe7196bd33c8%2FCapture_decran_2024-03-10_a_18.05.40.png?table=block&id=e7f4105d-8784-4910-85f7-04ef4c393167&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa9c6c499-efb8-4fbe-a910-4d0772df0825%2FCapture_decran_2024-03-10_a_18.05.54.png?table=block&id=6a6bfa66-0814-4be7-8796-afb551461282&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F620238e3-9a23-44f7-a363-39da71446dbe%2FCapture_decran_2024-03-10_a_18.06.06.png?table=block&id=203cd5ca-0cb5-47bd-82e2-a538db74edfd&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fed8ec3d5-1b54-4000-849b-69352d37c04e%2FCapture_decran_2024-03-10_a_18.06.17.png?table=block&id=9cb01812-8e65-44c6-970d-9f596eed1dbb&cache=v2",
+      "https://energypost.eu/wp-content/uploads/2023/04/word-image-46110-3.png",
     ],
     sources: [
       {
-        name: "Canicules à venir : des étés à 50 degrés en France ? (BonPote, 2021)",
-        url: "https://bonpote.com/canicules-a-venir-des-etes-a-50-degres-en-france/",
+        name: "Climate Change 2022: Impacts, Adaptation and Vulnerability (IPCC WGII, 2022)",
+        url: "https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/",
+      },
+      {
+        name: "Mourir de chaud : à quel degré la température devient-elle mortelle ? (BonPote, 2022)",
+        url: "https://bonpote.com/mourir-de-chaud-a-quel-degre-la-temperature-devient-elle-mortelle/",
       },
       {
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
@@ -264,10 +269,42 @@ const debunks = [
     tags: [METEOROLOGIE],
   },
   {
-    question: "Des sécheresses ?",
-    answer: "Les sécheresses seront plus fréquentes et plus intenses.",
+    question: "Des mégafeux ?",
+    answer:
+      "Le changement climatique provoque une augmentation de la fréquence et de l'intensité des événements météorologiques extrêmes, notamment les sécheresses et les conditions propices aux incendies, ce qui entraîne des incendies plus fréquents et plus graves dans de nombreuses régions.\n" +
+      "\n" +
+      "L’augmentation de la température est le lien le plus évident entre le réchauffement climatique et l’aggravation des incendies de forêt. La végétation et le sol s’assèchent, ce qui crée davantage de combustible inflammable pour que les incendies se propagent plus loin et plus vite.",
     images: [
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Ffires.png&w=3840&q=75",
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fcanadafire2023.png&w=1920&q=75",
+    ],
+    sources: [
+      {
+        name: "Climate Change 2022: Impacts, Adaptation and Vulnerability SPM (IPCC WGII, 2022)",
+        url: "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+      },
+      {
+        name: "Doit-on s’attendre à plus de mégafeux à cause du changement climatique ? (BonPote, 2021)",
+        url: "https://bonpote.com/doit-on-sattendre-a-plus-de-megafeux-a-cause-du-changement-climatique/",
+      },
+      {
+        name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
+        url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
+  },
+  {
+    question: "Des sécheresses ?",
+    answer:
+      '"Une part croissante des terres émergées va connaître une augmentation de la sécheresse.\n' +
+      "Les régions en marron illustrent celles qui deviendront plus arides, comprenant tout le pourtour du bassin méditerranéen, y compris la France.\n" +
+      "Une vaste étendue de l'Amérique et de la Chine sera également touchée, ainsi que la majeure partie de la production agricole mondiale. \"",
+    images: [
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fdrought.png&w=3840&q=75",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F0c1681ba-c001-4359-b863-ae03300bf59e%2FCapture_decran_2024-03-10_a_18.16.37.png?table=block&id=a37265e6-6ae4-46c8-8048-d5a5ef7f3512&cache=v2",
+      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fffdbc57a-ab6f-45a3-9dd0-e2c1da506fda%2FUntitled.png?table=block&id=5f1b9cac-309f-4d31-a908-7c953c4e878d&cache=v2",
     ],
     sources: [
       {
@@ -278,40 +315,86 @@ const debunks = [
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
         url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
       },
-    ],
-    category: CATEGORY_CONSEQUENCES,
-    tags: [METEOROLOGIE],
-  },
-  {
-    question:
-      "Quelles sont les conséquences du changement climatique sur les inondations",
-    answer:
-      "Les sécheresses seront plus fréquentes et plus intenses. “We find that current and future water scarcity becomes a substantially more severe issue globally when implementing our clean-water scarcity assessment. The number of sub-basins facing severe scarcity doubles in 2010 and may even triple in 2050 in our clean-water scarcity assessment, compared to the classical water scarcity assessment that only considers water availability from the quantity perspective”",
-    images: [
-      "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fffdbc57a-ab6f-45a3-9dd0-e2c1da506fda%2FUntitled.png?table=block&id=5f1b9cac-309f-4d31-a908-7c953c4e878d&cache=v2",
-    ],
-    sources: [
-      {
-        name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
-        url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
-      },
       {
         name: "A triple increase in global river basins with water scarcity due to future pollution",
         url: "https://www.nature.com/articles/s41467-024-44947-3#Sec2",
       },
+      {
+        name: "Climate Change 2021: The Physical Science Basis (IPCC WGI, 2021)",
+        url: "https://www.ipcc.ch/report/sixth-assessment-report-working-group-i/",
+      },
     ],
     category: CATEGORY_CONSEQUENCES,
     tags: [METEOROLOGIE],
   },
   {
-    question:
-      "Quelles sont les conséquences du changement climatique sur la fonte des glaciers",
+    question: "Des inondations",
     answer:
-      "La fonte des glaciers va se poursuivre durant des siècles quoi qu'il arrive. 600 millions de personnes dépendent de la fonte des neiges.",
+      '"La fréquence et l’intensité des épisodes de fortes précipitations ont augmenté depuis les années 1950 sur la plupart des zones terrestres pour lesquelles les données d’observation sont suffisantes pour une analyse des tendances (confiance élevée). Le changement climatique d’origine humaine est probablement le principal facteur.\n' +
+      "On ne peut pas attribuer chaque inondation au réchauffement climatique, mais nous savons que nous observons et observerons des inondations plus fréquentes et plus intenses.\n" +
+      'Une atmosphère plus chaude peut transporter en moyenne 7% d’humidité en plus par degré de réchauffement."',
+    images: [
+      "https://bonpote.com/wp-content/uploads/2021/09/FAQ-82.jpg",
+      "https://hess.copernicus.org/articles/24/2671/2020/hess-24-2671-2020-f04-web.png",
+      "https://energypost.eu/wp-content/uploads/2023/04/word-image-46110-2.png",
+    ],
+    sources: [
+      {
+        name: "Inondations : est-ce la faute du changement climatique ? (BonPote, 2021)",
+        url: "https://bonpote.com/inondations-est-ce-la-faute-du-changement-climatique/",
+      },
+      {
+        name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
+        url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
+  },
+  {
+    question: "De l'insécurité alimentaire ?",
+    answer:
+      "Dès que les températures s'élèvent après 2,5 degrés, l’insécurité alimentaire commence à se généraliser sur la planète (ce qui peut entrainer des instabilités politiques).",
+    images: [
+      "https://energypost.eu/wp-content/uploads/2023/04/word-image-46110-3.png",
+    ],
+    sources: [
+      {
+        name: "Climate Change 2022: Impacts, Adaptation and Vulnerability (IPCC WGII, 2022)",
+        url: "https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
+  },
+  {
+    question: "La fonte des glaciers ?",
+    answer:
+      "Le réchauffement climatique provoque une fonte généralisée des glaciers dans le monde, touchant la banquise, la neige, et la masse des glaciers, à un rythme sans précédent.\n" +
+      "\n" +
+      "Cette fonte contribue à l'élévation du niveau de la mer, augmentant le risque d'inondations côtières. Elle perturbe les saisons de neige et les débits des rivières à l'échelle mondiale.\n" +
+      "\n" +
+      "De plus, la fonte des glaciers a des conséquences déséquilibrantes dans les régions arctiques, libérant des gaz à effet de serre et aggravant le changement climatique.\n" +
+      "\n" +
+      "En parallèle, la fonte des glaciers met en péril l'approvisionnement en eau des communautés en montagne et en aval, menaçant la production d'hydroélectricité, l'irrigation, et l'approvisionnement en eau des villes.\n" +
+      "\n" +
+      "Elle impacte également la santé et la culture des communautés arctiques, mettant en danger leurs modes de vie traditionnels de manière profonde et non seulement adaptative. 600 millions de personnes dépendent de la fonte des neiges.",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F8f615116-51ff-4792-8b8f-364a4dc3f510%2FCapture_decran_2024-03-10_a_18.20.54.png?table=block&id=41c47ced-7c7a-44f5-a6ba-28ab582f7aaa&cache=v2",
     ],
     sources: [
+      {
+        name: "Glaciers et changement climatique (BonPote, 2021)",
+        url: "https://bonpote.com/glaciers-et-changement-climatique/",
+      },
+      {
+        name: "Arctique : des étés sans glace de mer probables dès 2030 (BonPote, 2023)",
+        url: "https://bonpote.com/arctique-des-etes-sans-glace-de-mer-probables-des-2030/",
+      },
+      {
+        name: "Antarctique : un point de bascule climatique inévitable ?  (BonPote, 2021)",
+        url: "https://bonpote.com/antarctique-un-point-de-bascule-climatique-inevitable/",
+      },
       {
         name: "Comment le réchauffement climatique va bouleverser l’humanité (ft. Le Réveilleur) (Le monde / Le réveilleur 2021)",
         url: "https://www.youtube.com/watch?v=8nzRXxPnlPQ",
@@ -319,6 +402,10 @@ const debunks = [
       {
         name: "Agricultural risks from changing snowmelt (Qin, Y., Abatzoglou, J.T., Siebert, S. et al. 2020)",
         url: "https://www.nature.com/articles/s41558-020-0746-8",
+      },
+      {
+        name: "Pergélisol : la planète a-t-elle passé le point de non-retour ? (BonPote, 2021)",
+        url: "https://bonpote.com/pergelisol-la-planete-a-t-elle-passe-le-point-de-non-retour/",
       },
     ],
     category: CATEGORY_CONSEQUENCES,
@@ -328,9 +415,25 @@ const debunks = [
     question:
       "Quelles sont les conséquences du changement climatique sur l'élévation du niveau de la mer ?",
     answer:
-      "« New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding. »",
-    images: [],
+      "D'après les rapports du GIEC, l'augmentation du niveau de la mer due au changement climatique est un sujet majeur. Environ 19 centimètres de hausse ont été enregistrés entre 1901 et 2010, ce qui dépasse la moyenne des deux millénaires précédents.\n" +
+      "\n" +
+      "Cette montée est provoquée par la fonte des glaciers et des calottes glaciaires, ainsi que par le réchauffement continu des océans (dilatation thermique de l'eau).\n" +
+      "\n" +
+      "Le GIEC prévoit que cette élévation se poursuivra pendant des siècles (une élévation de l'océan de plus de 15 mètres est prévue à l'échelle de plusieurs siècles), même si les émissions de gaz à effet de serre sont stoppées, à cause de la rétention continue de chaleur dans les profondeurs des océans et de la fonte des glaces du Groenland et de l'Antarctique.\n" +
+      "\n" +
+      "Cette élévation prévue augmente les risques d'inondations côtières.",
+    images: [
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2FseaRise.png&w=3840&q=75",
+    ],
     sources: [
+      {
+        name: "Special Report: Special Report on the Ocean and Cryosphere in a Changing Climate SPM (IPCC, 2022)",
+        url: "https://www.ipcc.ch/srocc/chapter/summary-for-policymakers/",
+      },
+      {
+        name: "Hausse du niveau de la mer et changement climatique (BonPote, 2021)",
+        url: "https://bonpote.com/hausse-du-niveau-de-la-mer-et-changement-climatique/",
+      },
       {
         name: "New elevation data triple estimates of global vulnerability to sea-level rise and coastal flooding (Kulp, S.A., Strauss, B.H. 2019)",
         url: "https://www.nature.com/articles/s41467-019-12808-z",
@@ -348,22 +451,95 @@ const debunks = [
     tags: [METEOROLOGIE],
   },
   {
-    question:
-      "Quelles sont les conséquences du changement climatique sur l'acidification des océans",
-    answer: "",
-    images: [],
-    sources: [],
+    question: "Un effondrement de la biodiversité ?",
+    answer:
+      '"Dans un monde avec un réchauffement de +2 degrés, environ un tiers des terres émergées subiront un effondrement de leur biodiversité (pertes d’habitat pour 143 zones de haute importance pour la conservation de la biodiversité). De plus, le changement climatique entraîne également un réchauffement et une acidification des océans, ce qui a un impact négatif sur la vie marine. Cela conduit à une perte prévue de la biodiversité dans de nombreux écosystèmes océaniques et côtiers (l\'acidification des océans complique la production de carbonate de calcium par les organismes nécessitant la formation de petites coquilles, notamment une importante proportion du zooplancton et du phytoplancton, des micro-organismes marins en amont des réseaux alimentaires)."',
+    images: [
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fbiodiversity.png&w=3840&q=75",
+    ],
+    sources: [
+      {
+        name: "Climate Change 2022: Impacts, Adaptation and Vulnerability (IPCC WGII, 2022)",
+        url: "https://www.ipcc.ch/report/sixth-assessment-report-working-group-ii/",
+      },
+      {
+        name: "Canicules marines : des incendies sous-marins aux conséquences alarmantes (BonPote, 2023)",
+        url: "https://bonpote.com/canicules-marines-des-incendies-sous-marins-aux-consequences-alarmantes/",
+      },
+    ],
     category: CATEGORY_CONSEQUENCES,
     tags: [METEOROLOGIE],
   },
   {
-    question:
-      "Quels sont les points de bascules et pour quels niveau de réchauffement associé ?",
+    question: "Des maladies ?",
+    answer:
+      "Selon les rapports du GIEC, le changement climatique a des conséquences négatives sur la santé humaine, incluant tant la santé physique que mentale, avec des risques accrus de décès prématurés et de maladies.\n" +
+      "\n" +
+      "Les épisodes de chaleur extrême entraînent des morts et des maladies, tandis que les maladies transmises par des vecteurs se multiplient en raison de l'expansion des aires de répartition et de la reproduction accrue des vecteurs de maladies.\n" +
+      "\n" +
+      "Les risques de maladies liées à l'alimentation et à l'eau augmenteront sans adaptation supplémentaire.\n" +
+      "\n" +
+      "Des maladies comme le paludisme et la dengue sont susceptibles d'augmenter avec le réchauffement, avec des déplacements géographiques possibles.\n" +
+      "\n" +
+      "Le changement climatique contribue également au risque de nouvelles maladies infectieuses en influençant les mouvements d'espèces, vers de nouvelles populations humaines.\n" +
+      "\n" +
+      "Les variations climatiques créent aussi l'insécurité alimentaire, pouvant mener à la malnutrition et à la prédisposition aux maladies, surtout dans les pays à faible et moyen revenu.\n" +
+      "\n" +
+      "Cependant, dans certaines régions, le lien entre le changement climatique et l'incidence des maladies reste à démontrer en raison du manque d'études à long terme.",
+    images: [
+      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fdisease.png&w=3840&q=75",
+    ],
+    sources: [
+      {
+        name: "Climate Change 2022: Impacts, Adaptation and Vulnerability SPM (IPCC WGII, 2022)",
+        url: "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf#page=11",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [METEOROLOGIE],
+  },
+  {
+    question: "Des conséquences injustes ?",
+    answer:
+      "“Les communautés vulnérables qui ont le moins contribués au changement climatique historiquement sont touchées de manière disproportionnée“\n" +
+      "\n" +
+      "Les rapports du GIEC indiquent que le changement climatique a provoqué des impacts négatifs étendus et des pertes et dommages associés à la nature et aux populations, qui sont répartis de manière inégale à travers différents systèmes, régions et secteurs.\n" +
+      "\n" +
+      "Cela signifie que les conséquences du changement climatique ne sont pas les mêmes pour tout le monde. Certaines personnes et régions sont plus touchées que d'autres. Les personnes et les systèmes les plus vulnérables sont touchés de manière disproportionnée",
+    images: [],
+    sources: [
+      {
+        name: "Summary for Policymakers IPCC, 2023: Summary for Policymakers. In: Climate Change 2023: Synthesis Report. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team, H. Lee and J. Romero (eds.)]. IPCC, Geneva, Switzerland, pp. 1-34, doi: 10.59327/IPCC/AR6-9789291691647.001\n",
+        url: "https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf",
+      },
+    ],
+    category: CATEGORY_CONSEQUENCES,
+    tags: [POINTS_DE_BASCULE],
+  },
+  {
+    question: "Des points de bascule ?",
     answer: "",
     images: [
+      "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1279/https://bonpote.com/wp-content/uploads/2020/04/image-17.png",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fa459c988-7732-4d80-93fd-7bd3d6a8c082%2FCapture_decran_2024-03-02_a_02.31.20.png?table=block&id=615d75e2-2bef-4c55-96d3-162313b33c89&cache=v2",
     ],
     sources: [
+      {
+        name: "Climat : point de bascule et optimisme (BonPote, 2020)",
+        url: "https://bonpote.com/climat-point-de-bascule-et-optimisme/",
+      },
+      {
+        name: "Antarctique : un point de bascule climatique inévitable ? (BonPote, 2021)",
+        url: "https://bonpote.com/antarctique-un-point-de-bascule-climatique-inevitable/",
+      },
+      {
+        name: "L’Amazonie a-t-elle franchi un point de bascule ? (BonPote, 2021)",
+        url: "https://bonpote.com/lamazonie-a-t-elle-franchi-un-point-de-bascule/",
+      },
+      {
+        name: "Arctique : des étés sans glace de mer probables dès 2030 (BonPote, 2023)",
+        url: "https://bonpote.com/arctique-des-etes-sans-glace-de-mer-probables-des-2030/",
+      },
       {
         name: "Points de basculement du système climatique : Le défi urgent des risques de franchissement (OCDE - 2022)",
         url: "https://www.oecd.org/environment/climate-tipping-points-abc5a69e-en.htm",
@@ -376,11 +552,11 @@ const debunks = [
     question:
       "Est-ce que nos efforts valent le coup ? Combien de vies a t'on à sauver ?",
     answer:
-      "Population exposée à des chaleurs sans précédent entre stated policies 2.7 et Accord de Paris 1.5 High temperatures have been linked to increased mortality1213, decreased labour productivity19, decreased cognitive performance20, impaired learning21, adverse pregnancy outcomes22, decreased crop yield potential9, increased conflict232425, hate speech26, migration27 and infectious disease spread92829. Climate-related sources of harm not captured by the niche include sea-level rise3031.\n" +
-      "Overall, our results illustrate the huge potential human cost and the great inequity of climate change, informing discussions of loss and damage6061. The worst-case scenarios of ~3.6 °C or even ~4.4 °C global warming could put half of the world population outside the historical climate \n" +
-      "niche, posing an existential risk. The ~2.7 °C global warming expected under current policies puts around a third of the world population outside the niche. \n" +
-      "The gains from fully implementing all announced policy targets and limiting global warming to ~1.8 °C are considerable, but would still leave nearly 10% of people exposed to unprecedented heat. Meeting the goal of the Paris Agreement to limit global warming to 1.5 °C halves exposure outside the temperature niche relative to current policies and limits those exposed to unprecedented heat to 5% of people.\n" +
-      "“our results show the huge potential for more decisive climate policy to limit the human costs and inequities of climate change.”",
+      '"High temperatures have been linked to increased mortality, decreased labour productivity, decreased cognitive performance, impaired learning, adverse pregnancy outcomes, decreased crop yield potential, increased conflict, hate speech, migration and infectious disease spread.' +
+      " Overall, our results illustrate the huge potential human cost and the great inequity of climate change, informing discussions of loss and damage. The worst-case scenarios of ~3.6°C or even ~4.4°C global warming could put half of the world population outside the historical climate \n" +
+      "niche, posing an existential risk. The ~2.7°C global warming expected under current policies puts around a third of the world population outside the niche. \n" +
+      'The gains from fully implementing all announced policy targets and limiting global warming to ~1.8°C are considerable, but would still leave nearly 10% of people exposed to unprecedented heat. Meeting the goal of the Paris Agreement to limit global warming to 1.5 °C halves exposure outside the temperature niche relative to current policies and limits those exposed to unprecedented heat to 5% of people". ' +
+      "“Our results show the huge potential for more decisive climate policy to limit the human costs and inequities of climate change.” Population exposée à des chaleurs sans précédent entre stated policies 2.7 et Accord de Paris 1.5 👇",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F8a171c62-1c69-460a-b2f9-b85d2af247b8%2FUntitled.png?table=block&id=cff27780-13f0-426f-9e8d-0ef612104332&cache=v2",
     ],
@@ -392,6 +568,10 @@ const debunks = [
       {
         name: "Climate change and population: An assessment of mortality due to health impacts (Antonin Pottier, Marc Fleurbaey, Aurélie Méjean, Stéphane Zuber 2021)",
         url: "https://www.sciencedirect.com/science/article/abs/pii/S0921800921000252",
+      },
+      {
+        name: "3,3 milliards d’êtres humains exposés au changement climatique : le nouveau rapport du GIEC est sans appel (BonPote, 2022)",
+        url: "https://bonpote.com/33-milliards-detres-humains-exposes-au-changement-climatique-le-nouveau-rapport-du-giec-est-sans-appel/",
       },
     ],
     category: CATEGORY_CONSEQUENCES,
