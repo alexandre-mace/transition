@@ -1896,6 +1896,36 @@ const debunks = [
     category: CATEGORY_ANNEXES,
     tags: [EMISSIONS, SCENARIOS],
   },
+  {
+    question:
+      "Quelle est l'impact d'une relocalisation en France de la production de PV sur les émissions ?",
+    answer:
+      "\"Pour connaître le bilan de l'installation PV, il faut aussi inclure le reste des équipements et la maintenance et l'exploitation sur la durée de vie du système. On appelle cela Balance of System en anglais (BoS).\n" +
+      "\n" +
+      "<br/><br/>D'après une étude de 2021 [https://lnkd.in/eA_P7yFq], l'empreinte du BoS seul est d'environ 250 kgCO2-eq/kW pour une installation au sol. Pour estimer l'empreinte d'un système PV complet, on peut en 1ère approximation ajouter cette valeur à l'empreinte du module.\n" +
+      "\n" +
+      "<br/><br/>Systèmes PV actuels (principalement modules chinois) : 270 + 250 = 520 kgCO2/kW, soit 16 gCO2/kWh.\n" +
+      "\n" +
+      "<br/><br/>Systèmes PV avec des modules intégralement fabriqués en France : 50 + 250 = 300 kgCO2/kW, soit 9 gCO2/kWh !\n" +
+      "\n" +
+      "\n" +
+      "<br/><br/>Selon ces estimations, le bilan carbone du PV en France serait donc d'ores et déjà inférieur à 20 gCO2/kW avec des modules classiques, et il pourrait descendre en dessous de 10 avec une relocalisation complète des modules !\"",
+    images: [
+      "https://media.licdn.com/dms/image/D4E22AQHQ9hFjBwMX5w/feedshare-shrink_1280/0/1712525409818?e=1715212800&v=beta&t=mEY6IEARxC4IRxVM4oobhXlJ5M_TcqECWHzq41pqUkg",
+    ],
+    sources: [
+      {
+        name: "Post LinkedIn (Damien Salel, 2024)",
+        url: "https://www.linkedin.com/posts/damien-salel-70599b11a_lempreinte-carbone-des-modules-pv-seuls-ugcPost-7182852184550604800-zqgW?utm_source=share&utm_medium=member_desktop",
+      },
+      {
+        name: "Special Report on Solar PV Global Supply Chains (IEA, 2022)",
+        url: "https://iea.blob.core.windows.net/assets/d2ee601d-6b1a-4cd2-a0e8-db02dc64332c/SpecialReportonSolarPVGlobalSupplyChains.pdf",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+    tags: [EMISSIONS, RENOUVELABLES],
+  },
 ];
 
 export {
