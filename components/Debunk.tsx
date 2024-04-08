@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { type Debunk } from "@/data/debunks";
+import { type Debunk, tags } from "@/data/debunks";
 import DebunkImage from "@/components/DebunkImage";
 import { slugify } from "@/lib/utils";
 import SendToClipboard from "@/components/SendToClipboard";
@@ -19,6 +19,19 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
       className={"flex flex-col gap-2 rounded-2xl border bg-white p-4"}
       id={slugify(debunk.question)}
     >
+      <div className={"flex flex-wrap gap-2"}>
+        {debunk.tags
+          .sort((a, b) => a.localeCompare(b))
+          .map((tag) => (
+            <Button
+              variant={"secondary"}
+              className={`h-auto border px-2 py-0.5 text-xs`}
+              key={tag}
+            >
+              {tag}
+            </Button>
+          ))}
+      </div>
       <div className={"text-lg font-bold"}>{debunk.question}</div>
       <div className={""} dangerouslySetInnerHTML={{ __html: debunk.answer }} />
       {debunk.images.length > 0 && (
