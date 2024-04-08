@@ -25,7 +25,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
           .map((tag) => (
             <Button
               variant={"secondary"}
-              className={`h-auto border px-2 py-0.5 text-xs`}
+              className={`h-auto cursor-default border px-2 py-0.5 text-xs`}
               key={tag}
             >
               {tag}
