@@ -797,7 +797,7 @@ const debunks = [
       },
     ],
     category: CATEGORY_SOLUTIONS,
-    tags: [EFFICACITE, SANTE],
+    tags: [EFFICACITE, SANTE, RENOUVELABLES],
   },
   {
     question: "Consomme t'on plus d'énergie après la transition ?",
