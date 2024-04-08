@@ -1445,10 +1445,9 @@ const debunks = [
     tags: [SANTE],
   },
   {
-    question:
-      "Les failles d’un papier scientifique non revu par les paires devenu populaire",
+    question: "Les surestimation d'un rapport populaire",
     answer:
-      "This polluted air kills some 7 million people each year, causes long-term health problems, such as asthma, and reduces children’s cognitive development.  According to the World Bank, air pollution costs societies more than $5 trillion every year.",
+      '"A 1,000 page report influencing IMF, UN and EU policymakers claims we don\'t have enough materials to support a global shift to clean energy. But the report is deeply flawed, based on indefensible unscientific assumptions, and totally ignores key scientific findings. "',
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F1079a781-d1da-4c0b-9c12-4bc5ca0ac74d%2FUntitled.png?table=block&id=49aaecdc-7dda-4522-9b9e-aaca5bfb12ed&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fbef36ee5-4b33-4ab4-9ef3-aa2cee07eca2%2FUntitled.png?table=block&id=70cf866d-e203-4f36-ba46-91f88913c3ab&cache=v2",
