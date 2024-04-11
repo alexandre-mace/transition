@@ -756,6 +756,8 @@ const debunks = [
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ffdb7dc90-9469-4725-ab53-097c0a7edb66%2FCapture_decran_2024-03-03_a_19.30.32.png?table=block&id=15a520b8-9001-4ca4-abdc-c69831c7f50c&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff8c22d63-1541-4f3c-9628-938ffcbe9cba%2FCapture_decran_2024-04-04_a_01.16.19.png?table=block&id=318e675f-1bdc-4875-b434-3b2ffce7fa3d&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
+      "https://www.ipcc.ch/report/ar6/syr/downloads/figures/IPCC_AR6_SYR_SPM_Figure7.png",
+      "https://pbs.twimg.com/media/GK5LbdjWQAA9iCh?format=jpg&name=medium",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F938a906b-9460-4a07-af90-c6f95187b1ba%2FCapture_decran_2024-04-04_a_01.16.52.png?table=block&id=d0d2908d-2194-4b8f-a229-21dc6833c67b&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
     ],
     sources: [
@@ -1223,7 +1225,7 @@ const debunks = [
     answer: "Elles sont multiples 👇",
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F10b46ec1-f925-4bed-9da1-d6f6aa61fa9a%2FCapture_decran_2024-03-01_a_14.38.11.png?table=block&id=f992ca08-5700-4c60-afd3-25ec0e64f9c8&cache=v2",
-      "https://file.notion.so/f/f/4358617b-4b00-4227-8921-e73675e23358/1fe75762-b362-4e8c-9286-6c70cb755262/Capture_decran_2024-04-05_a_02.06.55.png?id=5d1db40c-ca75-4f01-993a-2006d57f9f47&table=block&spaceId=4358617b-4b00-4227-8921-e73675e23358&expirationTimestamp=1712368800000&signature=S-Jqs04ylrJJpAL-pqrMrZSF860i10P3Sh5LqFTw6V0&downloadName=Capture+d%E2%80%99e%CC%81cran+2024-04-05+a%CC%80+02.06.55.png",
+      "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F1fe75762-b362-4e8c-9286-6c70cb755262%2FCapture_decran_2024-04-05_a_02.06.55.png?table=block&id=5d1db40c-ca75-4f01-993a-2006d57f9f47&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=1420&userId=&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Ff8c22d63-1541-4f3c-9628-938ffcbe9cba%2FCapture_decran_2024-04-04_a_01.16.19.png?table=block&id=318e675f-1bdc-4875-b434-3b2ffce7fa3d&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
       "https://alexandremace.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F938a906b-9460-4a07-af90-c6f95187b1ba%2FCapture_decran_2024-04-04_a_01.16.52.png?table=block&id=d0d2908d-2194-4b8f-a229-21dc6833c67b&spaceId=4358617b-4b00-4227-8921-e73675e23358&width=2000&userId=&cache=v2",
       "https://www.pays-de-la-loire.developpement-durable.gouv.fr/IMG/jpg/scenarios2050.jpg",
