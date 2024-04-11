@@ -11,6 +11,23 @@ export const metadata: Metadata = {
   title: "Transitions",
   description:
     "Explorer les idées reçues de la transition vers la neutralité carbone",
+  openGraph: {
+    title: "Transitions",
+    description:
+      "Explorer les idées reçues de la transition vers la neutralité carbone",
+    url: "https://transitions.climatelab.fr",
+    siteName: "Transitions",
+    images: [
+      {
+        url: "https://transitions.climatelab.fr/opengraph-image.png",
+        width: 1400,
+        height: 630,
+        alt: "Transitions",
+      },
+    ],
+    locale: "fr_FR",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
