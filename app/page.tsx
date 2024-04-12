@@ -15,6 +15,7 @@ import { useState } from "react";
 import SearchResults from "@/components/SearchResults";
 import { Button } from "@/components/ui/button";
 import { RotateCcw, Search } from "lucide-react";
+import Matomo from "@/components/Matomo";
 
 export default function Home() {
   const [search, setSearch] = useState("");
@@ -139,6 +140,7 @@ export default function Home() {
           </div>
         )}
       </section>
+      <Matomo />
     </main>
   );
 }
