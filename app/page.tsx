@@ -22,8 +22,8 @@ export default function Home() {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   return (
-    <main className={"space-y-4 sm:space-y-8"}>
-      <section className="relative mx-auto flex flex-col gap-2 pt-8 md:gap-3">
+    <main className={"space-y-4 sm:space-y-7"}>
+      <section className="relative mx-auto flex flex-col gap-2 pt-8">
         <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 lg:text-6xl">
           Transitions
         </h1>
