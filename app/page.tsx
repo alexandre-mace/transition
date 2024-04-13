@@ -22,12 +22,12 @@ export default function Home() {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
 
   return (
-    <main className={"space-y-10"}>
+    <main className={"space-y-4 sm:space-y-8"}>
       <section className="relative mx-auto flex flex-col gap-2 pt-8 md:gap-3">
         <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 lg:text-6xl">
           Transitions
         </h1>
-        <p className="mx-auto max-w-4xl text-center text-zinc-500">
+        <p className="mx-auto max-w-4xl text-center text-sm text-zinc-500 sm:text-base">
           Explorer les idées reçues de la transition vers la neutralité carbone
         </p>
       </section>
@@ -56,7 +56,7 @@ export default function Home() {
           .map((tag) => (
             <Button
               variant={"secondary"}
-              className={`h-auto border px-2 py-1 text-sm ${selectedTags.includes(tag) ? "border-black" : ""}`}
+              className={`h-auto border px-1 py-0.5 text-xs sm:px-2 sm:py-0.5 sm:text-sm ${selectedTags.includes(tag) ? "border-black" : ""}`}
               key={tag}
               onClick={() => {
                 if (selectedTags.includes(tag)) {
@@ -93,9 +93,11 @@ export default function Home() {
           </div>
         )}
         {search === "" && selectedTags.length === 0 && (
-          <div className={"space-y-10"}>
-            <div className={"space-y-4"}>
-              <h2 className={"text-3xl font-bold"}>Les solutions</h2>
+          <div className={"mt-8 space-y-10 sm:mt-0"}>
+            <div className={"space-y-1 sm:space-y-4"}>
+              <h2 className={"text-2xl font-bold sm:text-3xl"}>
+                Les solutions
+              </h2>
               <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
                 {debunks
                   .filter((debunk) => debunk.category === CATEGORY_SOLUTIONS)
@@ -106,7 +108,9 @@ export default function Home() {
             </div>
 
             <div className={"space-y-4"}>
-              <h2 className={"text-3xl font-bold"}>Les conséquences</h2>
+              <h2 className={"text-2xl font-bold sm:text-3xl"}>
+                Les conséquences
+              </h2>
               <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
                 {debunks
                   .filter((debunk) => debunk.category === CATEGORY_CONSEQUENCES)
@@ -117,7 +121,7 @@ export default function Home() {
             </div>
 
             <div className={"space-y-4"}>
-              <h2 className={"text-3xl font-bold"}>Les causes</h2>
+              <h2 className={"text-2xl font-bold sm:text-3xl"}>Les causes</h2>
               <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
                 {debunks
                   .filter((debunk) => debunk.category === CATEGORY_CAUSE)

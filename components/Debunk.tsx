@@ -32,8 +32,11 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
             </Button>
           ))}
       </div>
-      <div className={"text-lg font-bold"}>{debunk.question}</div>
-      <div className={""} dangerouslySetInnerHTML={{ __html: debunk.answer }} />
+      <div className={"text-base font-bold sm:text-lg"}>{debunk.question}</div>
+      <div
+        className={"text-sm sm:text-base"}
+        dangerouslySetInnerHTML={{ __html: debunk.answer }}
+      />
       {debunk.images.length > 0 && (
         <div className={"px-12 py-4"}>
           <Carousel className={"max-w-full"}>
@@ -61,7 +64,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 ? debunk.question + source
                 : debunk.question + source.name
             }
-            className={"flex gap-2"}
+            className={"flex gap-2 text-xs sm:text-sm"}
           >
             <span className={"inline-block"}>🔗</span>{" "}
             {typeof source === "string" && (
@@ -69,7 +72,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 asChild
                 variant={"link"}
                 className={
-                  "h-auto whitespace-break-spaces p-0 text-muted-foreground"
+                  "h-auto whitespace-break-spaces p-0 text-xs text-muted-foreground sm:text-sm"
                 }
               >
                 <Link href={source} target={"_blank"}>
@@ -82,7 +85,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 asChild
                 variant={"link"}
                 className={
-                  "h-auto whitespace-break-spaces p-0 text-muted-foreground"
+                  "h-auto whitespace-break-spaces p-0 text-xs text-muted-foreground sm:text-sm"
                 }
               >
                 <Link href={source.url} target={"_blank"}>

@@ -1,10 +1,12 @@
 import Image from "next/image";
 import SearchCommand from "@/components/SearchCommand";
+import Contribute from "@/components/Contribute";
+import Link from "next/link";
 
 const Header = () => (
-  <header className="flex flex-wrap items-center justify-between">
-    <div className={"flex flex-wrap gap-2 p-2"}>
-      <a href="/" className={"p-2 font-medium"}>
+  <header className="flex items-center justify-between p-2 sm:flex-wrap">
+    <div className={"flex flex-wrap gap-2"}>
+      <a href="/" className={"text-sm font-medium sm:text-base"}>
         <Image
           src={
             "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
@@ -12,21 +14,24 @@ const Header = () => (
           alt={"Lampe torche"}
           height={20}
           width={20}
-          className={"inline-block"}
+          className={"inline-block w-4 sm:w-5"}
         />{" "}
         Transitions
       </a>
     </div>
-    <div className={"flex items-center gap-16"}>
+    <div className={"flex items-center gap-2 sm:gap-10"}>
       <div className={"hidden md:inline-block"}>
         <SearchCommand />
       </div>
-      <div className="md:text-md flex items-center p-2 text-sm">
+      <div>
+        <Contribute />
+      </div>
+      <div className="flex items-center text-xs md:text-sm">
         <div className={"mr-3 hidden md:inline-block"}>un outil du</div>
-        <a
+        <Link
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center rounded-xl bg-zinc-100 px-4 py-2 transition-all md:hover:bg-zinc-200"
+          className="flex items-center rounded-lg bg-zinc-100 px-3 py-1 font-medium transition-all sm:px-4 sm:py-2 md:hover:bg-zinc-200"
           href="https://climatelab.fr"
         >
           <Image
@@ -37,7 +42,7 @@ const Header = () => (
             height="27"
           />{" "}
           ClimateLab
-        </a>
+        </Link>
       </div>
     </div>
   </header>
