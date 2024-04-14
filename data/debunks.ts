@@ -1700,6 +1700,14 @@ const debunks = [
         name: "Moyer, J.D. (2023) ‘Modeling transformational policy pathways on low growth and negative growth scenarios to assess impacts on socioeconomic development and carbon emissions’, Scientific Reports, 13(1), p. 15996. Available at: https://doi.org/10.1038/s41598-023-42782-y.\n",
         url: "https://www.nature.com/articles/s41598-023-42782-y#Sec8",
       },
+      {
+        name: "Post LinkedIn (Loic Giaccone, 2024)",
+        url: "https://www.linkedin.com/posts/lo%C3%AFc-giaccone_le-2nd-article-pr%C3%A9sentant-des-sc%C3%A9narios-climatiques-activity-7183538030241058817-hf4g/?utm_source=share&utm_medium=member_android",
+      },
+      {
+        name: "Can degrowth save the world? (Jarmo Kikstra, 2024)",
+        url: "https://twitter.com/JKikstra/status/1775166265633435887",
+      },
     ],
     category: CATEGORY_ANNEXES,
     tags: [DECROISSANCE, INACTION],
