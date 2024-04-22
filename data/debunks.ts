@@ -1619,7 +1619,7 @@ const debunks = [
     tags: [MATERIAUX],
   },
   {
-    question: "Nos énergies s’accumulent-elles ?",
+    question: "Les ENR installées remplacent-elles des énergies fossiles ?",
     answer:
       '"En conséquence, l’augmentation de la production éolienne et solaire en France se traduit par une réduction de l’utilisation des moyens de production thermiques”',
     images: [
@@ -1644,7 +1644,23 @@ const debunks = [
       },
     ],
     category: CATEGORY_ANNEXES,
-    tags: [DESINFORMATION],
+    tags: [DESINFORMATION, RENOUVELABLES],
+  },
+  {
+    question: "Photovoltaïque : peut-on se passer de parcs au sol ?",
+    answer:
+      '"Même en supposant un développement plus massif du PV toiture, le PV-sol hors friche/ombrières semble donc indispensable à court-terme.”',
+    images: [
+      "https://media.licdn.com/dms/image/D5622AQGIuvDauORFSg/feedshare-shrink_1280/0/1701349967804?e=1716422400&v=beta&t=_AjczSoRY8AES-IlWde3K0WVoYTnFeTHo3bDHeQ9JQ8",
+    ],
+    sources: [
+      {
+        name: "Post Linkedin (Damien Salel, 2024)",
+        url: "https://www.linkedin.com/posts/damien-salel-70599b11a_photovolta%C3%AFque-peut-on-se-passer-de-parcs-activity-7135978981228515328-u3jr",
+      },
+    ],
+    category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION, RENOUVELABLES],
   },
   {
     question: "Les actifs fossiles échoués",
