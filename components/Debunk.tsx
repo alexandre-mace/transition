@@ -104,7 +104,9 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
           <SendToClipboard
             content={
               typeof window !== "undefined"
-                ? window.location.origin + "#" + slugify(debunk.question)
+                ? window.location.origin +
+                  "/idee-recue/" +
+                  slugify(debunk.question)
                 : ""
             }
           />
