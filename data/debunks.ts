@@ -1164,6 +1164,7 @@ const debunks = [
     images: [
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F891dd36c-20ea-4417-b663-da2b31655640%2FUntitled.png?table=block&id=9f31f332-aa6a-452e-b781-205ad3763f5b&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F41573eea-e6df-4248-bb5e-a53b2eca939a%2FUntitled.png?table=block&id=f3e637f9-a865-4017-9bd7-560c626e1fad&cache=v2",
+        "https://pubs.acs.org/cms/10.1021/acs.est.7b00698/asset/images/medium/es-2017-00698r_0003.gif"
     ],
     sources: [
       {
@@ -1190,9 +1191,13 @@ const debunks = [
         name: "The 2023 Report of the Lancet Countdown on Health and Climate Change (Lancet, 2023)",
         url: "https://www.lancetcountdown.org/about-us/interact-with-the-key-findings/",
       },
+      {
+        name: "Steinmann, Z.J.N. et al. (2017) ‘Resource Footprints are Good Proxies of Environmental Damage’, Environmental Science & Technology, 51(11), pp. 6360–6366. Available at: https://doi.org/10.1021/acs.est.7b00698."
+        url: "https://pubs.acs.org/doi/10.1021/acs.est.7b00698"
+      }
     ],
     category: CATEGORY_SOLUTIONS,
-    tags: [SANTE],
+    tags: [SANTE, INACTION],
   },
   {
     question: "Comment décarboner l'aviation ?",
