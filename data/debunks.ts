@@ -682,6 +682,10 @@ const debunks = [
         name: "Beyond primary energy: the energy transition needs a new lens (Zenon 2023)",
         url: "https://www.zenon.ngo/insights/beyond-primary-energy-the-energy-transition-needs-a-new-lens",
       },
+      {
+        name: "Le découplage est-il possible ? - avec Baptiste Andrieu (2024)",
+        url: "https://www.youtube.com/watch?v=vA7JOLYyTCI",
+      },
     ],
     category: CATEGORY_SOLUTIONS,
     tags: [EFFICACITE],
