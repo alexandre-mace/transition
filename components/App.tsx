@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { RotateCcw, Search } from "lucide-react";
-import { tags } from "@/data/debunks";
+import { useEffect, useState } from "react";
+import { RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import SearchResults from "@/components/SearchResults";
 import DefaultResultsWithCategories from "@/components/DefaultResultsWithCategories";
@@ -9,7 +8,18 @@ import TagFilters from "@/components/TagFilters";
 
 const App = () => {
   const [search, setSearch] = useState("");
+  const [hasReset, setHasReset] = useState(false);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
+
+  useEffect(() => {
+    if (hasReset) {
+      setSelectedTags([]);
+      setSearch("");
+      setTimeout(() => {
+        setHasReset(false);
+      }, 100);
+    }
+  }, [hasReset]);
 
   return (
     <>
@@ -22,9 +32,9 @@ const App = () => {
         </p>
       </section>
 
-      <SearchBar setSearch={setSearch} />
+      <SearchBar hasReset={hasReset} setSearch={setSearch} />
 
-      <TagFilters setSelectedTags={setSelectedTags} />
+      {search === "" && <TagFilters setSelectedTags={setSelectedTags} />}
 
       <section className={"container space-y-6"}>
         {(search !== "" || selectedTags.length > 0) && (
@@ -33,8 +43,7 @@ const App = () => {
               variant={"secondary"}
               className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-sm`}
               onClick={() => {
-                setSelectedTags([]);
-                setSearch("");
+                setHasReset(true);
               }}
             >
               Réinitialiser <RotateCcw size={13} />

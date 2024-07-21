@@ -4,8 +4,10 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { useDebounce } from "use-debounce";
 
 const SearchBar = ({
+  hasReset,
   setSearch,
 }: {
+  hasReset: boolean;
   setSearch: Dispatch<SetStateAction<string>>;
 }) => {
   const [value, setValue] = useState("");
@@ -14,6 +16,10 @@ const SearchBar = ({
   useEffect(() => {
     setSearch(valueDebounced);
   }, [setSearch, valueDebounced]);
+
+  if (hasReset && value !== "") {
+    setValue("");
+  }
 
   return (
     <section className={"container flex justify-center"}>
