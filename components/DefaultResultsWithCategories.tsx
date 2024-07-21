@@ -25,7 +25,7 @@ const DefaultResultsWithCategories = () => {
   return (
     <div className={"mt-8 space-y-10 sm:mt-0"}>
       <div className={"space-y-1 sm:space-y-4"}>
-        <h2 className={"text-2xl font-bold sm:text-3xl"}>Les solutions</h2>
+        <h2 className={"text-lg font-bold sm:text-3xl"}>Les solutions</h2>
         <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
           {solutionDebunks.map((debunk, index) => (
             <Debunk key={debunk.question} debunk={debunk} />
@@ -34,7 +34,7 @@ const DefaultResultsWithCategories = () => {
       </div>
 
       <div className={"space-y-4"}>
-        <h2 className={"text-2xl font-bold sm:text-3xl"}>Les conséquences</h2>
+        <h2 className={"text-lg font-bold sm:text-3xl"}>Les conséquences</h2>
         <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
           {consequencesDebunks.map((debunk, index) => (
             <Debunk key={debunk.question} debunk={debunk} />
@@ -43,7 +43,7 @@ const DefaultResultsWithCategories = () => {
       </div>
 
       <div className={"space-y-4"}>
-        <h2 className={"text-2xl font-bold sm:text-3xl"}>Les causes</h2>
+        <h2 className={"text-lg font-bold sm:text-3xl"}>Les causes</h2>
         <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
           {causeDebunks.map((debunk, index) => (
             <Debunk key={debunk.question} debunk={debunk} />
@@ -52,7 +52,7 @@ const DefaultResultsWithCategories = () => {
       </div>
 
       <div className={"space-y-4"}>
-        <h2 className={"text-3xl font-bold"}>Les annexes</h2>
+        <h2 className={"text-lg font-bold md:text-3xl"}>Les annexes</h2>
         <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
           {annexesDebunks.map((debunk, index) => (
             <Debunk key={debunk.question} debunk={debunk} />

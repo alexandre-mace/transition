@@ -22,21 +22,23 @@ const SearchBar = ({
   }
 
   return (
-    <section className={"container flex justify-center"}>
-      <div className={"relative flex"}>
-        <Input
-          placeholder={"Je recherche"}
-          className={
-            "z-10 max-w-sm bg-white text-center font-medium placeholder:font-medium sm:min-w-80"
-          }
-          value={value}
-          onChange={(event) => setValue(event.target.value)}
-        />
-        <Search
-          size={18}
-          color={"#71717A"}
-          className={"absolute left-4 top-1/2 z-10 -translate-y-1/2"}
-        />
+    <section className={"container "}>
+      <div className={"flex justify-center"}>
+        <div className={"relative flex w-full md:w-fit"}>
+          <Input
+            placeholder={"Je recherche"}
+            className={
+              "z-10 w-full bg-white text-center font-medium placeholder:font-medium sm:min-w-80 md:max-w-sm"
+            }
+            value={value}
+            onChange={(event) => setValue(event.target.value)}
+          />
+          <Search
+            size={18}
+            color={"#71717A"}
+            className={"absolute left-4 top-1/2 z-10 -translate-y-1/2"}
+          />
+        </div>
       </div>
     </section>
   );

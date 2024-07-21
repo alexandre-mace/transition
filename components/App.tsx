@@ -23,8 +23,8 @@ const App = () => {
 
   return (
     <>
-      <section className="relative mx-auto flex flex-col gap-2 pt-8">
-        <h1 className="text-center text-3xl font-extrabold tracking-tight text-slate-900 lg:text-6xl">
+      <section className="container relative mx-auto flex flex-col pt-2 md:gap-2 md:pt-8">
+        <h1 className="text-center text-lg font-extrabold tracking-tight text-slate-900 lg:text-6xl">
           Transitions
         </h1>
         <p className="mx-auto max-w-4xl text-center text-sm text-zinc-500 sm:text-base">

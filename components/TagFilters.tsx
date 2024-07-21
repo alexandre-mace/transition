@@ -16,7 +16,9 @@ const TagFilters = ({
   }, [setSelectedTags, valueDebounced]);
 
   return (
-    <section className={"container flex flex-wrap justify-center gap-2"}>
+    <section
+      className={"container flex flex-wrap justify-center gap-2 px-2 md:px-4"}
+    >
       {tags.map((tag) => (
         <Button
           variant={"secondary"}
