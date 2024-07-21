@@ -64,7 +64,7 @@ const tags = [
   AVIATION,
   INDIVIDU,
   BIODIVERSITE,
-];
+].sort((a, b) => a.localeCompare(b));
 
 const debunks = [
   {

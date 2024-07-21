@@ -27,7 +27,8 @@
     "react-medium-image-zoom": "^5.1.10",
     "react-notion-x": "^6.16.0",
     "tailwind-merge": "^2.2.1",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "use-debounce": "^10.0.1"
   },
   "devDependencies": {
     "@types/node": "^20",

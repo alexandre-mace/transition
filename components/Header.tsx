@@ -4,9 +4,12 @@ import Contribute from "@/components/Contribute";
 import Link from "next/link";
 
 const Header = () => (
-  <header className="flex items-center justify-between p-2 sm:flex-wrap">
+  <header className="flex flex-wrap items-center justify-between gap-2 p-2">
     <div className={"flex flex-wrap gap-2"}>
-      <a href="/" className={"text-sm font-medium sm:text-base"}>
+      <a
+        href="/"
+        className={"hidden text-sm font-medium sm:inline-flex sm:text-base"}
+      >
         <Image
           src={
             "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"

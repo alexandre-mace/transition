@@ -34,11 +34,11 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
       </div>
       <div className={"text-base font-bold sm:text-lg"}>{debunk.question}</div>
       <div
-        className={"text-sm sm:text-base"}
+        className={"text-sm sm:text-base "}
         dangerouslySetInnerHTML={{ __html: debunk.answer }}
       />
       {debunk.images.length > 0 && (
-        <div className={"px-12 py-4"}>
+        <div className={"w-full px-4 py-4 md:px-12"}>
           <Carousel className={"max-w-full"}>
             <CarouselContent>
               {debunk.images.map((image) => (
@@ -49,8 +49,8 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
             </CarouselContent>
             {debunk.images.length > 1 && (
               <>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className={"-left-6 h-4 w-4 md:h-6 md:w-6"} />
+                <CarouselNext className={"-right-6 h-4 w-4 md:h-6 md:w-6"} />
               </>
             )}
           </Carousel>
@@ -72,7 +72,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 asChild
                 variant={"link"}
                 className={
-                  "h-auto whitespace-break-spaces p-0 text-xs text-muted-foreground sm:text-sm"
+                  "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground sm:text-sm"
                 }
               >
                 <Link href={source} target={"_blank"}>
@@ -85,7 +85,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
                 asChild
                 variant={"link"}
                 className={
-                  "h-auto whitespace-break-spaces p-0 text-xs text-muted-foreground sm:text-sm"
+                  "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground sm:text-sm"
                 }
               >
                 <Link href={source.url} target={"_blank"}>
