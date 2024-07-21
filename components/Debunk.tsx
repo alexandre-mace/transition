@@ -12,6 +12,7 @@ import { type Debunk, tags } from "@/data/debunks";
 import DebunkImage from "@/components/DebunkImage";
 import { slugify } from "@/lib/utils";
 import SendToClipboard from "@/components/SendToClipboard";
+import React from "react";
 
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
   return (
@@ -116,4 +117,4 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
   );
 };
 
-export default Debunk;
+export default React.memo(Debunk);

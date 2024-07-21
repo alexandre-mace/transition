@@ -41,7 +41,8 @@ const App = () => {
           <div className={"flex flex-col justify-center space-y-6"}>
             <Button
               variant={"secondary"}
-              className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-sm`}
+              size={"sm"}
+              className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-xs`}
               onClick={() => {
                 setHasReset(true);
               }}

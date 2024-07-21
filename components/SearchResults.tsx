@@ -1,5 +1,5 @@
 import Debunk from "@/components/Debunk";
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import filterDebunks from "@/lib/filterDebunks";
 
 const SearchResults = ({
@@ -32,4 +32,4 @@ const SearchResults = ({
   );
 };
 
-export default SearchResults;
+export default React.memo(SearchResults);

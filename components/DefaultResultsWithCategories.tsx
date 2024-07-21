@@ -6,6 +6,7 @@ import {
   debunks,
 } from "@/data/debunks";
 import Debunk from "@/components/Debunk";
+import React from "react";
 
 const solutionDebunks = debunks.filter(
   (debunk) => debunk.category === CATEGORY_SOLUTIONS,
@@ -62,4 +63,4 @@ const DefaultResultsWithCategories = () => {
   );
 };
 
-export default DefaultResultsWithCategories;
+export default React.memo(DefaultResultsWithCategories);
