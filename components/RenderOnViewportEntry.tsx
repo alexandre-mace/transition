@@ -8,8 +8,13 @@ const RenderOnViewportEntry = ({
   root = null,
   rootMargin = "0px 0px 0px 0px",
   ...wrapperDivProps
+}: {
+  children: React.ReactNode;
+  threshold: number;
+  rootMargin?: string;
+  root?: any;
 }) => {
-  const ref = useRef();
+  const ref: React.MutableRefObject<any> = useRef();
   const entered = useFirstViewportEntry(ref, { threshold, root, rootMargin });
   return (
     <div {...wrapperDivProps} className={"h-full min-h-56"} ref={ref}>

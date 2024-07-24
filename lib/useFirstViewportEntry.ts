@@ -1,15 +1,27 @@
-import { useEffect, useRef, useState } from "react";
+"use client";
 
-const useFirstViewportEntry = (ref, observerOptions) => {
+import React, { useEffect, useRef, useState } from "react";
+
+const useFirstViewportEntry = (
+  ref: React.MutableRefObject<any>,
+  observerOptions: object,
+) => {
   const [entered, setEntered] = useState(false);
-  const observer = useRef(
-    new IntersectionObserver(
+  const observer: React.MutableRefObject<undefined | IntersectionObserver> =
+    useRef();
+
+  useEffect(() => {
+    observer.current = new IntersectionObserver(
       ([entry]) => setEntered(entry.isIntersecting),
       observerOptions,
-    ),
-  );
+    );
+  }, []);
+
   useEffect(() => {
     const element = ref.current;
+    if (!observer.current) {
+      return;
+    }
     const ob = observer.current;
     if (entered) {
       ob.disconnect();
