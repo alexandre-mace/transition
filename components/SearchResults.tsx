@@ -1,5 +1,6 @@
-import Debunk from "@/components/Debunk";
-import React, { useMemo } from "react";
+import RenderOnViewportEntry from "@/components/RenderOnViewportEntry";
+const Debunk = lazy(() => import("@/components/Debunk"));
+import React, { lazy, Suspense, useMemo } from "react";
 import filterDebunks from "@/lib/filterDebunks";
 
 const SearchResults = ({
@@ -19,8 +20,14 @@ const SearchResults = ({
       <div className={"space-y-4"}>
         {filteredDebunks.length > 0 && (
           <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
-            {filteredDebunks.map((debunk, index) => (
-              <Debunk key={debunk.question} debunk={debunk} />
+            {filteredDebunks.slice(0, 5).map((debunk, index) => (
+              <RenderOnViewportEntry
+                key={"default" + debunk.question}
+                threshold={0.25}
+              >
+                {" "}
+                <Debunk key={debunk.question} debunk={debunk} />
+              </RenderOnViewportEntry>
             ))}
           </div>
         )}

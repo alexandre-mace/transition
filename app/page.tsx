@@ -1,5 +1,3 @@
-"use client";
-
 import "react-medium-image-zoom/dist/styles.css";
 import Matomo from "@/components/Matomo";
 import App from "@/components/App";

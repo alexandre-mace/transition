@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import CopyToClipboard from "@/components/CopyToClipboard";
@@ -17,7 +19,7 @@ import React from "react";
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
   return (
     <div
-      className={"flex flex-col gap-2 rounded-2xl border bg-white p-4"}
+      className={"flex h-full flex-col gap-2 rounded-2xl border bg-white p-4"}
       id={slugify(debunk.question)}
     >
       <div className={"flex flex-wrap gap-2"}>

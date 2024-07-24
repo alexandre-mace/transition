@@ -1,5 +1,3 @@
-"use client";
-
 import Matomo from "@/components/Matomo";
 import { debunks } from "@/data/debunks";
 import { slugify } from "@/lib/utils";
