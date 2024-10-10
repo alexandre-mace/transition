@@ -8,7 +8,9 @@ const Header = () => (
     <div className={"flex flex-wrap gap-2"}>
       <a
         href="/"
-        className={"hidden text-sm font-medium sm:inline-flex sm:text-base"}
+        className={
+          "hidden gap-2 text-sm font-medium sm:inline-flex sm:text-base"
+        }
       >
         <Image
           src={
@@ -17,7 +19,7 @@ const Header = () => (
           alt={"Lampe torche"}
           height={20}
           width={20}
-          className={"inline-block w-4 sm:w-5"}
+          className={"inline-block h-4 w-auto shrink-0 sm:h-5"}
         />{" "}
         Transitions
       </a>
