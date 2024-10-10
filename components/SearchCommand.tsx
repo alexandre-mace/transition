@@ -68,7 +68,7 @@ const CustomCommandItem = ({
   return (
     <Link
       ref={ref}
-      href={"#" + slugify(debunk.question)}
+      href={"/idee-recue/" + slugify(debunk.question)}
       onClick={() => setOpen(false)}
     >
       <CommandItem
