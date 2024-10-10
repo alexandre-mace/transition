@@ -296,8 +296,8 @@ const debunks = [
       "\n" +
       "L’augmentation de la température est le lien le plus évident entre le réchauffement climatique et l’aggravation des incendies de forêt. La végétation et le sol s’assèchent, ce qui crée davantage de combustible inflammable pour que les incendies se propagent plus loin et plus vite.",
     images: [
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Ffires.png&w=3840&q=75",
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fcanadafire2023.png&w=1920&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2Ffires.png&w=3840&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2Fcanadafire2023.png&w=1920&q=75",
     ],
     sources: [
       {
@@ -323,7 +323,7 @@ const debunks = [
       "Les régions en marron illustrent celles qui deviendront plus arides, comprenant tout le pourtour du bassin méditerranéen, y compris la France.\n" +
       "Une vaste étendue de l'Amérique et de la Chine sera également touchée, ainsi que la majeure partie de la production agricole mondiale. \"",
     images: [
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fdrought.png&w=3840&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2Fdrought.png&w=3840&q=75",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2F0c1681ba-c001-4359-b863-ae03300bf59e%2FCapture_decran_2024-03-10_a_18.16.37.png?table=block&id=a37265e6-6ae4-46c8-8048-d5a5ef7f3512&cache=v2",
       "https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F4358617b-4b00-4227-8921-e73675e23358%2Fffdbc57a-ab6f-45a3-9dd0-e2c1da506fda%2FUntitled.png?table=block&id=5f1b9cac-309f-4d31-a908-7c953c4e878d&cache=v2",
     ],
@@ -444,7 +444,7 @@ const debunks = [
       "\n" +
       "Cette élévation prévue augmente les risques d'inondations côtières.",
     images: [
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2FseaRise.png&w=3840&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2FseaRise.png&w=3840&q=75",
     ],
     sources: [
       {
@@ -476,7 +476,7 @@ const debunks = [
     answer:
       '"Dans un monde avec un réchauffement de +2 degrés, environ un tiers des terres émergées subiront un effondrement de leur biodiversité (pertes d’habitat pour 143 zones de haute importance pour la conservation de la biodiversité). De plus, le changement climatique entraîne également un réchauffement et une acidification des océans, ce qui a un impact négatif sur la vie marine. Cela conduit à une perte prévue de la biodiversité dans de nombreux écosystèmes océaniques et côtiers (l\'acidification des océans complique la production de carbonate de calcium par les organismes nécessitant la formation de petites coquilles, notamment une importante proportion du zooplancton et du phytoplancton, des micro-organismes marins en amont des réseaux alimentaires)."',
     images: [
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fbiodiversity.png&w=3840&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2Fbiodiversity.png&w=3840&q=75",
     ],
     sources: [
       {
@@ -508,7 +508,7 @@ const debunks = [
       "\n" +
       "Cependant, dans certaines régions, le lien entre le changement climatique et l'incidence des maladies reste à démontrer en raison du manque d'études à long terme.",
     images: [
-      "https://www.leclimaten10minutes.fr/_next/image?url=%2Fimages%2Fdisease.png&w=3840&q=75",
+      "https://leclimaten10minutes.climatelab.fr/_next/image?url=%2Fimages%2Fdisease.png&w=3840&q=75",
     ],
     sources: [
       {
