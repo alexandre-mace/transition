@@ -1,7 +1,6 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import CopyToClipboard from "@/components/CopyToClipboard";
 import {
   Carousel,
@@ -10,16 +9,23 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { type Debunk, tags } from "@/data/debunks";
+import { type Debunk } from "@/data/debunks";
 import DebunkImage from "@/components/DebunkImage";
 import { slugify } from "@/lib/utils";
 import SendToClipboard from "@/components/SendToClipboard";
 import React from "react";
+import DebunkSource from "@/components/DebunkSource";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
   return (
     <div
-      className={"flex h-full flex-col gap-2 rounded-2xl border bg-white p-4"}
+      className={"flex h-full flex-col gap-1 rounded-2xl border bg-white p-4"}
       id={slugify(debunk.question)}
     >
       <div className={"flex flex-wrap gap-2"}>
@@ -37,7 +43,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
       </div>
       <div className={"text-base font-bold sm:text-lg"}>{debunk.question}</div>
       <div
-        className={"text-sm sm:text-base "}
+        className={"text-sm "}
         dangerouslySetInnerHTML={{ __html: debunk.answer }}
       />
       {debunk.images.length > 0 && (
@@ -60,44 +66,41 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
         </div>
       )}
       <div>
-        {debunk.sources.map((source) => (
-          <div
-            key={
-              typeof source === "string"
-                ? debunk.question + source
-                : debunk.question + source.name
-            }
-            className={"flex gap-2 text-xs sm:text-sm"}
-          >
-            <span className={"inline-block"}>🔗</span>{" "}
-            {typeof source === "string" && (
-              <Button
-                asChild
-                variant={"link"}
-                className={
-                  "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground sm:text-sm"
-                }
-              >
-                <Link href={source} target={"_blank"}>
-                  {source}
-                </Link>
-              </Button>
-            )}
-            {typeof source === "object" && (
-              <Button
-                asChild
-                variant={"link"}
-                className={
-                  "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground sm:text-sm"
-                }
-              >
-                <Link href={source.url} target={"_blank"}>
-                  {source.name}
-                </Link>
-              </Button>
-            )}
-          </div>
-        ))}
+        <>
+          {debunk.sources.slice(0, 3).map((source) => (
+            <DebunkSource
+              key={
+                typeof source === "string"
+                  ? debunk.question + source
+                  : debunk.question + source.name
+              }
+              debunk={debunk}
+              source={source}
+            />
+          ))}
+          {debunk.sources.length > 3 && (
+            <Accordion type="single" collapsible className="w-full">
+              <AccordionItem value="item-1" className={"border-b-0"}>
+                <AccordionTrigger className={"py-2 text-xs underline"}>
+                  Voir plus
+                </AccordionTrigger>
+                <AccordionContent>
+                  {debunk.sources.slice(3).map((source) => (
+                    <DebunkSource
+                      key={
+                        typeof source === "string"
+                          ? debunk.question + source
+                          : debunk.question + source.name
+                      }
+                      debunk={debunk}
+                      source={source}
+                    />
+                  ))}
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+          )}
+        </>
       </div>
       <div className={"mt-auto"}>
         <div className={"mt-2 flex items-center gap-2"}>

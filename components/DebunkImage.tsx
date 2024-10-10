@@ -10,7 +10,7 @@ const DebunkImage = ({ src, alt }: { src: string; alt: string }) => (
       alt={alt}
       height={1500}
       width={1500}
-      className={"mx-auto h-36 object-contain sm:h-80"}
+      className={"mx-auto h-32 object-contain sm:h-48"}
     />
   </Zoom>
 );

@@ -45,8 +45,8 @@ const DefaultResultsWithCategories = () => {
   return (
     <div className={"mt-8 space-y-10 sm:mt-0"}>
       {config.map((item) => (
-        <div key={item.label} className={"space-y-1 sm:space-y-4"}>
-          <h2 className={"text-lg font-bold sm:text-3xl"}>{item.label}</h2>
+        <div key={item.label} className={"space-y-1 sm:space-y-2"}>
+          <h2 className={"text-base font-bold sm:text-lg"}>{item.label}</h2>
           <div className={"mb-96 grid gap-6 xl:grid-cols-2"}>
             {item.debunks.map((debunk, index) => (
               <RenderOnViewportEntry
