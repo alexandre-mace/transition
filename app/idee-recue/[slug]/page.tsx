@@ -1,11 +1,9 @@
-import Matomo from "@/components/Matomo";
 import { debunks } from "@/data/debunks";
 import { slugify } from "@/lib/utils";
 import Debunk from "@/components/Debunk";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import "react-medium-image-zoom/dist/styles.css";
-import RenderOnViewportEntry from "@/components/RenderOnViewportEntry";
 import React from "react";
 import SimilarDebunks from "@/components/SimilarDebunks";
 
@@ -35,7 +33,6 @@ export default function Page({ params }: { params: { slug: string } }) {
           <Link href={"/"}>Découvrir les autres idées reçues</Link>
         </Button>
       </section>
-      <Matomo />
     </main>
   );
 }
