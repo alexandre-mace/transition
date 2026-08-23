@@ -3,12 +3,12 @@
 import {
   Command,
   CommandDialog,
-  CommandGroup,
   CommandInput,
   CommandItem,
   CommandList,
 } from "@/components/ui/command";
 import { LinkIcon } from "lucide-react";
+import { SearchTrigger } from "@/components/ui/search-trigger";
 import React from "react";
 import { Debunk, debunks } from "@/data/debunks";
 import Link from "next/link";
@@ -17,26 +17,9 @@ import { slugify } from "@/lib/utils";
 const SearchCommand = () => {
   const [open, setOpen] = React.useState(false);
 
-  React.useEffect(() => {
-    const down = (e: KeyboardEvent) => {
-      if (e.key === "k" && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault();
-        setOpen((open) => !open);
-      }
-    };
-
-    document.addEventListener("keydown", down);
-    return () => document.removeEventListener("keydown", down);
-  }, []);
-
   return (
     <>
-      <p className="text-sm text-muted-foreground">
-        Recherche rapide{" "}
-        <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-          <span className="text-xs">⌘</span>K
-        </kbd>
-      </p>
+      <SearchTrigger onOpen={() => setOpen(true)} />
       <CommandDialog open={open} onOpenChange={setOpen}>
         <Command>
           <CommandInput placeholder="Rechercher..." />
@@ -47,15 +30,13 @@ const SearchCommand = () => {
               </div>
             )}
           >
-            <CommandGroup heading="Suggestions">
-              {debunks.map((debunk) => (
-                <CustomCommandItem
-                  setOpen={setOpen}
-                  debunk={debunk}
-                  key={"command" + debunk.question}
-                />
-              ))}
-            </CommandGroup>
+            {debunks.map((debunk) => (
+              <CustomCommandItem
+                setOpen={setOpen}
+                debunk={debunk}
+                key={"command" + debunk.question}
+              />
+            ))}
           </CommandList>
         </Command>
       </CommandDialog>
