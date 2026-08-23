@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
 import "./globals.css";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
+import { Brand } from "@/components/brand";
+import Contribute from "@/components/Contribute";
+import SearchCommand from "@/components/SearchCommand";
+import { ToolShell } from "@/components/tool-shell";
 import { Spotlight } from "@/components/ui/spotlight";
 
 export const metadata: Metadata = {
@@ -43,12 +45,28 @@ export default function RootLayout({
           "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
         }
       />
-      <body
-        className={`${GeistSans.variable} ${GeistMono.variable} flex min-h-dvh flex-col font-sans`}
-      >
-        <Header />
-        {children}
-        <Footer />
+      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>
+        <ToolShell
+          width="full"
+          footerSign="Transitions"
+          brand={
+            <Brand
+              name="Transitions"
+              logo="https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
+              className="hidden sm:inline-flex"
+            />
+          }
+          headerActions={
+            <>
+              <div className={"hidden md:inline-block"}>
+                <SearchCommand />
+              </div>
+              <Contribute />
+            </>
+          }
+        >
+          {children}
+        </ToolShell>
       </body>
     </html>
   );
