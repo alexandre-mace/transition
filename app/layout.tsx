@@ -43,7 +43,9 @@ export default function RootLayout({
           "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
         }
       />
-      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>
+      <body
+        className={`${GeistSans.variable} ${GeistMono.variable} flex min-h-dvh flex-col font-sans`}
+      >
         <Header />
         {children}
         <Footer />
