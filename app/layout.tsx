@@ -48,7 +48,6 @@ export default function RootLayout({
       <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>
         <ToolShell
           width="full"
-          footerSign="Transitions"
           brand={
             <Brand
               name="Transitions"
