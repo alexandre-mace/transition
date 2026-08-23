@@ -1,6 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import CopyToClipboard from "@/components/CopyToClipboard";
 import {
   Carousel,
@@ -25,20 +25,16 @@ import {
 const Debunk = ({ debunk }: { debunk: Debunk }) => {
   return (
     <div
-      className={"flex h-full flex-col gap-1 rounded-2xl border bg-white p-4"}
+      className={"flex h-full flex-col gap-1 rounded-2xl border bg-card p-4"}
       id={slugify(debunk.question)}
     >
       <div className={"flex flex-wrap gap-2"}>
         {debunk.tags
           .sort((a, b) => a.localeCompare(b))
           .map((tag) => (
-            <Button
-              variant={"secondary"}
-              className={`h-auto cursor-default border px-2 py-0.5 text-xs`}
-              key={tag}
-            >
+            <Badge variant={"secondary"} key={tag}>
               {tag}
-            </Button>
+            </Badge>
           ))}
       </div>
       <div className={"text-base font-bold sm:text-lg"}>{debunk.question}</div>
