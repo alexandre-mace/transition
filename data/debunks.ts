@@ -1960,14 +1960,16 @@ const debunks = [
     category: CATEGORY_ANNEXES,
     tags: [EMISSIONS, RENOUVELABLES],
   },
+  {
+    question:
+      "L'activisme radical dessert-il la cause climatique ?",
+    answer:
+      "Même si les actions radicales remportent moins l'adhésion du grand public, la couverture médiatique qu'elles génèrent est tellement plus importante que l'impact net finit par être positif pour la cause. Ce flanc radical déplace aussi la fenêtre d'Overton : il rend les revendications des mouvements modérés plus audibles et acceptables par comparaison.",
+    images: [],
+    sources: [
+      "https://bonpote.com/cest-contre-productif-ca-dessert-la-cause-lactivisme-est-il-toujours-efficace/",
+    ],
+    category: CATEGORY_ANNEXES,
+    tags: [DESINFORMATION, INACTION],
+  },
 ];
-
-export {
-  debunks,
-  CATEGORY_CONSEQUENCES,
-  CATEGORY_CAUSE,
-  CATEGORY_SOLUTIONS,
-  CATEGORY_ANNEXES,
-  tags,
-};
-export type { Debunk };
