@@ -6,6 +6,7 @@ import Image from "next/image";
 const DebunkImage = ({ src, alt }: { src: string; alt: string }) => (
   <Zoom>
     <Image
+      unoptimized
       src={src}
       alt={alt}
       height={1500}

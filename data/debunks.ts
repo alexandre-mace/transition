@@ -643,7 +643,6 @@ const debunks = [
     answer:
       "Les meilleures connaissances disponibles montrent qu’au contraire, le réchauffement devrait plus ou moins s’arrêter lorsque les émissions de dioxyde de carbone (CO2) seront nulles, ce qui signifie que l’Homme a le pouvoir de choisir son avenir climatique. Il n'y a pas d'inertie climatique de 20 ans.",
     images: [
-      "https://lh5.googleusercontent.com/VpJ1XSYpIjz3TT33MDosP-tuBPeBZd5zVivH-nuzWEec3ElcNy-puG9xk9aZDlWoPRQ4qGZJHY9skutZBlAYNMsBimnQaYULEqivg9s2FDaECejC66tFmmFsjqm7xHl5tkkpQxDj",
     ],
     sources: [
       {

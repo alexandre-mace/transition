@@ -24,7 +24,7 @@ const TagFilters = ({
           variant={"secondary"}
           className={`h-auto border px-1 py-0.5 text-xs sm:px-2 sm:py-0.5 sm:text-sm ${localSelectedTags.includes(tag) ? "border-black" : ""}`}
           key={tag}
-          onClick={() => {
+          onPress={() => {
             if (localSelectedTags.includes(tag)) {
               return setLocalSelectedTags(
                 localSelectedTags.filter((selectedTag) => selectedTag !== tag),

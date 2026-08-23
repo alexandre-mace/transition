@@ -15,6 +15,8 @@ const App = () => {
 
   useEffect(() => {
     if (hasReset) {
+      // reset piloté par le parent : setState volontaire en effet
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setSelectedTags([]);
       setSearch("");
       setTimeout(() => {
@@ -45,7 +47,7 @@ const App = () => {
               variant={"secondary"}
               size={"sm"}
               className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-xs`}
-              onClick={() => {
+              onPress={() => {
                 setHasReset(true);
               }}
             >

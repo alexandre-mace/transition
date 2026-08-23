@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const useFirstViewportEntry = (
-  ref: React.MutableRefObject<any>,
+  ref: React.RefObject<Element | null>,
   observerOptions: object,
 ) => {
   const [entered, setEntered] = useState(false);

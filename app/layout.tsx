@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
+import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { Spotlight } from "@/components/ui/spotlight";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Transitions",
@@ -44,7 +43,7 @@ export default function RootLayout({
           "https://em-content.zobj.net/source/apple/391/flashlight_1f526.png"
         }
       />
-      <body className={inter.className}>
+      <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>
         <Header />
         {children}
         <Footer />

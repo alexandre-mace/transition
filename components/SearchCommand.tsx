@@ -9,7 +9,7 @@ import {
   CommandList,
 } from "@/components/ui/command";
 import { LinkIcon } from "lucide-react";
-import React, { useRef } from "react";
+import React from "react";
 import { Debunk, debunks } from "@/data/debunks";
 import Link from "next/link";
 import { slugify } from "@/lib/utils";
@@ -63,22 +63,16 @@ const CustomCommandItem = ({
   debunk: Debunk;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-  const ref = useRef<HTMLAnchorElement>(null);
-
   return (
-    <Link
-      ref={ref}
-      href={"/idee-recue/" + slugify(debunk.question)}
-      onClick={() => setOpen(false)}
-    >
       <CommandItem
-        onSelect={(value) => ref?.current?.click()}
-        className={"data-[disabled]:opacity-100"}
+        href={"/idee-recue/" + slugify(debunk.question)}
+        textValue={debunk.question}
+        onAction={() => setOpen(false)}
+        className={"data-disabled:opacity-100"}
       >
         <LinkIcon className="mr-2 h-4 w-4" />
         <div>{debunk.question}</div>
       </CommandItem>
-    </Link>
   );
 };
 

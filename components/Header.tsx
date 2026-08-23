@@ -6,7 +6,7 @@ import Link from "next/link";
 const Header = () => (
   <header className="flex flex-wrap items-center justify-between gap-2 p-2">
     <div className={"flex flex-wrap gap-2"}>
-      <a
+      <Link
         href="/"
         className={
           "hidden gap-2 text-sm font-medium sm:inline-flex sm:text-base"
@@ -22,7 +22,7 @@ const Header = () => (
           className={"inline-block h-4 w-auto shrink-0 sm:h-5"}
         />{" "}
         Transitions
-      </a>
+      </Link>
     </div>
     <div className={"flex items-center gap-2 sm:gap-10"}>
       <div className={"hidden md:inline-block"}>

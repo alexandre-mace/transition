@@ -1,7 +1,7 @@
 import { debunks } from "@/data/debunks";
 import { slugify } from "@/lib/utils";
 import Debunk from "@/components/Debunk";
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/button";
 import Link from "next/link";
 import "react-medium-image-zoom/dist/styles.css";
 import React from "react";
@@ -29,9 +29,9 @@ export default function Page({ params }: { params: { slug: string } }) {
       </section>
       <SimilarDebunks similarDebunks={similarDebunks} />
       <section className={"flex justify-center"}>
-        <Button asChild>
-          <Link href={"/"}>Découvrir les autres idées reçues</Link>
-        </Button>
+        <LinkButton href="/" size="lg">
+          Découvrir les autres idées reçues
+        </LinkButton>
       </section>
     </main>
   );
