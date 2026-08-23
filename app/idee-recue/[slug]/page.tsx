@@ -7,9 +7,14 @@ import "react-medium-image-zoom/dist/styles.css";
 import React from "react";
 import SimilarDebunks from "@/components/SimilarDebunks";
 
-export default function Page({ params }: { params: { slug: string } }) {
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
   const debunk = debunks.find(
-    (debunk) => slugify(debunk.question) === slugify(params.slug),
+    (debunk) => slugify(debunk.question) === slugify(slug),
   );
 
   if (typeof debunk === "undefined") {

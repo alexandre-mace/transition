@@ -1,8 +1,8 @@
 "use client";
 
 import {
+  Command,
   CommandDialog,
-  CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
@@ -38,19 +38,26 @@ const SearchCommand = () => {
         </kbd>
       </p>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Rechercher..." />
-        <CommandList>
-          <CommandEmpty>🤷</CommandEmpty>
-          <CommandGroup heading="Suggestions">
-            {debunks.map((debunk, key) => (
-              <CustomCommandItem
-                setOpen={setOpen}
-                debunk={debunk}
-                key={"command" + debunk.question}
-              />
-            ))}
-          </CommandGroup>
-        </CommandList>
+        <Command>
+          <CommandInput placeholder="Rechercher..." />
+          <CommandList
+            renderEmptyState={() => (
+              <div className="py-6 text-center text-sm text-muted-foreground">
+                🤷
+              </div>
+            )}
+          >
+            <CommandGroup heading="Suggestions">
+              {debunks.map((debunk) => (
+                <CustomCommandItem
+                  setOpen={setOpen}
+                  debunk={debunk}
+                  key={"command" + debunk.question}
+                />
+              ))}
+            </CommandGroup>
+          </CommandList>
+        </Command>
       </CommandDialog>
     </>
   );

@@ -9,7 +9,7 @@ const DebunkSource = ({
   source: string | { name: string; url: string };
   debunk: Debunk;
 }) => (
-  <div className={"flex gap-2 text-xs"}>
+  <div className={"flex min-w-0 gap-2 text-xs"}>
     <span className={"inline-block"}>🔗</span>{" "}
     {typeof source === "string" && (
       <LinkButton
@@ -17,7 +17,7 @@ const DebunkSource = ({
         target="_blank"
         variant={"link"}
         className={
-          "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground"
+          "h-auto min-w-0 flex-1 justify-start whitespace-pre-wrap break-all p-0 text-left text-xs text-muted-foreground"
         }
       >
         {source}
@@ -29,7 +29,7 @@ const DebunkSource = ({
         target="_blank"
         variant={"link"}
         className={
-          "h-auto whitespace-pre-wrap break-all p-0 text-xs text-muted-foreground"
+          "h-auto min-w-0 flex-1 justify-start whitespace-pre-wrap break-all p-0 text-left text-xs text-muted-foreground"
         }
       >
         {source.name}
