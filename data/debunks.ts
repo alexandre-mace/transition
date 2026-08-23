@@ -1973,3 +1973,13 @@ const debunks = [
     tags: [DESINFORMATION, INACTION],
   },
 ];
+
+export {
+  debunks,
+  CATEGORY_CONSEQUENCES,
+  CATEGORY_CAUSE,
+  CATEGORY_SOLUTIONS,
+  CATEGORY_ANNEXES,
+  tags,
+};
+export type { Debunk };
