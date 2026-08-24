@@ -3,6 +3,7 @@
 import {
   Command,
   CommandDialog,
+  CommandEmpty,
   CommandInput,
   CommandItem,
   CommandList,
@@ -10,8 +11,8 @@ import {
 import { LinkIcon } from "lucide-react";
 import { SearchTrigger } from "@/components/ui/search-trigger";
 import React from "react";
+import { useRouter } from "next/navigation";
 import { Debunk, debunks } from "@/data/debunks";
-import Link from "next/link";
 import { slugify } from "@/lib/utils";
 
 const SearchCommand = () => {
@@ -23,13 +24,8 @@ const SearchCommand = () => {
       <CommandDialog open={open} onOpenChange={setOpen}>
         <Command>
           <CommandInput placeholder="Rechercher..." />
-          <CommandList
-            renderEmptyState={() => (
-              <div className="py-6 text-center text-sm text-muted-foreground">
-                🤷
-              </div>
-            )}
-          >
+          <CommandList>
+            <CommandEmpty className="text-muted-foreground">🤷</CommandEmpty>
             {debunks.map((debunk) => (
               <CustomCommandItem
                 setOpen={setOpen}
@@ -51,12 +47,15 @@ const CustomCommandItem = ({
   debunk: Debunk;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
+  const router = useRouter();
+
   return (
       <CommandItem
-        href={"/idee-recue/" + slugify(debunk.question)}
-        textValue={debunk.question}
-        onAction={() => setOpen(false)}
-        className={"data-disabled:opacity-100"}
+        value={debunk.question}
+        onSelect={() => {
+          setOpen(false);
+          router.push("/idee-recue/" + slugify(debunk.question));
+        }}
       >
         <LinkIcon className="mr-2 h-4 w-4" />
         <div>{debunk.question}</div>

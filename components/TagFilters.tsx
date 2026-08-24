@@ -18,16 +18,16 @@ const TagFilters = ({
   return (
     <section className={"container px-2 md:px-4"}>
       <TagFilterGroup
-        selectionMode="multiple"
+        multiple
         aria-label="Filtrer par tag"
-        selectedKeys={localSelectedTags}
-        onSelectionChange={(keys) =>
-          setLocalSelectedTags(Array.from(keys, String))
+        value={localSelectedTags}
+        onValueChange={(value) =>
+          setLocalSelectedTags(Array.from(value, String))
         }
         className="justify-center"
       >
         {tags.map((tag) => (
-          <TagFilterItem key={tag} id={tag}>
+          <TagFilterItem key={tag} value={tag}>
             {tag}
           </TagFilterItem>
         ))}

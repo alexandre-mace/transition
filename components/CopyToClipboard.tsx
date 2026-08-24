@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Check, Clipboard } from "lucide-react";
-import { Tooltip, TooltipTrigger } from "@/components/ui/tooltip";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const CopyToClipboard = ({ content }: { content: string }) => {
   const [isCopying, setIsCopying] = useState(false);
@@ -17,11 +21,13 @@ const CopyToClipboard = ({ content }: { content: string }) => {
   }, [isCopying]);
 
   return (
-    <TooltipTrigger>
+    <Tooltip>
+      <TooltipTrigger
+        render={
           <Button
             variant={"outline"}
             className={"h-auto p-2"}
-            onPress={() => {
+            onClick={() => {
               navigator.clipboard.writeText(content);
               setIsCopying(true);
             }}
@@ -31,8 +37,10 @@ const CopyToClipboard = ({ content }: { content: string }) => {
               {!isCopying && <Clipboard size={16} />}
             </>
           </Button>
-        <Tooltip>Copier le contenu</Tooltip>
-    </TooltipTrigger>
+        }
+      />
+      <TooltipContent>Copier le contenu</TooltipContent>
+    </Tooltip>
   );
 };
 

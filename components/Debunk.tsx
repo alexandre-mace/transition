@@ -76,7 +76,7 @@ const Debunk = ({ debunk }: { debunk: Debunk }) => {
           ))}
           {debunk.sources.length > 3 && (
             <Accordion className="w-full">
-              <AccordionItem id="item-1" className={"border-b-0"}>
+              <AccordionItem value="item-1" className={"border-b-0"}>
                 <AccordionTrigger className={"py-2 text-xs underline"}>
                   Voir plus
                 </AccordionTrigger>

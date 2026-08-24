@@ -193,8 +193,8 @@ function CarouselPrevious({
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
-      isDisabled={!canScrollPrev}
-      onPress={scrollPrev}
+      disabled={!canScrollPrev}
+      onClick={scrollPrev}
       {...props}
     >
       <ChevronLeftIcon />
@@ -223,8 +223,8 @@ function CarouselNext({
           : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
         className
       )}
-      isDisabled={!canScrollNext}
-      onPress={scrollNext}
+      disabled={!canScrollNext}
+      onClick={scrollNext}
       {...props}
     >
       <ChevronRightIcon />

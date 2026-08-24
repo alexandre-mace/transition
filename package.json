@@ -9,6 +9,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@base-ui/react": "latest",
     "@fillout/react": "^1.1.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -19,8 +20,9 @@
     "lucide-react": "^0.540.0",
     "next": "^16.3.2",
     "notion-client": "^7.0.0",
+    "notion-types": "^8.0.6",
+    "prismjs": "^1.30.0",
     "react": "^19.2.8",
-    "react-aria-components": "^1.20.0",
     "react-dom": "^19.2.8",
     "react-medium-image-zoom": "^5.4.0",
     "react-notion-x": "^7.0.0",

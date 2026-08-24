@@ -13,7 +13,7 @@ const Contribute = () => {
         variant={"outline"}
         className={"text-xs sm:text-sm"}
         size={"sm"}
-        onPress={() => setIsOpen(true)}
+        onClick={() => setIsOpen(true)}
       >
         Suggestions 🗳️
       </Button>

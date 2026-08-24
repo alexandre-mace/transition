@@ -47,7 +47,7 @@ const App = () => {
               variant={"secondary"}
               size={"sm"}
               className={`mx-auto h-auto gap-1 self-center px-2 py-1 text-xs`}
-              onPress={() => {
+              onClick={() => {
                 setHasReset(true);
               }}
             >
