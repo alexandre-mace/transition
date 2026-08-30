@@ -1,3 +1,13 @@
+# Transitions
+
+Explorer les idées reçues de la transition vers la neutralité carbone.
+
+## Commandes
+
+- `pnpm dev` développement
+- `pnpm build` build de production, et c'est le contrôle : il type-check et échoue sur une erreur de compilation
+- `pnpm lint`
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
