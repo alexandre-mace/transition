@@ -7,6 +7,18 @@ const nextConfig = {
         // `<Image>` du site étaient déjà en `unoptimized`.
         unoptimized: true,
     },
+    // Ancienne adresse du kit anti-greenwashing, dont le projet Vercel ne faisait
+    // plus que rediriger : toute page renvoie à l'accueil, comme avant.
+    async redirects() {
+        return [
+            {
+                source: "/:path*",
+                has: [{ type: "host", value: "kitantigreenwashing.climatelab.fr" }],
+                destination: "https://transitions.climatelab.fr/",
+                permanent: true,
+            },
+        ];
+    },
 };
 
 export default nextConfig;
